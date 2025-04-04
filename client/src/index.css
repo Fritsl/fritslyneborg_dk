@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  /* Wikipedia style fonts */
+  .font-wiki-serif {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+  }
+
+  .font-wiki-sans {
+    font-family: sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Wikipedia-specific styling */
+  .text-wiki-blue {
+    color: #0645AD;
+  }
+
+  .text-wiki-visited {
+    color: #0B0080;
+  }
+
+  .bg-wiki-light-gray {
+    background-color: #F8F9FA;
+  }
+
+  .border-wiki-border {
+    border-color: #a2a9b1;
+  }
+
+  .text-wiki-heading {
+    color: #222222;
+  }
+
+  .toc-link {
+    color: #0645AD;
+    text-decoration: none;
+  }
+
+  .toc-link:hover {
+    text-decoration: underline;
+  }
+
+  .wiki-external::after {
+    content: " \2197";
+    font-size: 0.75em;
+    vertical-align: super;
+  }
+
+  @media print {
+    .no-print {
+      display: none;
+    }
+  }
+}
