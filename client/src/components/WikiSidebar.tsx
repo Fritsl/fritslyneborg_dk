@@ -1,5 +1,6 @@
 import { PersonData } from "@/data/profile";
 import TableOfContents from "./TableOfContents";
+import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
 
 interface WikiSidebarProps {
   person: PersonData;
@@ -16,7 +17,22 @@ export default function WikiSidebar({ person }: WikiSidebarProps) {
         {/* Wikipedia-style info box */}
         <div className="bg-wiki-light-gray border border-wiki-border rounded overflow-hidden">
           <div className="bg-gray-200 px-4 py-2 font-bold text-center text-sm">{person.name}</div>
-          <div className="p-4">
+          
+          {/* Profile image */}
+          <div className="p-4 pb-2">
+            <figure className="mb-2">
+              <img 
+                src={fritsImage} 
+                alt="Frits Lyneborg giving a presentation" 
+                className="w-full border border-wiki-border"
+              />
+              <figcaption className="text-xs mt-1 text-center text-gray-600">
+                Lyneborg presenting at a technology workshop
+              </figcaption>
+            </figure>
+          </div>
+          
+          <div className="p-4 pt-0">
             <table className="w-full text-sm">
               <tbody>
                 <tr>

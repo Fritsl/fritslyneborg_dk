@@ -3,6 +3,7 @@ import TableOfContents from "./TableOfContents";
 import ContentSection from "./ContentSection";
 import WikiSidebar from "./WikiSidebar";
 import References from "./References";
+import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
 
 interface WikiPageProps {
   person: PersonData;
@@ -35,6 +36,20 @@ export default function WikiPage({ person }: WikiPageProps) {
                 <strong>{person.name}</strong> {person.introduction}
               </p>
             </section>
+
+            {/* Mobile image - visible only on small screens */}
+            <div className="md:hidden my-4">
+              <figure className="mb-2">
+                <img 
+                  src={fritsImage} 
+                  alt="Frits Lyneborg giving a presentation" 
+                  className="w-full border border-wiki-border"
+                />
+                <figcaption className="text-xs mt-1 text-center text-gray-600">
+                  Lyneborg presenting at a technology workshop
+                </figcaption>
+              </figure>
+            </div>
 
             {/* Table of Contents (mobile) - visible only on small screens */}
             <section className="md:hidden bg-wiki-light-gray p-4 border border-wiki-border rounded my-4 no-print">
