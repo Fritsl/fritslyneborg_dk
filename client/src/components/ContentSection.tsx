@@ -17,11 +17,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const is3DPrintingSection = section.id === "3d-printing-consulting";
   
   return (
-    <section id={section.id} className="py-4 border-t border-wiki-border">
+    <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
       <h2 className="text-2xl font-wiki-serif mb-4">{section.title}</h2>
       
       {section.achievements.map((achievement, index) => (
-        <div key={index} className="mb-6">
+        <div key={index} className="mb-6 overflow-hidden">
           <h3 className="text-xl font-wiki-serif mb-2">{achievement.title}</h3>
           <p className="text-base leading-relaxed">
             {achievement.description}
@@ -29,7 +29,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           
           {/* Special content for the drone section */}
           {isDroneSection && (
-            <>
+            <div className="relative">
               <div className="mt-4 mb-4">
                 <figure className="wiki-figure">
                   <div className="float-right ml-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
@@ -41,7 +41,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   </div>
                 </figure>
               </div>
-              <div className="mt-3">
+              <div className="mt-3 clear-right">
                 <p className="text-sm italic">
                   <a 
                     href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
@@ -53,7 +53,8 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   </a>
                 </p>
               </div>
-            </>
+              <div className="clear-both mb-4"></div>
+            </div>
           )}
           
           {/* Special patent reference for the patents section */}
@@ -90,7 +91,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           
           {/* Special content for the music section */}
           {isMusicSection && index === 1 && (
-            <>
+            <div className="relative overflow-hidden">
               <div className="mt-4 mb-4">
                 <figure className="wiki-figure">
                   <div className="float-right ml-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
@@ -101,7 +102,8 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   </div>
                 </figure>
               </div>
-            </>
+              <div className="clear-both"></div>
+            </div>
           )}
           
           {/* Special music video reference */}
