@@ -5,8 +5,9 @@ interface ContentSectionProps {
 }
 
 export default function ContentSection({ section }: ContentSectionProps) {
-  // Special treatment for the drone section to add a video reference
+  // Special treatment for sections with additional references
   const isDroneSection = section.id === "drone-innovation";
+  const isPatentSection = section.id === "patents-inventions";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border">
@@ -30,6 +31,22 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   className="text-wiki-blue wiki-external inline-flex items-center"
                 >
                   Video documentation of autonomous drone demonstration (2011)
+                </a>
+              </p>
+            </div>
+          )}
+          
+          {/* Special patent reference for the patents section */}
+          {isPatentSection && (
+            <div className="mt-3">
+              <p className="text-sm italic">
+                <a 
+                  href="https://patents.google.com/patent/WO2006051434A1/en" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-wiki-blue wiki-external inline-flex items-center"
+                >
+                  Patent WO2006051434A1: Method for Preventing Reception of Unwanted Electronic Messages
                 </a>
               </p>
             </div>

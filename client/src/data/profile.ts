@@ -33,13 +33,23 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, entrepreneur, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, and developed groundbreaking technologies in emerging industries.",
+  introduction: "is a Danish technologist, entrepreneur, inventor, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries.",
   details: {
     nationality: "Danish",
-    fields: "Robotics, Web Development, IT Leadership, Entrepreneurship",
-    knownFor: "Founding global robotics community, Open source web innovations, Autonomous drone development"
+    fields: "Robotics, Web Development, IT Leadership, Entrepreneurship, Patents",
+    knownFor: "Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development"
   },
   sections: [
+    {
+      id: "patents-inventions",
+      title: "Patents and Inventions",
+      achievements: [
+        {
+          title: "International Patent for Spam-Free Email System (2005)",
+          description: "In 2005, Lyneborg was granted an international patent (WO2006051434A1) for a method and system to prevent reception of unwanted electronic messages. His patented approach assigned unique addresses to each entity communicating with a user, with the unique identifier integrated into the email address itself. This innovation eliminated the need for traditional passwords while maintaining a conventional user experience. The system employed an initial challenge/response procedure to verify sender legitimacy, providing a high degree of protection against spam while preserving email functionality and user convenience."
+        }
+      ]
+    },
     {
       id: "web-entrepreneurship",
       title: "Web Development and Entrepreneurship",
@@ -113,6 +123,13 @@ export const personData: PersonData = {
       source: "YouTube",
       year: "2011",
       url: "https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-"
+    },
+    {
+      author: "Lyneborg, F.",
+      title: "Method for Preventing Reception of Unwanted Electronic Messages",
+      source: "World Intellectual Property Organization (WIPO)",
+      year: "2005",
+      url: "https://patents.google.com/patent/WO2006051434A1/en"
     }
   ]
 };
