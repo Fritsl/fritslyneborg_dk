@@ -21,6 +21,7 @@ import republicaImage from "../assets/images/frits_republica_digital_chef.png";
 import venstreLogo from "../assets/images/venstre_logo.png";
 import berlingskelogo from "../assets/images/berlingske_logo.jpg";
 import thieleLogo from "../assets/images/thiele_logo.png";
+import n8nLogo from "../assets/images/n8n_logo.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -549,7 +550,34 @@ export default function ContentSection({ section }: ContentSectionProps) {
             </>
           )}
           
-          {/* Special content for the AI Innovation section */}
+          {/* Special content for the AI Innovation section - Lars Kolind Collaboration */}
+          {isAISection && index === 0 && (
+            <>
+              <figure className="wiki-figure mb-3">
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
+                  <img src={n8nLogo} alt="n8n logo - Automation and workflow platform" className="w-full" />
+                  <figcaption className="mt-1 text-xs px-1">
+                    n8n logo. Lyneborg incorporates this powerful workflow automation platform in his consultancy work with Lars Kolind, focusing on Agentic AI solutions for business.
+                    <span className="block mt-0.5">Source: n8n.io</span>
+                  </figcaption>
+                </div>
+              </figure>
+              <div className="mt-3 mb-3">
+                <p className="text-sm italic">
+                  <a
+                    href="https://n8n.io/"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-wiki-blue wiki-external inline-flex items-center"
+                  >
+                    n8n.io: Fair-code licensed workflow automation platform used in Lyneborg's Agentic AI implementations
+                  </a>
+                </p>
+              </div>
+            </>
+          )}
+
+          {/* Special content for the AI Innovation section - AI Art Gallery */}
           {isAISection && index === 1 && (
             <>
               <div className="mt-4 mb-6 clear-both">
