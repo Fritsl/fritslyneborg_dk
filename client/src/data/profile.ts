@@ -69,8 +69,8 @@ export const personData: PersonData = {
       title: "Drone Innovation and Autonomous Systems",
       achievements: [
         {
-          title: "Early Developer of Fully Autonomous Drones (2011)",
-          description: "In 2011, Lyneborg was an early pioneer of autonomous drone technology, building drones with internet-connected navigation via Google Maps. He also built custom FPV (First Person View) video goggles and direct video link systems for real-time drone piloting."
+          title: "Early Developer of Fully Autonomous Drones (2010-2011)",
+          description: "Beginning in 2010, Lyneborg became an early pioneer of autonomous drone technology, building drones with internet-connected navigation via Google Maps. He also built custom FPV (First Person View) video goggles and direct video link systems for real-time drone piloting. In 2011, he demonstrated his autonomous drone technology in a documented video presentation, showcasing the early implementation of GPS-guided flight controls."
         }
       ]
     },
@@ -106,6 +106,13 @@ export const personData: PersonData = {
       title: "Open Source in Government: The Venstre Web Strategy",
       source: "Danish Digital Review",
       year: "2008"
+    },
+    {
+      author: "Lyneborg, F.",
+      title: "Autonomous Drone Demonstration",
+      source: "YouTube",
+      year: "2011",
+      url: "https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-"
     }
   ]
 };
