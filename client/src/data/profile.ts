@@ -88,7 +88,7 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Special Consultant at VENZO A/S (2022-2023)",
-          description: "In February 2022, Lyneborg joined VENZO A/S as a Special Consultant focusing on IT architecture and 3D modeling. While assigned to Ørsted A/S, Denmark's largest energy company, he developed advanced 3D visualizations that enabled Ørsted to simulate large-scale installations virtually rather than constructing physical prototypes, resulting in multimillion-kroner savings. His responsibilities included facilitating workshops where he effectively translated technical discussions and concepts into detailed 3D models. Notably, Lyneborg was instrumental in creating the system architecture behind what would later become P-Secure (www.p-secure.com), a sophisticated platform for automated background checks, identity verification, and CV validation. The P-Secure platform represents a significant innovation in automated verification systems, utilizing advanced algorithms to process and validate personal and professional information with high efficiency and security standards. This work demonstrated his capabilities in developing secure, automated systems for sensitive information processing in compliance with stringent data protection regulations. Additionally, Lyneborg created original graphics and adapted complex materials from extensive CAD systems, which significantly improved decision-making processes and brought greater clarity to projects. His work at VENZO demonstrated his ability to bridge technical expertise with practical business applications, a skill that would later inform his approach to AI implementation."
+          description: "In February 2022, Lyneborg joined VENZO A/S as a Special Consultant focusing on IT architecture and 3D modeling. While assigned to Ørsted A/S, Denmark's largest energy company, he developed advanced 3D visualizations that enabled Ørsted to simulate large-scale installations virtually rather than constructing physical prototypes, resulting in multimillion-kroner savings. His responsibilities included facilitating workshops where he effectively translated technical discussions and concepts into detailed 3D models. Notably, Lyneborg created the system architecture for P-Secure (www.p-secure.com), a sophisticated platform for automated background checks, identity verification, and CV validation. P-Secure has since become an independent, successful company no longer affiliated with Lyneborg. The system architecture represents a significant innovation in automated verification systems, utilizing advanced algorithms to process and validate personal and professional information with high efficiency and security standards. This work demonstrated his capabilities in developing secure, automated systems for sensitive information processing in compliance with stringent data protection regulations. Additionally, Lyneborg created original graphics and adapted complex materials from extensive CAD systems, which significantly improved decision-making processes and brought greater clarity to projects. His work at VENZO demonstrated his ability to bridge technical expertise with practical business applications, a skill that would later inform his approach to AI implementation."
         },
         {
           title: "3D Print Industry Frontrunner (2013-2014)",
@@ -270,7 +270,7 @@ export const personData: PersonData = {
       url: "https://arrangerking.com/"
     },
     {
-      title: "P-Secure Platform System Architecture",
+      title: "System Architecture for P-Secure Platform",
       source: "VENZO A/S",
       year: "2022-2023",
       url: "https://www.p-secure.com/"
@@ -374,7 +374,7 @@ export const personData: PersonData = {
       title: "Viral Robot Demonstration Video",
       source: "Internet Archives (originally Google Video)",
       year: "2008",
-      url: "https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-"
+      url: "https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq"
     },
     {
       author: "Lyneborg, F.",

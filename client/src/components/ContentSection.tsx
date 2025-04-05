@@ -157,8 +157,43 @@ export default function ContentSection({ section }: ContentSectionProps) {
             </figure>
           )}
 
-          {/* Special reference for the robotics section */}
-          {isRoboticsSection && (
+          {/* Special content for the robotics section - viral robot demonstration */}
+          {isRoboticsSection && achievement.title.includes("Viral Robot Demonstration") && (
+            <div className="mt-2 mb-4">
+              <figure className="wiki-figure">
+                <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <a 
+                    href="https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <img 
+                      src="https://img.youtube.com/vi/_RyodnisVvU/0.jpg" 
+                      alt="Frits Lyneborg's viral robot demonstration video (2008)" 
+                      className="w-full"
+                    />
+                  </a>
+                  <figcaption className="mt-1 text-xs px-1">
+                    <a 
+                      href="https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue wiki-external"
+                    >
+                      Viral robot demonstration video (2008)
+                    </a>
+                    <span className="block mt-1">
+                      Lyneborg's world-famous robot demonstration that went viral on Google Video before being uploaded to YouTube, with over 1,000 people calling him a genius in the comments.
+                    </span>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          )}
+
+          {/* Special reference for the robotics section - LMR */}
+          {isRoboticsSection && achievement.title.includes("Founder of LetsMakeRobots") && (
             <div className="mt-3">
               <p className="text-sm italic">
                 <a 
