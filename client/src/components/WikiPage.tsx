@@ -22,7 +22,7 @@ export default function WikiPage({ person }: WikiPageProps) {
       {/* Header */}
       <header className="border-b border-wiki-border pb-2 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
         <h1 className="text-3xl md:text-4xl font-wiki-serif">{person.name}</h1>
-        <div className="text-sm text-gray-600 mt-1">From Wikipedia, the free encyclopedia</div>
+        <div className="text-sm text-gray-600 mt-1">Given my extensive and multifaceted career, I commissioned an AI to compile and organize my professional history into this Wikipedia-style format, creating a comprehensive and accessible overview of my work.</div>
       </header>
 
       {/* Main content with sidebar layout */}
