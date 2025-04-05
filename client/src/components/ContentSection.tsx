@@ -5,6 +5,7 @@ import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
 import longboardImage from "../assets/images/longboard_new.jpg";
 import parakartImage from "../assets/images/parakart_new.png";
 import ceramicsWorksImage from "../assets/images/ceramics_works.png";
+import forestPhotoImage from "../assets/images/forest_photo.jpg";
 import talesFromVoidImage from "../assets/images/tales_from_void.svg";
 import arrangerKingPackshot from "../assets/images/Packshot.png";
 import aiArtImage1 from "../assets/images/ai_art_1.png";
@@ -528,6 +529,21 @@ export default function ContentSection({ section }: ContentSectionProps) {
             <>
               {index === 0 && (
                 <figure className="wiki-figure mb-2">
+                  <div className="mb-4 border border-wiki-border p-2 bg-wiki-light-gray" style={{ maxWidth: '800px', margin: '0 auto' }}>
+                    <img src={forestPhotoImage} alt="Forest photograph by Frits Lyneborg showing sunlight through autumn trees" className="w-full" />
+                    <figcaption className="mt-1 text-sm px-1">
+                      <span className="font-semibold">"Forest Light" - Photograph by Frits Lyneborg</span>
+                      <span className="block mt-1">
+                        This image captures the interplay between light, foliage, and perspective in a Danish forest setting, demonstrating Lyneborg's eye for natural composition and atmospheric conditions.
+                        <span className="block mt-0.5">Source: Personal portfolio</span>
+                      </span>
+                    </figcaption>
+                  </div>
+                </figure>
+              )}
+              
+              {index === 1 && (
+                <figure className="wiki-figure mb-2">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '320px' }}>
                     <img src={ceramicsWorksImage} alt="A collection of Frits Lyneborg's ceramic works including bowls and cups" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
@@ -538,7 +554,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </figure>
               )}
               
-              {index === 1 && (
+              {index === 2 && (
                 <figure className="wiki-figure mb-2">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '320px' }}>
                     <img src={longboardImage} alt="Downhill longboarder speeding down a mountain road" className="w-full" />
@@ -550,7 +566,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </figure>
               )}
               
-              {index === 2 && (
+              {index === 3 && (
                 <figure className="wiki-figure mb-2">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '300px' }}>
                     <img src={parakartImage} alt="Parakarts (kite buggies) with colorful kites at a beach event" className="w-full" />

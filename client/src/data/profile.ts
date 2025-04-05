@@ -226,6 +226,10 @@ export const personData: PersonData = {
       title: "Leisure Activities and Adventure Sports",
       achievements: [
         {
+          title: "Photography Enthusiast",
+          description: "Lyneborg is passionate about photography, particularly nature and landscape compositions. He has developed a keen eye for capturing unique perspectives and lighting conditions, as exemplified in his forest photography work that explores the interplay between natural elements and atmospheric conditions."
+        },
+        {
           title: "Ceramics Artisan",
           description: "Frits has been building his own ceramics ovens, pottery wheel ('drejebænk'), and mixing homemade glazing as a hobby. This creative pursuit allows him to explore three-dimensional form and material properties in a tactile, hands-on manner that complements his digital design work."
         },
