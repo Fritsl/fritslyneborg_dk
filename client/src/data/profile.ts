@@ -226,6 +226,10 @@ export const personData: PersonData = {
       title: "Leisure Activities and Adventure Sports",
       achievements: [
         {
+          title: "Ceramics Artisan",
+          description: "Frits has been building his own ceramics ovens, pottery wheel ('drejebænk'), and mixing homemade glazing as a hobby. This creative pursuit allows him to explore three-dimensional form and material properties in a tactile, hands-on manner that complements his digital design work."
+        },
+        {
           title: "Longboard Skateboarding Enthusiast",
           description: "Beyond his professional endeavors, Lyneborg is an avid longboard skateboarder. This activity, which combines elements of traditional skateboarding with surfing techniques, reflects his interest in balance, momentum, and motion—themes that also appear in his robotics work. Longboarding provides him with a physical counterpoint to his technical interests, allowing him to experience motion and physics directly rather than through digital or mechanical intermediaries."
         },
