@@ -200,6 +200,10 @@ export const personData: PersonData = {
           description: "On January 1, 2023, Lyneborg joined Skybox Technologies as a Senior Unreal Developer. In this role, he applied his extensive technical expertise and game development experience to create advanced gaming solutions using the Unreal Engine. His work at Skybox Technologies built upon his previous experience in the gaming industry, allowing him to further refine his skills in game development and contribute to cutting-edge projects in the gaming sector."
         },
         {
+          title: "Contributor to 'Cosmic Top Secret' (2018)",
+          description: "Lyneborg participated in the development of 'Cosmic Top Secret', an award-winning documentary game created by Danish studio Klassefilm. Released in 2018, the game follows creator Trine Laier's investigation into her parents' past as Cold War spies. The game's unique paper-craft aesthetic and innovative narrative approach earned it significant critical acclaim, including a Special Jury Award at A MAZE Berlin and Best Storytelling at Indie Prize London. Developed in Unity, the game was released on multiple platforms including PC, mobile, Nintendo Switch, PlayStation 4, and Xbox One. Lyneborg was part of the development team that helped bring this distinctive and historically significant game to life."
+        },
+        {
           title: "Technical Art Director at PortaPlay (2014-2015)",
           description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Though initially hired as a gameplay scripter/designer based on his experience in concept development, technical IT projects, and skills with Playmaker and scripting, his talents quickly led to a role change. As Technical Art Director, he significantly enhanced both visual quality and overall game performance. His responsibilities encompassed modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, implementing visual effects (skyboxes, weather, explosions), performance optimization, workflow planning, and directing 3D artists. Creative Director Hans von Knut Skovfoged noted Lyneborg's exceptional ability to rapidly master technical areas, strong personal initiative, and capacity to work independently within a defined vision while maintaining excellent team integration."
         },
@@ -243,6 +247,12 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "Cosmic Top Secret",
+      source: "Klassefilm",
+      year: "2018",
+      url: "https://www.cosmictopsecretgame.com/"
+    },
     {
       author: "Lyneborg, F.",
       title: "TIXITAXI - Children's Puzzle Game with AI-Driven Characters",
