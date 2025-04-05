@@ -80,7 +80,7 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Early Developer of Fully Autonomous Drones (2010-2011)",
-          description: "Beginning in 2010, Lyneborg became an early pioneer of autonomous drone technology, building drones with internet-connected navigation via Google Maps. He also built custom FPV (First Person View) video goggles and direct video link systems for real-time drone piloting. In 2011, he demonstrated his autonomous drone technology in a documented video presentation, showcasing the early implementation of GPS-guided flight controls."
+          description: "Beginning in 2010, Lyneborg became an early pioneer of autonomous drone technology, building drones with internet-connected navigation via Google Maps. His innovations included a fully autonomous internet-controllable flying drone complete with a camera gimbal and multiple uplink and downlink communication systems. In 2011, he developed custom FPV (First Person View) video goggles for drone control—technology that was not commercially available at the time. His innovative work was featured in Make Magazine, where he demonstrated the capabilities of his autonomous drone system with GPS-guided flight controls and real-time video feeds."
         }
       ]
     },
@@ -123,6 +123,11 @@ export const personData: PersonData = {
       source: "YouTube",
       year: "2011",
       url: "https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-"
+    },
+    {
+      title: "The Latest In Hobby Robotics",
+      source: "Make Magazine",
+      year: "2011"
     },
     {
       author: "Lyneborg, F.",

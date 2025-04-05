@@ -1,4 +1,5 @@
 import { Section } from "@/data/profile";
+import droneDemoImage from "../assets/drone_demonstration.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -20,20 +21,33 @@ export default function ContentSection({ section }: ContentSectionProps) {
             {achievement.description}
           </p>
           
-          {/* Special video reference for the drone section */}
+          {/* Special content for the drone section */}
           {isDroneSection && (
-            <div className="mt-3">
-              <p className="text-sm italic">
-                <a 
-                  href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-wiki-blue wiki-external inline-flex items-center"
-                >
-                  Video documentation of autonomous drone demonstration (2011)
-                </a>
-              </p>
-            </div>
+            <>
+              <div className="mt-4 mb-4">
+                <figure className="wiki-figure">
+                  <div className="float-right ml-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                    <img src={droneDemoImage} alt="Frits Lyneborg demonstrating autonomous drone technology in 2011" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Lyneborg demonstrating his autonomous drone with camera gimbal and custom FPV system in 2011. 
+                      <span className="block mt-1">Source: Make Magazine</span>
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
+              <div className="mt-3">
+                <p className="text-sm italic">
+                  <a 
+                    href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-wiki-blue wiki-external inline-flex items-center"
+                  >
+                    Video documentation of autonomous drone demonstration (2011)
+                  </a>
+                </p>
+              </div>
+            </>
           )}
           
           {/* Special patent reference for the patents section */}
