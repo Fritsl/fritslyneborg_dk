@@ -123,6 +123,10 @@ export const personData: PersonData = {
         {
           title: "Head of IT, Denmark's Largest Advertising Agency (2012)",
           description: "In 2012, Lyneborg became Head of IT at Denmark's largest advertising agency, managing digital infrastructure and driving innovation across the company."
+        },
+        {
+          title: "Digital Director at Republica (2015)",
+          description: "In 2015, Lyneborg was appointed as Digital Director (Digital Chef) at Republica, a prominent Danish digital agency. In this role, he led the company's digital innovation strategies and technical development teams, helping clients navigate the growing digital marketing landscape. His expertise in both technical implementation and strategic digital planning strengthened Republica's position in the competitive Danish marketing sector."
         }
       ]
     },
@@ -244,6 +248,12 @@ export const personData: PersonData = {
       source: "World Intellectual Property Organization (WIPO)",
       year: "2005",
       url: "https://patents.google.com/patent/WO2006051434A1/en"
+    },
+    {
+      title: "Republica: Fritz Lyneborg som digital chef",
+      source: "Bureau Biz",
+      year: "2015",
+      url: "https://bureaubiz.dk/navn/republica-fritz-lyneborg-som-digital-chef/"
     }
   ]
 };
