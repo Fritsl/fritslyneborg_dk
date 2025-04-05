@@ -16,6 +16,7 @@ import bareFeetGameImage from "../assets/images/bare_feet_game.png";
 import unityLogo from "../assets/images/unity_logo.png";
 import unrealLogo from "../assets/images/unreal_logo.png";
 import drLogo from "../assets/images/dr_logo.png";
+import letsMakeRobotsCollage from "../assets/images/letsmakerobots_collage.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -194,18 +195,38 @@ export default function ContentSection({ section }: ContentSectionProps) {
 
           {/* Special reference for the robotics section - LMR */}
           {isRoboticsSection && achievement.title.includes("Founder of LetsMakeRobots") && (
-            <div className="mt-3">
-              <p className="text-sm italic">
-                <a 
-                  href="https://hackaday.com/2015/09/25/lets-make-robots-changes-hands-kerfuffle-ensues/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-wiki-blue wiki-external inline-flex items-center"
-                >
-                  Hackaday: Let's Make Robots Changes Hands, Kerfuffle Ensues (2015)
-                </a>
-              </p>
-            </div>
+            <>
+              <div className="mt-4 mb-6">
+                <figure className="wiki-figure">
+                  <div className="mb-2 border border-wiki-border p-2 bg-wiki-light-gray" style={{ maxWidth: '700px', margin: '0 auto' }}>
+                    <img 
+                      src={letsMakeRobotsCollage} 
+                      alt="Collage of robot projects inspired by Frits Lyneborg's LetsMakeRobots community" 
+                      className="w-full"
+                    />
+                    <figcaption className="mt-1 text-sm px-1">
+                      <span className="font-semibold">A small fraction of the hundreds of thousands of robot building projects inspired by Frits Lyneborg</span>
+                      <span className="block mt-1">
+                        This collage represents just a tiny sample of the massive global community of robot builders that emerged from LetsMakeRobots.com between 2008-2015.
+                        <span className="block mt-0.5">Source: LetsMakeRobots.com archives</span>
+                      </span>
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
+              <div className="mt-3">
+                <p className="text-sm italic">
+                  <a 
+                    href="https://hackaday.com/2015/09/25/lets-make-robots-changes-hands-kerfuffle-ensues/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-wiki-blue wiki-external inline-flex items-center"
+                  >
+                    Hackaday: Let's Make Robots Changes Hands, Kerfuffle Ensues (2015)
+                  </a>
+                </p>
+              </div>
+            </>
           )}
           
           {/* Special content for the music section */}
