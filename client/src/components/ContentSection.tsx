@@ -1,6 +1,7 @@
 import { Section } from "@/data/profile";
 import droneDemoImage from "../assets/drone_demonstration.png";
 import megaRecordsLogo from "../assets/mega_records_logo.jpg";
+import humanoidRobotImage from "../assets/humanoid_robot_expo.jpg";
 
 interface ContentSectionProps {
   section: Section;
@@ -12,6 +13,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isPatentSection = section.id === "patents-inventions";
   const isRoboticsSection = section.id === "robotics-community-education";
   const isMusicSection = section.id === "music-industry";
+  const is3DPrintingSection = section.id === "3d-printing-consulting";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border">
@@ -115,6 +117,35 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </a>
               </p>
             </div>
+          )}
+          
+          {/* Special content for the 3D printing section */}
+          {is3DPrintingSection && (
+            <>
+              <div className="mt-4 mb-4">
+                <figure className="wiki-figure">
+                  <div className="float-right ml-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                    <img src={humanoidRobotImage} alt="Frits Lyneborg with an early humanoid robot at the 3D Printer World Expo 2013" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Lyneborg with an early humanoid robot at the InMoov booth, 3D Printer World Expo 2013 in Burbank, California.
+                      <span className="block mt-1">Source: PunchBowl Media Group</span>
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
+              <div className="mt-3">
+                <p className="text-sm italic">
+                  <a 
+                    href="https://3dprintingindustry.com/news/3d-printer-world-expo-2014-review-23549/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-wiki-blue wiki-external inline-flex items-center"
+                  >
+                    3D Printer World Expo (Industry Coverage)
+                  </a>
+                </p>
+              </div>
+            </>
           )}
         </div>
       ))}

@@ -114,7 +114,7 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "3D Print Industry Frontrunner (2013)",
-          description: "In January 2013, Lyneborg was hired as a strategic consultant for PunchBowl Media Group based in Idaho, USA. Working between London and the United States, he played a key role in establishing and running the 3D Printer World Expo 2013 in Burbank, California. This position demonstrated his early recognition of 3D printing's transformative potential in manufacturing and consumer technology at a time when the technology was still in its early adoption phase."
+          description: "In January 2013, Lyneborg was hired as a strategic consultant for PunchBowl Media Group based in Idaho, USA. Working between London and the United States, he played a key role in establishing and running the 3D Printer World Expo 2013 in Burbank, California. At the expo, Lyneborg worked with pioneering projects including the InMoov open-source humanoid robot, one of the first fully 3D-printable robots of its kind. His expertise helped showcase the intersection of robotics and 3D printing technologies, highlighting the transformative potential of additive manufacturing in fields ranging from consumer products to advanced robotics at a time when these technologies were still in early adoption phases."
         }
       ]
     }
@@ -162,6 +162,12 @@ export const personData: PersonData = {
     {
       title: "3D Printer World Expo 2013",
       source: "PunchBowl Media Group",
+      year: "2013",
+      url: "https://3dprintingindustry.com/news/3d-printer-world-expo-2014-review-23549/"
+    },
+    {
+      title: "Early Humanoid Robot Prototypes at 3D Printer World Expo",
+      source: "3D Printing Industry",
       year: "2013"
     },
     {
