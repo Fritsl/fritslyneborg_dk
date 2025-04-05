@@ -63,6 +63,10 @@ export const personData: PersonData = {
           description: "In 2008, Lyneborg founded LetsMakeRobots.com, which grew to become the world's largest online community for hobbyist robotic builders. He published tutorials on robot building that were translated into multiple languages and featured in books and major publications, inspiring hundreds of thousands worldwide. The site gained significant recognition when NASA linked to it as \"A resource for robot building.\" The platform was acquired by Canadian-based company RobotShop.com in 2015, demonstrating its significant value and influence within the global robotics education community."
         },
         {
+          title: "Robot Racing Events and Public Exhibitions (2015)",
+          description: "Lyneborg organized and led public robotics events, including robot racing competitions at libraries, as documented in the 2015 Dinavis.dk article 'Robotræs på biblioteket' ('Robot Racing at the Library'). These community events brought robotics to the general public, allowing people of all ages to experience the excitement of robot building and competition firsthand. Through these exhibitions, Lyneborg helped bridge the gap between online robotics communities and real-world interactions, making technology more accessible and engaging for Danish communities."
+        },
+        {
           title: "Robotics Philosophy and Media Coverage (2013)",
           description: "Lyneborg's unique philosophy on robotics was featured in a 2013 Videnskab.dk article titled 'Den er levende, når man synes, den er sød' ('It's alive when you think it's cute'). In the article, he discussed his perspective that a robot becomes 'alive' when humans develop an emotional connection to it. He shared the example of a robot trapped in a jar that knocks on the lid and asks to be let out when someone passes by—suggesting that if one feels sympathy for the robot, it has achieved a kind of liveliness. While serving as director at BEE3, Lyneborg continued to expand LetsMakeRobots.com as a global platform for hobbyist robotics enthusiasts, helping democratize robotics knowledge and fostering innovation within the maker community."
         }
@@ -146,6 +150,12 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "Robotræs på biblioteket",
+      source: "Dinavis.dk",
+      year: "2015",
+      url: "https://dinavis.dk/arkiv/ECE15253386/robotraes-paa-biblioteket/"
+    },
     {
       title: "Let's Make Robots Changes Hands, Kerfuffle Ensues",
       source: "Hackaday",
