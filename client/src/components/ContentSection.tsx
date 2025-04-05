@@ -9,6 +9,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   // Special treatment for sections with additional references
   const isDroneSection = section.id === "drone-innovation";
   const isPatentSection = section.id === "patents-inventions";
+  const isRoboticsSection = section.id === "robotics-community-education";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border">
@@ -61,6 +62,22 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   className="text-wiki-blue wiki-external inline-flex items-center"
                 >
                   Patent WO2006051434A1: Method for Preventing Reception of Unwanted Electronic Messages
+                </a>
+              </p>
+            </div>
+          )}
+
+          {/* Special reference for the robotics section */}
+          {isRoboticsSection && (
+            <div className="mt-3">
+              <p className="text-sm italic">
+                <a 
+                  href="https://hackaday.com/2015/09/25/lets-make-robots-changes-hands-kerfuffle-ensues/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-wiki-blue wiki-external inline-flex items-center"
+                >
+                  Hackaday: Let's Make Robots Changes Hands, Kerfuffle Ensues (2015)
                 </a>
               </p>
             </div>

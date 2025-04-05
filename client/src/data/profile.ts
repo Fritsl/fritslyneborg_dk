@@ -69,8 +69,8 @@ export const personData: PersonData = {
       title: "Robotics Community and Education",
       achievements: [
         {
-          title: "Founder of the World's Largest Hobby Robotics Community (2008)",
-          description: "In 2008, Lyneborg founded what became the world's largest online community for hobbyist robotic builders. He published tutorials on robot building that were translated into multiple languages and featured in books and major publications, inspiring hundreds of thousands worldwide."
+          title: "Founder of LetsMakeRobots.com (2008-2015)",
+          description: "In 2008, Lyneborg founded LetsMakeRobots.com, which grew to become the world's largest online community for hobbyist robotic builders. He published tutorials on robot building that were translated into multiple languages and featured in books and major publications, inspiring hundreds of thousands worldwide. The platform was acquired by Canadian-based company RobotShop.com in 2015, demonstrating its significant value and influence within the global robotics education community."
         }
       ]
     },
@@ -96,6 +96,12 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "Let's Make Robots Changes Hands, Kerfuffle Ensues",
+      source: "Hackaday",
+      year: "2015",
+      url: "https://hackaday.com/2015/09/25/lets-make-robots-changes-hands-kerfuffle-ensues/"
+    },
     {
       title: "The Rise of Hobbyist Robotics Communities",
       source: "Technology Review",
