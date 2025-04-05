@@ -55,8 +55,8 @@ export const personData: PersonData = {
       title: "Web Development and Entrepreneurship",
       achievements: [
         {
-          title: "Founder of Leading Open Source Web Agency (2005-2008)",
-          description: "In 2005, Lyneborg founded BEE3, a Copenhagen-based web agency that became Denmark's leading specialist in open source content management systems (CMS). Operating without external investment, the bootstrapped company grew to 10 employees before closing during the economic recession of 2008. At a time when open source technologies were widely considered risky and non-professional options, BEE3 pioneered the use of TYPO3, a Danish-developed open source CMS."
+          title: "Founder of Leading Open Source Web Agency (2003-2008)",
+          description: "In 2003, Lyneborg founded BEE3, a Copenhagen-based web agency that became Denmark's leading specialist in open source content management systems (CMS). Operating without external investment, the bootstrapped company grew to 10 employees before closing during the economic recession of 2008. At a time when open source technologies were widely considered risky and non-professional options, BEE3 pioneered the use of TYPO3, a Danish-developed open source CMS."
         },
         {
           title: "Digital Innovation for Major Danish Organizations",
