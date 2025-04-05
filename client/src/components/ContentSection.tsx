@@ -261,8 +261,44 @@ export default function ContentSection({ section }: ContentSectionProps) {
             </figure>
           )}
           
-          {/* Special content for Bare Feet mobile game */}
+          {/* Special content for TIXITAXI game */}
           {isGameDevSection && index === 3 && (
+            <div className="mt-2 mb-4">
+              <figure className="wiki-figure">
+                <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <a 
+                    href="https://youtu.be/4PC-NnqzKX4?si=rWbGwxpjSlHROMgg" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <img 
+                      src="https://img.youtube.com/vi/4PC-NnqzKX4/0.jpg" 
+                      alt="TIXITAXI - Children's puzzle game with AI-driven characters" 
+                      className="w-full"
+                    />
+                  </a>
+                  <figcaption className="mt-1 text-xs px-1">
+                    <a 
+                      href="https://youtu.be/4PC-NnqzKX4?si=rWbGwxpjSlHROMgg" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue wiki-external"
+                    >
+                      "TIXITAXI" - Game trailer video
+                    </a>
+                    <span className="block mt-1">
+                      An innovative children's puzzle game with all characters fully driven by AI, created by Lyneborg with funding from the Danish Film Institute.
+                      <span className="block mt-0.5">Source: Frits Lyneborg</span>
+                    </span>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
+          )}
+          
+          {/* Special content for Bare Feet mobile game */}
+          {isGameDevSection && index === 4 && (
             <div className="mt-2 mb-4">
               <figure className="wiki-figure">
                 <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>

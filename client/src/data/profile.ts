@@ -193,6 +193,10 @@ export const personData: PersonData = {
           description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Though initially hired as a gameplay scripter/designer based on his experience in concept development, technical IT projects, and skills with Playmaker and scripting, his talents quickly led to a role change. As Technical Art Director, he significantly enhanced both visual quality and overall game performance. His responsibilities encompassed modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, implementing visual effects (skyboxes, weather, explosions), performance optimization, workflow planning, and directing 3D artists. Creative Director Hans von Knut Skovfoged noted Lyneborg's exceptional ability to rapidly master technical areas, strong personal initiative, and capacity to work independently within a defined vision while maintaining excellent team integration."
         },
         {
+          title: "TIXITAXI: AI-Driven Children's Puzzle Game",
+          description: "TIXITAXI was an innovative children's puzzle game developed entirely by Lyneborg, featuring characters fully driven by artificial intelligence—long before AI became mainstream in game development. The project received funding from the Danish Film Institute, which recognized its innovative approach to children's educational entertainment. The game combined puzzle-solving mechanics with AI-driven character behaviors to create an engaging and responsive play experience for young audiences. Lyneborg's early implementation of AI for character behavior demonstrated his forward-thinking approach to game design and technology integration."
+        },
+        {
           title: "Mobile Games Released: Bare Feet! (2020)",
           description: "In September 2020, during the COVID-19 pandemic isolation period, Lyneborg independently developed and released 'Bare Feet!' for Android—an innovative mobile game that successfully merged multiple genres. This unique title combined elements from endless runners, side-scrolling shooters, platformers, and sports games into a cohesive experience. The gameplay features an inventive mechanic where players can transition from standard platforming (running and jumping) to flight mode with shooting capabilities by holding the jump button while airborne. The game also incorporates soccer ball physics reminiscent of Rocket League, creating a truly genre-blending experience. Lyneborg handled all aspects of development independently, including programming, game design, art creation, and deployment."
         }
@@ -228,6 +232,13 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      author: "Lyneborg, F.",
+      title: "TIXITAXI - Children's Puzzle Game with AI-Driven Characters",
+      source: "Danish Film Institute",
+      year: "2018",
+      url: "https://youtu.be/4PC-NnqzKX4?si=rWbGwxpjSlHROMgg"
+    },
     {
       author: "Lyneborg, F.",
       title: "Bare Feet! - Mobile Game",
