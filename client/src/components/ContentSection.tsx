@@ -1,5 +1,4 @@
 import { Section } from "@/data/profile";
-import droneDemoImage from "../assets/drone_demonstration.png";
 import megaRecordsLogo from "../assets/mega_records_logo.jpg";
 import humanoidRobotImage from "../assets/humanoid_robot_expo.jpg";
 import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
@@ -36,15 +35,6 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {/* Special content for the drone section */}
           {isDroneSection && (
             <>
-              <figure className="wiki-figure mb-2">
-                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
-                  <img src={droneDemoImage} alt="Frits Lyneborg demonstrating autonomous drone technology in 2011" className="w-full" />
-                  <figcaption className="mt-1 text-xs px-1">
-                    Lyneborg demonstrating his autonomous drone with camera gimbal and custom FPV system in 2011.
-                    <span className="block mt-0.5">Source: Make Magazine</span>
-                  </figcaption>
-                </div>
-              </figure>
               <div className="mt-2 mb-4">
                 <figure className="wiki-figure">
                   <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
@@ -69,6 +59,10 @@ export default function ContentSection({ section }: ContentSectionProps) {
                       >
                         Video documentation of autonomous drone demonstration (2011)
                       </a>
+                      <span className="block mt-1">
+                        Lyneborg demonstrating his autonomous drone with camera gimbal and custom FPV system in 2011.
+                        <span className="block mt-0.5">Source: Make Magazine</span>
+                      </span>
                     </figcaption>
                   </div>
                 </figure>
