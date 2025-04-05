@@ -103,6 +103,10 @@ export const personData: PersonData = {
         {
           title: "Founder of LetsMakeRobots.com (2008-2015)",
           description: "In 2008, Lyneborg founded LetsMakeRobots.com, which grew to become the world's largest online community for hobbyist robotic builders. He published tutorials on robot building that were translated into multiple languages and featured in books and major publications, inspiring hundreds of thousands worldwide. The site gained significant recognition when NASA linked to it as \"A resource for robot building.\" The platform was acquired by Canadian-based company RobotShop.com in 2015, demonstrating its significant value and influence within the global robotics education community."
+        },
+        {
+          title: "Robotics Philosophy and Media Coverage (2013)",
+          description: "Lyneborg's unique philosophy on robotics was featured in a 2013 Videnskab.dk article titled 'Den er levende, når man synes, den er sød' ('It's alive when you think it's cute'). In the article, he discussed his perspective that a robot becomes 'alive' when humans develop an emotional connection to it. He shared the example of a robot trapped in a jar that knocks on the lid and asks to be let out when someone passes by—suggesting that if one feels sympathy for the robot, it has achieved a kind of liveliness. While serving as director at BEE3, Lyneborg continued to expand LetsMakeRobots.com as a global platform for hobbyist robotics enthusiasts, helping democratize robotics knowledge and fostering innovation within the maker community."
         }
       ]
     },
@@ -254,6 +258,12 @@ export const personData: PersonData = {
       source: "Bureau Biz",
       year: "2015",
       url: "https://bureaubiz.dk/navn/republica-fritz-lyneborg-som-digital-chef/"
+    },
+    {
+      title: "Den er levende, når man synes, den er sød",
+      source: "Videnskab.dk",
+      year: "2013",
+      url: "https://videnskab.dk/kultur-samfund/den-er-levende-naar-man-synes-den-er-soed/"
     }
   ]
 };
