@@ -29,32 +29,27 @@ export default function ContentSection({ section }: ContentSectionProps) {
           
           {/* Special content for the drone section */}
           {isDroneSection && (
-            <div className="relative">
-              <div className="mt-4 mb-4">
-                <figure className="wiki-figure">
-                  <div className="float-right ml-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
-                    <img src={droneDemoImage} alt="Frits Lyneborg demonstrating autonomous drone technology in 2011" className="w-full" />
-                    <figcaption className="mt-1 text-xs px-1">
-                      Lyneborg demonstrating his autonomous drone with camera gimbal and custom FPV system in 2011. 
-                      <span className="block mt-1">Source: Make Magazine</span>
-                    </figcaption>
-                  </div>
-                </figure>
-              </div>
-              <div className="mt-3 clear-right">
-                <p className="text-sm italic">
-                  <a 
-                    href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-wiki-blue wiki-external inline-flex items-center"
-                  >
-                    Video documentation of autonomous drone demonstration (2011)
-                  </a>
-                </p>
-              </div>
-              <div className="clear-both mb-4"></div>
-            </div>
+            <>
+              <figure className="wiki-figure mb-2">
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <img src={droneDemoImage} alt="Frits Lyneborg demonstrating autonomous drone technology in 2011" className="w-full" />
+                  <figcaption className="mt-1 text-xs px-1">
+                    Lyneborg demonstrating his autonomous drone with camera gimbal and custom FPV system in 2011.
+                    <span className="block mt-0.5">Source: Make Magazine</span>
+                  </figcaption>
+                </div>
+              </figure>
+              <p className="text-sm italic mt-2">
+                <a 
+                  href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-wiki-blue wiki-external inline-flex items-center"
+                >
+                  Video documentation of autonomous drone demonstration (2011)
+                </a>
+              </p>
+            </>
           )}
           
           {/* Special patent reference for the patents section */}
@@ -91,19 +86,14 @@ export default function ContentSection({ section }: ContentSectionProps) {
           
           {/* Special content for the music section */}
           {isMusicSection && index === 1 && (
-            <div className="relative overflow-hidden">
-              <div className="mt-4 mb-4">
-                <figure className="wiki-figure">
-                  <div className="float-right ml-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
-                    <img src={megaRecordsLogo} alt="Mega Records logo" className="w-full" />
-                    <figcaption className="mt-1 text-xs px-1">
-                      Mega Records logo. The Danish record label represented major acts including Ace of Base and D-A-D.
-                    </figcaption>
-                  </div>
-                </figure>
+            <figure className="wiki-figure mb-2">
+              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
+                <img src={megaRecordsLogo} alt="Mega Records logo" className="w-full" />
+                <figcaption className="mt-1 text-xs px-1">
+                  Mega Records logo. The Danish record label represented major acts including Ace of Base and D-A-D.
+                </figcaption>
               </div>
-              <div className="clear-both"></div>
-            </div>
+            </figure>
           )}
           
           {/* Special music video reference */}
@@ -125,45 +115,36 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {/* Special content for the 3D printing section */}
           {is3DPrintingSection && (
             <>
-              <div className="mt-4 mb-4">
-                <figure className="wiki-figure">
-                  <div className="float-right ml-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
-                    <img src={humanoidRobotImage} alt="Frits Lyneborg with an early humanoid robot at the 3D Printer World Expo 2013" className="w-full" />
-                    <figcaption className="mt-1 text-xs px-1">
-                      Lyneborg with an early humanoid robot at the InMoov booth, 3D Printer World Expo 2013 in Burbank, California.
-                      <span className="block mt-1">Source: PunchBowl Media Group</span>
-                    </figcaption>
-                  </div>
-                </figure>
-              </div>
+              <figure className="wiki-figure mb-2">
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <img src={humanoidRobotImage} alt="Frits Lyneborg with an early humanoid robot at the 3D Printer World Expo 2013" className="w-full" />
+                  <figcaption className="mt-1 text-xs px-1">
+                    Lyneborg with an early humanoid robot at the InMoov booth, 3D Printer World Expo 2013 in Burbank, California.
+                    <span className="block mt-0.5">Source: PunchBowl Media Group</span>
+                  </figcaption>
+                </div>
+              </figure>
               
-              <div className="clear-both py-8"></div>
+              <figure className="wiki-figure mb-2 pt-4">
+                <div className="float-left mr-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <img src={fritsIdahoImage} alt="Frits Lyneborg in Idaho, USA while working on 3D print expos in 2014" className="w-full" />
+                  <figcaption className="mt-1 text-xs px-1">
+                    Lyneborg in Idaho, USA during his work as a consultant for PunchBowl Media Group (2014).
+                    <span className="block mt-0.5">Source: Personal archives</span>
+                  </figcaption>
+                </div>
+              </figure>
               
-              <div className="mb-4">
-                <figure className="wiki-figure">
-                  <div className="float-left mr-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
-                    <img src={fritsIdahoImage} alt="Frits Lyneborg in Idaho, USA while working on 3D print expos in 2014" className="w-full" />
-                    <figcaption className="mt-1 text-xs px-1">
-                      Lyneborg in Idaho, USA during his work as a consultant for PunchBowl Media Group (2014).
-                      <span className="block mt-1">Source: Personal archives</span>
-                    </figcaption>
-                  </div>
-                </figure>
-              </div>
-              
-              <div className="clear-both pt-4"></div>
-              <div className="mt-3">
-                <p className="text-sm italic">
-                  <a 
-                    href="https://3dprintingindustry.com/news/3d-printer-world-expo-2014-review-23549/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-wiki-blue wiki-external inline-flex items-center"
-                  >
-                    3D Printer World Expo (Industry Coverage)
-                  </a>
-                </p>
-              </div>
+              <p className="text-sm italic clear-left mt-2">
+                <a 
+                  href="https://3dprintingindustry.com/news/3d-printer-world-expo-2014-review-23549/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-wiki-blue wiki-external inline-flex items-center"
+                >
+                  3D Printer World Expo (Industry Coverage)
+                </a>
+              </p>
             </>
           )}
         </div>
