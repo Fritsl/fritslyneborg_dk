@@ -36,20 +36,11 @@ export const personData: PersonData = {
   introduction: "is a Danish technologist, entrepreneur, inventor, educator, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, music technology, and digital innovation. Currently, he collaborates with renowned Danish business executive Lars Kolind on the project \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\"), a roadshow and workshop series designed to prepare Danish and European business leaders and board members of large corporations for the imminent asymmetry in companies' deep usage and understanding of AI technology. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries. As an educator, he taught 3D art principles to hundreds of students at the Royal Danish Academy of Art in Copenhagen among other institutions through his consultancy Blenderkursus.dk (2015-2022). His latest innovation, ArrangerKing (2024), represents a revolutionary approach to music arrangement that has been widely acclaimed by the production community.",
   details: {
     nationality: "Danish",
-    fields: "Music Production, Robotics, 3D Art Education, Web Development, IT Leadership, Entrepreneurship, Patents, Consumer Technology, Adventure Sports",
-    knownFor: "Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Technology enthusiast, Longboarding and parakart enthusiast"
+    fields: "Music Production, Robotics, 3D Art Education, Web Development, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
+    knownFor: "Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Longboarding and parakart enthusiast"
   },
   sections: [
-    {
-      id: "technology-interests",
-      title: "Technology Interests and Consumer Electronics",
-      achievements: [
-        {
-          title: "Apple Technology Enthusiast (2023)",
-          description: "As technology continues to evolve, Lyneborg maintains active engagement with consumer electronics trends and developments. His interest in Apple products and ecosystem has been noted in technology publications. His insights on the integration of consumer technology with robotics systems and IoT applications reflect his ongoing commitment to understanding the intersection of mainstream consumer products and specialized technological development."
-        }
-      ]
-    },
+
     {
       id: "it-leadership",
       title: "IT and Corporate Leadership",
