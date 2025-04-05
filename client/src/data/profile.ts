@@ -83,6 +83,10 @@ export const personData: PersonData = {
       title: "3D Printing and Strategic Consulting",
       achievements: [
         {
+          title: "Special Consultant at VENZO A/S (2022-2023)",
+          description: "In February 2022, Lyneborg joined VENZO A/S as a Special Consultant focusing on IT architecture and 3D modeling. While assigned to Ørsted A/S, Denmark's largest energy company, he developed advanced 3D visualizations that enabled Ørsted to simulate large-scale installations virtually rather than constructing physical prototypes, resulting in multimillion-kroner savings. His responsibilities included facilitating workshops where he effectively translated technical discussions and concepts into detailed 3D models. Lyneborg also created original graphics and adapted complex materials from extensive CAD systems, which significantly improved decision-making processes and brought greater clarity to projects. His work at VENZO demonstrated his ability to bridge technical expertise with practical business applications, a skill that would later inform his approach to AI implementation."
+        },
+        {
           title: "3D Print Industry Frontrunner (2013-2014)",
           description: "In January 2013, Lyneborg was hired as a strategic consultant for PunchBowl Media Group based in Idaho, USA. Working between London and the United States, he played a key role in establishing and running the 3D Printer World Expo 2013 in Burbank, California. At the expo, Lyneborg worked with pioneering projects including the InMoov open-source humanoid robot, one of the first fully 3D-printable robots of its kind. His expertise helped showcase the intersection of robotics and 3D printing technologies, highlighting the transformative potential of additive manufacturing in fields ranging from consumer products to advanced robotics. Throughout 2014, Lyneborg continued his consulting work, spending significant time in Idaho where he helped develop strategies for future 3D printing expos and industry events. His international perspective and technical expertise were instrumental in establishing these early showcases of 3D printing technology at a time when the industry was still in its formative stages."
         }
@@ -192,6 +196,12 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "3D Visualization Consulting at Ørsted A/S",
+      source: "VENZO A/S",
+      year: "2022-2023",
+      url: "https://venzo.com/"
+    },
     {
       title: "Leadership in Game Development and R&D",
       source: "Skybox Technologies",
