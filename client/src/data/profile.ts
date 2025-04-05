@@ -33,11 +33,11 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, entrepreneur, inventor, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries.",
+  introduction: "is a Danish technologist, entrepreneur, inventor, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, music technology, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries. His latest innovation, ArrangerKing (2024), represents a revolutionary approach to music arrangement that has been widely acclaimed by the production community.",
   details: {
     nationality: "Danish",
     fields: "Music Production, Robotics, Web Development, IT Leadership, Entrepreneurship, Patents, Consumer Technology, Adventure Sports",
-    knownFor: "Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Technology enthusiast, Longboarding and parakart enthusiast"
+    knownFor: "Creator of ArrangerKing music plugin, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Technology enthusiast, Longboarding and parakart enthusiast"
   },
   sections: [
     {
@@ -185,6 +185,10 @@ export const personData: PersonData = {
       title: "Music Industry Career",
       achievements: [
         {
+          title: "Creator of ArrangerKing Music Plugin (2024)",
+          description: "In 2024, Lyneborg created ArrangerKing, an innovative music arrangement plugin that revolutionized the way producers and composers complete their tracks. This breakthrough tool was designed to solve a common challenge in music production where creators often lose inspiration during the arrangement phase. ArrangerKing allows musicians to transform initial musical ideas (typically '8-bar loops') into complete arrangements with just a few clicks rather than the traditional labor-intensive process of manually moving parts around in a digital audio workstation. The plugin received significant acclaim in the music production community for its unprecedented approach to arrangement workflow, being described as 'the fastest way to arrange tracks' in music history. This innovation built upon Lyneborg's unique combination of music industry experience and technical expertise, bridging his early career in electronic music with his later work in technology development."
+        },
+        {
           title: "A&R Manager at Mega Records (1996-1998)",
           description: "From 1996 to 1998, Lyneborg worked as an Artists and Repertoire (A&R) manager at Mega Records, a prominent Danish record label. In this role, he was involved with managing established international acts like Ace of Base as well as significant Danish bands including D-A-D (Disneyland After Dark), Savage Rose, and Laid Back. His responsibilities included artist development, repertoire selection, and coordinating music production and importation of international acts."
         },
@@ -196,6 +200,12 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "ArrangerKing: Revolutionary Music Arrangement Plugin",
+      source: "Barking Audio",
+      year: "2024",
+      url: "https://arrangerking.com/"
+    },
     {
       title: "3D Visualization Consulting at Ørsted A/S",
       source: "VENZO A/S",
