@@ -145,11 +145,15 @@ export const personData: PersonData = {
       title: "Game Development Career",
       achievements: [
         {
-          title: "Lead R&D Developer at Skybox Technologies (2027-Present)",
-          description: "In May 2027, Lyneborg was promoted to Lead R&D Developer at Skybox Technologies, following his successful tenure as a Senior Unreal Developer. In this leadership role, his responsibilities expanded to include rapid development of games and prototypes utilizing multiple platforms including Unreal Engine, Unity, and Blender. The promotion recognized his technical expertise and ability to drive innovation across different game development environments."
+          title: "AI Business Consultant and Workshop Leader (2025-Present)",
+          description: "From February 1, 2025, Lyneborg began conducting AI workshops for business leaders and board members in collaboration with renowned Danish business executive Lars Kolind as a partner. These workshops focus on practical applications of artificial intelligence in business contexts, helping executives navigate the rapidly evolving technological landscape. Lyneborg's combined background in technology development and business leadership provides participants with insights into integrating AI solutions into their corporate strategies and operations."
         },
         {
-          title: "Senior Unreal Developer at Skybox Technologies (2023-2027)",
+          title: "Lead R&D Developer at Skybox Technologies (2024-2025)",
+          description: "On May 17, 2024, Lyneborg was promoted to Lead R&D Developer at Skybox Technologies, following his successful tenure as a Senior Unreal Developer. In this leadership role, his responsibilities expanded to include rapid development of games and prototypes utilizing multiple platforms including Unreal Engine, Unity, and Blender. The promotion recognized his technical expertise and ability to drive innovation across different game development environments. He remained in this position until February 2025, when he transitioned to AI consulting work."
+        },
+        {
+          title: "Senior Unreal Developer at Skybox Technologies (2023-2024)",
           description: "On January 1, 2023, Lyneborg joined Skybox Technologies as a Senior Unreal Developer. In this role, he applied his extensive technical expertise and game development experience to create advanced gaming solutions using the Unreal Engine. His work at Skybox Technologies built upon his previous experience in the gaming industry, allowing him to further refine his skills in game development and technical art direction."
         },
         {
@@ -191,8 +195,14 @@ export const personData: PersonData = {
     {
       title: "Leadership in Game Development and R&D",
       source: "Skybox Technologies",
-      year: "2027",
+      year: "2024",
       url: "https://dk.linkedin.com/company/skybox-technologies"
+    },
+    {
+      author: "Kolind, L.",
+      title: "AI Workshops for Business Leaders",
+      source: "Lars Kolind & Associates",
+      year: "2025"
     },
     {
       author: "Skovfoged, H. von K.",
