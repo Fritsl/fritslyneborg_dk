@@ -4,6 +4,7 @@ import ContentSection from "./ContentSection";
 import WikiSidebar from "./WikiSidebar";
 import References from "./References";
 import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
+import { FaLinkedin } from "react-icons/fa";
 
 interface WikiPageProps {
   person: PersonData;
@@ -21,7 +22,19 @@ export default function WikiPage({ person }: WikiPageProps) {
     <div className="bg-white text-wiki-heading font-wiki-sans">
       {/* Header */}
       <header className="border-b border-wiki-border pb-2 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-        <h1 className="text-3xl md:text-4xl font-wiki-serif">{person.name}</h1>
+        <div className="flex items-center justify-between">
+          <h1 className="text-3xl md:text-4xl font-wiki-serif">{person.name}</h1>
+          <a 
+            href="https://www.linkedin.com/in/frits-lyneborg/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="flex items-center gap-2 text-wiki-blue hover:text-blue-700 transition-colors"
+            aria-label="View Frits Lyneborg's LinkedIn profile"
+          >
+            <FaLinkedin className="text-2xl" />
+            <span className="hidden sm:inline text-sm">LinkedIn Profile</span>
+          </a>
+        </div>
         <div className="text-sm text-gray-600 mt-1">Given my extensive and multifaceted career, I commissioned an AI to compile and organize my professional history into this Wikipedia-style format, creating a comprehensive and accessible overview of my work.</div>
       </header>
 
