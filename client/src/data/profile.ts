@@ -36,17 +36,27 @@ export const personData: PersonData = {
   introduction: "is a Danish technologist, entrepreneur, inventor, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries.",
   details: {
     nationality: "Danish",
-    fields: "Music Production, Robotics, Web Development, IT Leadership, Entrepreneurship, Patents",
-    knownFor: "Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development"
+    fields: "Music Production, Robotics, Web Development, IT Leadership, Entrepreneurship, Patents, Consumer Technology",
+    knownFor: "Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Technology enthusiast"
   },
   sections: [
+    {
+      id: "technology-interests",
+      title: "Technology Interests and Consumer Electronics",
+      achievements: [
+        {
+          title: "Apple Technology Enthusiast (2023)",
+          description: "As technology continues to evolve, Lyneborg maintains active engagement with consumer electronics trends and developments. His interest in Apple products and ecosystem has been noted in technology publications. His insights on the integration of consumer technology with robotics systems and IoT applications reflect his ongoing commitment to understanding the intersection of mainstream consumer products and specialized technological development."
+        }
+      ]
+    },
     {
       id: "it-leadership",
       title: "IT and Corporate Leadership",
       achievements: [
         {
           title: "Digital Director at Republica (2015)",
-          description: "In 2015, Lyneborg was appointed as Digital Director (Digital Chef) at Republica, a prominent Danish digital agency. In this role, he led the company's digital innovation strategies and technical development teams, helping clients navigate the growing digital marketing landscape. His expertise in both technical implementation and strategic digital planning strengthened Republica's position in the competitive Danish marketing sector."
+          description: "In 2015, Lyneborg was appointed as Digital Director (Digital Chef) at Republica, a prominent Danish digital agency. As reported in Markedsføring, one of his first tasks was to develop innovative digital flyers, moving beyond the existing PDF-based solutions that were common at the time. According to company leadership, 'We have hired a digital chief, Frits Lyneborg, who will enhance our competence in the area.' In this role, he led the company's digital innovation strategies and technical development teams, helping clients navigate the growing digital marketing landscape. His expertise in both technical implementation and strategic digital planning strengthened Republica's position in the competitive Danish marketing sector during a period of significant growth for the company."
         },
         {
           title: "Head of IT, Denmark's Largest Advertising Agency (2012)",
@@ -150,6 +160,18 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "Best Apple Deals",
+      source: "Engadget",
+      year: "2023",
+      url: "https://www.engadget.com/deals/best-apple-deals-150020110.html"
+    },
+    {
+      title: "Republica har stor fremgang og løfter overliggeren",
+      source: "Markedsføring",
+      year: "2015",
+      url: "https://markedsforing.dk/artikler/nyheder/republica-har-stor-fremgang-og-loefter-overliggeren/"
+    },
     {
       title: "Robotræs på biblioteket",
       source: "Dinavis.dk",
