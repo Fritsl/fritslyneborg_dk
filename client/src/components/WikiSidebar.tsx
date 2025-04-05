@@ -9,7 +9,8 @@ interface WikiSidebarProps {
 export default function WikiSidebar({ person }: WikiSidebarProps) {
   return (
     <aside className="md:w-64 md:mr-8 md:order-1 hidden md:block no-print">
-      <div className="sticky top-4">
+      <div className="sticky top-4 max-h-screen overflow-y-auto pb-8 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
+        {/* Table of Contents */}
         <div className="bg-wiki-light-gray p-4 border border-wiki-border rounded mb-6">
           <TableOfContents sections={person.sections} />
         </div>

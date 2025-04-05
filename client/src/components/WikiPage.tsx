@@ -42,7 +42,7 @@ export default function WikiPage({ person }: WikiPageProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row">
           {/* Main content */}
-          <main className="flex-1 md:order-2">
+          <main className="flex-1 md:order-2 overflow-x-auto">
             {/* Introduction Section */}
             <section className="py-4">
               <p className="text-base leading-relaxed">
@@ -65,7 +65,7 @@ export default function WikiPage({ person }: WikiPageProps) {
             </div>
 
             {/* Table of Contents (mobile) - visible only on small screens */}
-            <section className="md:hidden bg-wiki-light-gray p-4 border border-wiki-border rounded my-4 no-print">
+            <section className="md:hidden bg-wiki-light-gray p-4 border border-wiki-border rounded my-4 no-print sticky top-0 z-10 shadow-sm">
               <TableOfContents sections={person.sections} />
             </section>
 

@@ -55,7 +55,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {isITLeadershipSection && achievement.title.includes("Digital Director at Republica") && (
             <>
               <figure className="wiki-figure mb-3">
-                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset wiki-mobile-float-reset" style={{ maxWidth: '300px' }}>
                   <a 
                     href="https://bureaubiz.dk/navn/republica-fritz-lyneborg-som-digital-chef/" 
                     target="_blank" 
@@ -97,7 +97,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
             <>
               <div className="flex flex-wrap">
                 <figure className="wiki-figure mb-3">
-                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '120px' }}>
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '120px' }}>
                     <img src={venstreLogo} alt="Venstre (Liberal Party of Denmark) logo" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
                       Venstre logo. Lyneborg's web agency BEE3 created and managed over 300 websites for Denmark's Liberal Party.
@@ -105,7 +105,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   </div>
                 </figure>
                 <figure className="wiki-figure mb-3">
-                  <div className="float-left mr-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '120px' }}>
+                  <div className="float-left mr-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '120px' }}>
                     <img src={berlingskelogo} alt="Berlingske Tidende (BT) logo" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
                       Berlingske Tidende logo. Det Berlingske Officin was a major client of Lyneborg's web agency BEE3.
@@ -128,7 +128,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {isWebEntrepreneurshipSection && achievement.title.includes("Digital Concept Developer for Danish Broadcasting (DR)") && (
             <>
               <figure className="wiki-figure mb-3">
-                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '180px' }}>
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '180px' }}>
                   <img src={drLogo} alt="DR (Danish Broadcasting Corporation) logo" className="w-full" />
                   <figcaption className="mt-1 text-xs px-1">
                     DR (Danish Broadcasting Corporation) logo. Lyneborg worked as a digital concept consultant for Denmark's public broadcaster from 2008 to 2010.
@@ -209,7 +209,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {/* ArrangerKing reference and image */}
           {isPatentSection && index === 0 && (
             <figure className="wiki-figure mb-2">
-              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
+              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '250px' }}>
                 <a 
                   href="https://arrangerking.com/" 
                   target="_blank" 
@@ -312,7 +312,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {/* Special content for the music section */}
           {isMusicSection && index === 1 && (
             <figure className="wiki-figure mb-2">
-              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
+              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '220px' }}>
                 <img src={megaRecordsLogo} alt="Mega Records logo" className="w-full" />
                 <figcaption className="mt-1 text-xs px-1">
                   Mega Records logo. The Danish record label represented major acts including Ace of Base and D-A-D.
@@ -440,7 +440,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {/* Special content for the game development section */}
           {isGameDevSection && index === 2 && (
             <figure className="wiki-figure mb-2">
-              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
+              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '250px' }}>
                 <img src={talesFromVoidImage} alt="Tales from the Void - a sci-fi strategy game" className="w-full" />
                 <figcaption className="mt-1 text-xs px-1">
                   "Tales from the Void" - the sci-fi strategy game Lyneborg worked on as Technical Art Director at PortaPlay in 2014-2015.
@@ -527,7 +527,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
             <>
               {index === 0 && (
                 <figure className="wiki-figure mb-2">
-                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '220px' }}>
                     <img src={longboardImage} alt="Illustration of longboard skateboarding" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
                       Longboard skateboarding combines elements of traditional skateboarding with surfing techniques.
@@ -539,7 +539,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
               
               {index === 1 && (
                 <figure className="wiki-figure mb-2">
-                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '220px' }}>
                     <img src={parakartImage} alt="Illustration of parakart (kite buggy)" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
                       Parakart (or kite buggy) is a wind-powered three-wheeled vehicle.
@@ -573,7 +573,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
               </div>
               
               <figure className="wiki-figure mb-3">
-                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '220px' }}>
                   <img src={n8nLogo} alt="n8n logo - Automation and workflow platform" className="w-full" />
                   <figcaption className="mt-1 text-xs px-1">
                     n8n logo. Lyneborg incorporates this powerful workflow automation platform in his consultancy work with Lars Kolind, focusing on Agentic AI solutions for business.
@@ -654,7 +654,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
             <>
               {index === 0 && (
                 <figure className="wiki-figure mb-2">
-                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '250px' }}>
                     <img src={blenderLogo} alt="Blender 3D Software Logo" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
                       The Blender 3D software logo. Lyneborg specialized in teaching this powerful open-source 3D creation suite through his Blenderkursus.dk consultancy.
@@ -666,7 +666,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
               
               {index === 1 && (
                 <figure className="wiki-figure mb-2">
-                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '250px' }}>
                     <img src={royalAcademyLogo} alt="Royal Danish Academy of Fine Arts Logo" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
                       The official seal of the Royal Danish Academy of Fine Arts (Det Kongelige Danske Kunstakademi), where Lyneborg taught 3D visualization techniques to students from 2015-2022.
@@ -682,7 +682,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {is3DPrintingSection && index === 1 && (
             <>
               <figure className="wiki-figure mb-2">
-                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '300px' }}>
                   <img src={humanoidRobotImage} alt="Frits Lyneborg with an early humanoid robot at the 3D Printer World Expo 2013" className="w-full" />
                   <figcaption className="mt-1 text-xs px-1">
                     Lyneborg with an early humanoid robot at the InMoov booth, 3D Printer World Expo 2013 in Burbank, California.
@@ -692,7 +692,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
               </figure>
               
               <figure className="wiki-figure mb-2 pt-4">
-                <div className="float-left mr-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                <div className="float-left mr-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '300px' }}>
                   <img src={fritsIdahoImage} alt="Frits Lyneborg in Idaho, USA while working on 3D print expos in 2014" className="w-full" />
                   <figcaption className="mt-1 text-xs px-1">
                     Lyneborg in Idaho, USA during his work as a consultant for PunchBowl Media Group (2014).

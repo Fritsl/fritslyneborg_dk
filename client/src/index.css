@@ -58,6 +58,53 @@
     vertical-align: super;
   }
 
+  /* Custom scrollbar */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #c8c8c8;
+    border-radius: 4px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a0;
+  }
+
+  /* Firefox scrollbar */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #c8c8c8 transparent;
+  }
+
+  /* Responsive floating elements */
+  @media (max-width: 640px) {
+    .wiki-mobile-float-reset {
+      float: none !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 100% !important;
+      width: 100% !important;
+      display: block !important;
+    }
+    
+    figcaption {
+      font-size: 0.7rem !important;
+      line-height: 1.2 !important;
+    }
+    
+    /* Improve readability of small text on mobile */
+    .text-xs {
+      font-size: 0.7rem !important;
+      line-height: 1.2 !important;
+    }
+  }
+
   @media print {
     .no-print {
       display: none;
