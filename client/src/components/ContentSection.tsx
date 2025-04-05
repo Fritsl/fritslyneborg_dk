@@ -282,7 +282,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           )}
           
           {/* Special content for the 3D printing section */}
-          {is3DPrintingSection && (
+          {is3DPrintingSection && index === 1 && (
             <>
               <figure className="wiki-figure mb-2">
                 <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
