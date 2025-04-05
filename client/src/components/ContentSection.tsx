@@ -2,7 +2,7 @@ import { Section } from "@/data/profile";
 import megaRecordsLogo from "../assets/mega_records_logo.jpg";
 import humanoidRobotImage from "../assets/humanoid_robot_expo.jpg";
 import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
-import longboardImage from "../assets/images/longboard.svg";
+import longboardImage from "../assets/images/longboard_new.jpg";
 import parakartImage from "../assets/images/parakart_new.png";
 import talesFromVoidImage from "../assets/images/tales_from_void.svg";
 import arrangerKingPackshot from "../assets/images/Packshot.png";
@@ -527,11 +527,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
             <>
               {index === 0 && (
                 <figure className="wiki-figure mb-2">
-                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '220px' }}>
-                    <img src={longboardImage} alt="Illustration of longboard skateboarding" className="w-full" />
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '320px' }}>
+                    <img src={longboardImage} alt="Downhill longboarder speeding down a mountain road" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
-                      Longboard skateboarding combines elements of traditional skateboarding with surfing techniques.
-                      <span className="block mt-0.5">Illustration</span>
+                      Downhill longboarding is a high-speed discipline where riders descend steep mountain roads. Lyneborg has been an active participant in the longboarding community.
+                      <span className="block mt-0.5">Source: Action sports photography</span>
                     </figcaption>
                   </div>
                 </figure>
