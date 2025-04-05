@@ -3,6 +3,8 @@ import droneDemoImage from "../assets/drone_demonstration.png";
 import megaRecordsLogo from "../assets/mega_records_logo.jpg";
 import humanoidRobotImage from "../assets/humanoid_robot_expo.jpg";
 import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
+import longboardImage from "../assets/images/longboard.svg";
+import parakartImage from "../assets/images/parakart.svg";
 
 interface ContentSectionProps {
   section: Section;
@@ -16,6 +18,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isMusicSection = section.id === "music-industry";
   const is3DPrintingSection = section.id === "3d-printing-consulting";
   const isMakeMagazineSection = section.id === "make-magazine-projects";
+  const isLeisureSection = section.id === "leisure-activities";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
@@ -203,6 +206,35 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     </a>
                   </p>
                 </div>
+              )}
+            </>
+          )}
+          
+          {/* Special content for the leisure activities section */}
+          {isLeisureSection && (
+            <>
+              {index === 0 && (
+                <figure className="wiki-figure mb-2">
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
+                    <img src={longboardImage} alt="Illustration of longboard skateboarding" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Longboard skateboarding combines elements of traditional skateboarding with surfing techniques.
+                      <span className="block mt-0.5">Illustration</span>
+                    </figcaption>
+                  </div>
+                </figure>
+              )}
+              
+              {index === 1 && (
+                <figure className="wiki-figure mb-2">
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
+                    <img src={parakartImage} alt="Illustration of parakart (kite buggy)" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Parakart (or kite buggy) is a wind-powered three-wheeled vehicle.
+                      <span className="block mt-0.5">Illustration</span>
+                    </figcaption>
+                  </div>
+                </figure>
               )}
             </>
           )}

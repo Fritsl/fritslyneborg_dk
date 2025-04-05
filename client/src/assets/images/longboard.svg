@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" version="1.1" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <!-- Longboard Deck -->
+  <path d="m90 150c0-15 50-25 110-25s110 10 110 25-50 25-110 25-110-10-110-25z" fill="#8b4513" stroke="#000" stroke-width="2"/>
+  
+  <!-- Bottom curve of deck -->
+  <path d="m90 150c0 15 50 20 110 20s110-5 110-20" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="2, 2"/>
+  
+  <!-- Deck stripes for wood grain -->
+  <path d="m100 140c40-12 100-12 180 0" fill="none" stroke="#a0522d" stroke-width="1"/>
+  <path d="m100 145c40-12 100-12 180 0" fill="none" stroke="#a0522d" stroke-width="1"/>
+  <path d="m100 155c40-12 100-12 180 0" fill="none" stroke="#a0522d" stroke-width="1"/>
+  <path d="m100 160c40-12 100-12 180 0" fill="none" stroke="#a0522d" stroke-width="1"/>
+  
+  <!-- Truck mounting points -->
+  <rect x="120" y="143" width="25" height="14" fill="#333" stroke="#000"/>
+  <rect x="255" y="143" width="25" height="14" fill="#333" stroke="#000"/>
+  
+  <!-- Front truck -->
+  <g transform="translate(133, 160)">
+    <rect x="-15" y="0" width="30" height="5" fill="#555" stroke="#000" stroke-width="1"/>
+    <rect x="-10" y="5" width="20" height="10" fill="#777" stroke="#000" stroke-width="1"/>
+    <line x1="-20" y1="15" x2="20" y2="15" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Rear truck -->
+  <g transform="translate(267, 160)">
+    <rect x="-15" y="0" width="30" height="5" fill="#555" stroke="#000" stroke-width="1"/>
+    <rect x="-10" y="5" width="20" height="10" fill="#777" stroke="#000" stroke-width="1"/>
+    <line x1="-20" y1="15" x2="20" y2="15" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Wheels -->
+  <circle cx="113" cy="175" r="10" fill="#f90" stroke="#000" stroke-width="1.5"/>
+  <circle cx="153" cy="175" r="10" fill="#f90" stroke="#000" stroke-width="1.5"/>
+  <circle cx="247" cy="175" r="10" fill="#f90" stroke="#000" stroke-width="1.5"/>
+  <circle cx="287" cy="175" r="10" fill="#f90" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Ground shadow -->
+  <ellipse cx="200" cy="190" rx="120" ry="5" fill="#0003"/>
+  
+  <!-- Person riding -->
+  <g transform="translate(200, 130)">
+    <!-- Legs -->
+    <line x1="-5" y1="0" x2="-15" y2="20" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    <line x1="5" y1="0" x2="20" y2="20" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Feet on board -->
+    <line x1="-15" y1="20" x2="-25" y2="20" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="20" x2="30" y2="20" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Body -->
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Arms -->
+    <line x1="0" y1="-25" x2="-20" y2="-15" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-25" x2="20" y2="-15" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="10" fill="#fff" stroke="#000" stroke-width="1.5"/>
+  </g>
+ </g>
+</svg>

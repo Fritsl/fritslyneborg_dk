@@ -36,8 +36,8 @@ export const personData: PersonData = {
   introduction: "is a Danish technologist, entrepreneur, inventor, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries.",
   details: {
     nationality: "Danish",
-    fields: "Music Production, Robotics, Web Development, IT Leadership, Entrepreneurship, Patents, Consumer Technology",
-    knownFor: "Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Technology enthusiast"
+    fields: "Music Production, Robotics, Web Development, IT Leadership, Entrepreneurship, Patents, Consumer Technology, Adventure Sports",
+    knownFor: "Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Technology enthusiast, Longboarding and parakart enthusiast"
   },
   sections: [
     {
@@ -141,6 +141,20 @@ export const personData: PersonData = {
         {
           title: "International Patent for Spam-Free Email System (2005)",
           description: "In 2005, Lyneborg was granted an international patent (WO2006051434A1) for a method and system to prevent reception of unwanted electronic messages. His patented approach assigned unique addresses to each entity communicating with a user, with the unique identifier integrated into the email address itself. This innovation eliminated the need for traditional passwords while maintaining a conventional user experience. The system employed an initial challenge/response procedure to verify sender legitimacy, providing a high degree of protection against spam while preserving email functionality and user convenience."
+        }
+      ]
+    },
+    {
+      id: "leisure-activities",
+      title: "Leisure Activities and Adventure Sports",
+      achievements: [
+        {
+          title: "Longboard Skateboarding Enthusiast",
+          description: "Beyond his professional endeavors, Lyneborg is an avid longboard skateboarder. This activity, which combines elements of traditional skateboarding with surfing techniques, reflects his interest in balance, momentum, and motion—themes that also appear in his robotics work. Longboarding provides him with a physical counterpoint to his technical interests, allowing him to experience motion and physics directly rather than through digital or mechanical intermediaries."
+        },
+        {
+          title: "Parakart Driver",
+          description: "Lyneborg also engages in the dynamic sport of parakart driving (also known as kite buggying), where a three-wheeled buggy is powered by a kite. This activity combines wind energy harvesting with precise control techniques, creating an eco-friendly form of land sailing. His interest in this adventure sport connects to his broader fascination with alternative energy applications and autonomous motion systems, themes that have defined much of his professional work with drones and robotics."
         }
       ]
     },
