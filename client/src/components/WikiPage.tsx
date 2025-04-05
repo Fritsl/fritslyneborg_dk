@@ -89,9 +89,17 @@ export default function WikiPage({ person }: WikiPageProps) {
           <div className="mb-4 md:mb-0">
             This page was last edited on {lastEditedDate}
           </div>
-          <div className="flex space-x-4">
-            <a href="#" className="text-wiki-blue hover:underline">View history</a>
-            <a href="#" className="text-wiki-blue hover:underline">Sources</a>
+          <div>
+            <a 
+              href="https://www.linkedin.com/in/frits-lyneborg/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center gap-2 text-wiki-blue hover:text-blue-700 transition-colors"
+              aria-label="View Frits Lyneborg's LinkedIn profile"
+            >
+              <FaLinkedin className="text-lg" />
+              <span>LinkedIn Profile</span>
+            </a>
           </div>
         </div>
       </footer>
