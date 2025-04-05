@@ -191,6 +191,10 @@ export const personData: PersonData = {
         {
           title: "Technical Art Director at PortaPlay (2014-2015)",
           description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Though initially hired as a gameplay scripter/designer based on his experience in concept development, technical IT projects, and skills with Playmaker and scripting, his talents quickly led to a role change. As Technical Art Director, he significantly enhanced both visual quality and overall game performance. His responsibilities encompassed modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, implementing visual effects (skyboxes, weather, explosions), performance optimization, workflow planning, and directing 3D artists. Creative Director Hans von Knut Skovfoged noted Lyneborg's exceptional ability to rapidly master technical areas, strong personal initiative, and capacity to work independently within a defined vision while maintaining excellent team integration."
+        },
+        {
+          title: "Mobile Games Released: Bare Feet! (2020)",
+          description: "In September 2020, during the COVID-19 pandemic isolation period, Lyneborg independently developed and released 'Bare Feet!' for Android—an innovative mobile game that successfully merged multiple genres. This unique title combined elements from endless runners, side-scrolling shooters, platformers, and sports games into a cohesive experience. The gameplay features an inventive mechanic where players can transition from standard platforming (running and jumping) to flight mode with shooting capabilities by holding the jump button while airborne. The game also incorporates soccer ball physics reminiscent of Rocket League, creating a truly genre-blending experience. Lyneborg handled all aspects of development independently, including programming, game design, art creation, and deployment. The release represented a notable achievement in independent game development during a challenging global period, with Lyneborg noting plans for continued expansion of the title based on positive user feedback."
         }
       ]
     },
@@ -224,6 +228,13 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      author: "Lyneborg, F.",
+      title: "Bare Feet! - Mobile Game",
+      source: "Google Play",
+      year: "2020",
+      url: "https://www.youtube.com/watch?v=ZWyi2LIX0yU"
+    },
     {
       title: "Blenderkursus.dk: 3D Art Education Platform",
       source: "Royal Danish Academy of Fine Arts",

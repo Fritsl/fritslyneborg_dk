@@ -12,6 +12,7 @@ import aiArtImage3 from "../assets/images/ai_art_3.png";
 import aiArtImage4 from "../assets/images/ai_art_4.png";
 import blenderLogo from "../assets/images/blender_logo.png";
 import royalAcademyLogo from "../assets/images/royal_academy_logo.png";
+import bareFeetGameImage from "../assets/images/bare_feet_game.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -258,6 +259,42 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </figcaption>
               </div>
             </figure>
+          )}
+          
+          {/* Special content for Bare Feet mobile game */}
+          {isGameDevSection && index === 3 && (
+            <div className="mt-2 mb-4">
+              <figure className="wiki-figure">
+                <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <a 
+                    href="https://www.youtube.com/watch?v=ZWyi2LIX0yU" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <img 
+                      src={bareFeetGameImage} 
+                      alt="Bare Feet! - a mobile game combining runner and shooter genres" 
+                      className="w-full"
+                    />
+                  </a>
+                  <figcaption className="mt-1 text-xs px-1">
+                    <a 
+                      href="https://www.youtube.com/watch?v=ZWyi2LIX0yU" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue wiki-external"
+                    >
+                      "Bare Feet!" - Gameplay video (2020)
+                    </a>
+                    <span className="block mt-1">
+                      Lyneborg's independently developed mobile game that uniquely combines runner, shooter, platformer, and sports game elements.
+                      <span className="block mt-0.5">Source: Frits Lyneborg</span>
+                    </span>
+                  </figcaption>
+                </div>
+              </figure>
+            </div>
           )}
           
           {/* Special content for the leisure activities section */}
