@@ -52,6 +52,10 @@ export const personData: PersonData = {
         {
           title: "Senior Strategic Advisor at Wemind A/S (2010-2013)",
           description: "From 2010 to 2013, Lyneborg served as Senior Strategic Advisor (Senior Strategisk Rådgiver) at Wemind A/S, a Danish consultancy firm. In this role, he provided high-level strategic guidance on digital transformation and technology implementation to various client organizations. His work at Wemind allowed him to leverage his extensive experience across multiple technological domains to develop forward-thinking strategies for businesses navigating the rapidly evolving digital landscape. During this period, he established himself as a trusted advisor to executive leadership teams seeking to enhance their organizations' technical capabilities and digital presence."
+        },
+        {
+          title: "IT and Development Chief at UVCB (1999-2003)",
+          description: "From 1999 to 2003, Lyneborg served as IT and Development Chief (IT/Udviklingschef) at UVCB, a self-governing institution under the Danish Ministry of Employment. In this leadership role, he independently managed the organization's entire IT department with exceptional results. According to a recommendation from Secretary Chief Henrik Brandt, Lyneborg demonstrated remarkable skill in adapting IT solutions to the organization's specific needs, including the development of local networks, home workstations, and a web platform that thoroughly met the Center's requirements. He was praised for his ability to both create strategic development plans and effectively implement them, consistently delivering tangible and practical results. Lyneborg showed extraordinary responsibility in both development and operational aspects of his work, consistently presenting accurate IT department budgets and maintaining them with precision. His independent work style and ability to involve both internal staff and external contacts in Denmark and abroad were highlighted as key strengths in his leadership approach."
         }
       ]
     },
@@ -438,6 +442,12 @@ export const personData: PersonData = {
       title: "Senior Strategic Advisor Position",
       source: "Wemind A/S",
       year: "2010-2013"
+    },
+    {
+      author: "Brandt, H.",
+      title: "Letter of Recommendation for Frits Jensen (Lyneborg)",
+      source: "UVCB - Development Center under the Ministry of Employment",
+      year: "2003"
     },
     {
       author: "Lyneborg, F.",
