@@ -93,6 +93,16 @@ export const personData: PersonData = {
           description: "In 2012, Lyneborg became Head of IT at Denmark's largest advertising agency, managing digital infrastructure and driving innovation across the company."
         }
       ]
+    },
+    {
+      id: "3d-printing-consulting",
+      title: "3D Printing and Strategic Consulting",
+      achievements: [
+        {
+          title: "3D Print Industry Frontrunner (2013)",
+          description: "In January 2013, Lyneborg was hired as a strategic consultant for PunchBowl Media Group based in Idaho, USA. Working between London and the United States, he played a key role in establishing and running the 3D Printer World Expo 2013 in Burbank, California. This position demonstrated his early recognition of 3D printing's transformative potential in manufacturing and consumer technology at a time when the technology was still in its early adoption phase."
+        }
+      ]
     }
   ],
   references: [
@@ -121,6 +131,11 @@ export const personData: PersonData = {
     {
       title: "Innovation Leaders in Danish Corporate IT",
       source: "Danish Business Weekly",
+      year: "2013"
+    },
+    {
+      title: "3D Printer World Expo 2013",
+      source: "PunchBowl Media Group",
       year: "2013"
     },
     {
