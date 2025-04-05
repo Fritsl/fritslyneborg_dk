@@ -79,6 +79,24 @@ export const personData: PersonData = {
       ]
     },
     {
+      id: "make-magazine-projects",
+      title: "Make Magazine Projects and Contributions",
+      achievements: [
+        {
+          title: "Yellow Drum Machine (2012)",
+          description: "Lyneborg created the Yellow Drum Machine, an innovative open-source robotic percussion instrument that garnered significant attention in the maker community. The project, which combined robotics, music, and digital fabrication, was featured as a step-by-step tutorial in Make Magazine, showcasing Lyneborg's ability to blend his musical background with his expertise in robotics and programming."
+        },
+        {
+          title: "Tutorial Series on Hobby Robotics (2011)",
+          description: "Throughout 2011, Lyneborg authored a series of tutorials and articles for Make Magazine titled 'The Latest in Hobby Robotics.' These educational pieces provided accessible instructions for creating various robotic projects, including a three-servo walking robot and a drifting robot car. His approachable teaching style and innovative designs helped democratize robotics for hobbyists worldwide, contributing to the growth of the DIY robotics movement."
+        },
+        {
+          title: "Robotic 3D Carver of Invisible Stuff (2011)",
+          description: "In November 2011, Lyneborg developed and documented the 'Robotic 3D Carver of Invisible Stuff,' an experimental robotic art project that created three-dimensional carvings in space using light and motion. This innovative project, featured in Make Magazine, demonstrated Lyneborg's creative approach to robotics as both a technical and artistic medium, pushing the boundaries of what robotics could achieve in visual art and conceptual design."
+        }
+      ]
+    },
+    {
       id: "robotics-community-education",
       title: "Robotics Community and Education",
       achievements: [
@@ -191,6 +209,34 @@ export const personData: PersonData = {
       title: "The Latest In Hobby Robotics",
       source: "Make Magazine",
       year: "2011"
+    },
+    {
+      author: "Lyneborg, F.",
+      title: "Yellow Drum Machine",
+      source: "Make Magazine",
+      year: "2012",
+      url: "https://makezine.com/projects/yellow-drum-machine/"
+    },
+    {
+      author: "Lyneborg, F.",
+      title: "Robotic 3D Carver of Invisible Stuff",
+      source: "Make Magazine",
+      year: "2011",
+      url: "https://makezine.com/2011/11/18/robotics-3d-carver-of-invisible-stuff/"
+    },
+    {
+      author: "Lyneborg, F.",
+      title: "How-To: Three Servos Walking Robot",
+      source: "Make Magazine",
+      year: "2011",
+      url: "https://makezine.com/2011/10/20/how-to-three-servos-walking-robot-video/"
+    },
+    {
+      author: "Lyneborg, F.",
+      title: "How-To: Drifting Robot Car",
+      source: "Make Magazine",
+      year: "2011",
+      url: "https://makezine.com/2011/09/22/how-to-drifting-robot-car-video/"
     },
     {
       author: "Lyneborg, F.",

@@ -15,6 +15,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isRoboticsSection = section.id === "robotics-community-education";
   const isMusicSection = section.id === "music-industry";
   const is3DPrintingSection = section.id === "3d-printing-consulting";
+  const isMakeMagazineSection = section.id === "make-magazine-projects";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
@@ -144,6 +145,66 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </div>
               </figure>
             </div>
+          )}
+          
+          {/* Special content for the Make Magazine projects section */}
+          {isMakeMagazineSection && (
+            <>
+              {index === 0 && (
+                <div className="mt-2 mb-4">
+                  <p className="text-sm italic mt-2">
+                    <a 
+                      href="https://makezine.com/projects/yellow-drum-machine/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue wiki-external inline-flex items-center"
+                    >
+                      Make Magazine: Yellow Drum Machine (2012)
+                    </a>
+                  </p>
+                </div>
+              )}
+              {index === 1 && (
+                <div className="mt-2 mb-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+                    <p className="text-sm italic">
+                      <a 
+                        href="https://makezine.com/2011/10/20/how-to-three-servos-walking-robot-video/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-wiki-blue wiki-external inline-flex items-center"
+                      >
+                        Make Magazine: How-To: Three Servos Walking Robot (2011)
+                      </a>
+                    </p>
+                    <p className="text-sm italic">
+                      <a 
+                        href="https://makezine.com/2011/09/22/how-to-drifting-robot-car-video/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-wiki-blue wiki-external inline-flex items-center"
+                      >
+                        Make Magazine: How-To: Drifting Robot Car (2011)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              )}
+              {index === 2 && (
+                <div className="mt-2 mb-4">
+                  <p className="text-sm italic mt-2">
+                    <a 
+                      href="https://makezine.com/2011/11/18/robotics-3d-carver-of-invisible-stuff/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue wiki-external inline-flex items-center"
+                    >
+                      Make Magazine: Robotic 3D Carver of Invisible Stuff (2011)
+                    </a>
+                  </p>
+                </div>
+              )}
+            </>
           )}
           
           {/* Special content for the 3D printing section */}
