@@ -5,6 +5,7 @@ import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
 import longboardImage from "../assets/images/longboard.svg";
 import parakartImage from "../assets/images/parakart.svg";
 import talesFromVoidImage from "../assets/images/tales_from_void.svg";
+import arrangerKingPackshot from "../assets/images/Packshot.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -71,7 +72,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           )}
           
           {/* Special patent reference for the patents section */}
-          {isPatentSection && (
+          {isPatentSection && index === 1 && (
             <div className="mt-3">
               <p className="text-sm italic">
                 <a 
@@ -84,6 +85,38 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </a>
               </p>
             </div>
+          )}
+
+          {/* ArrangerKing reference and image */}
+          {isPatentSection && index === 0 && (
+            <figure className="wiki-figure mb-2">
+              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
+                <a 
+                  href="https://arrangerking.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <img src={arrangerKingPackshot} alt="ArrangerKing - music arrangement software packshot" className="w-full" />
+                </a>
+                <figcaption className="mt-1 text-xs px-1">
+                  ArrangerKing (2024) - Lyneborg's revolutionary music arrangement plugin that transforms musical ideas into complete arrangements with just a few clicks.
+                  <span className="block mt-0.5">Source: Barking Audio</span>
+                </figcaption>
+              </div>
+              <div className="mt-3">
+                <p className="text-sm italic">
+                  <a 
+                    href="https://arrangerking.com/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-wiki-blue wiki-external inline-flex items-center"
+                  >
+                    ArrangerKing: Revolutionary Music Arrangement Technology (Official Site)
+                  </a>
+                </p>
+              </div>
+            </figure>
           )}
 
           {/* Special reference for the robotics section */}

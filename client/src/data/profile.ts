@@ -139,6 +139,10 @@ export const personData: PersonData = {
       title: "Patents and Inventions",
       achievements: [
         {
+          title: "Creator of ArrangerKing Music Plugin (2024)",
+          description: "In 2024, Lyneborg created ArrangerKing, an innovative music arrangement plugin that revolutionized the way producers and composers complete their tracks. This breakthrough technology was designed to solve a common challenge in music production where creators often lose inspiration during the arrangement phase. ArrangerKing allows musicians to transform initial musical ideas (typically '8-bar loops') into complete arrangements with just a few clicks rather than the traditional labor-intensive process of manually moving parts around in a digital audio workstation. The invention represents a significant technological advancement in music production software, combining complex algorithmic analysis with intuitive user interface design. The plugin received significant acclaim in the production community for its unprecedented approach to arrangement workflow, being described as 'the fastest way to arrange tracks' in music technology history. This invention demonstrates Lyneborg's unique ability to identify workflow challenges and develop technological solutions that transform creative processes."
+        },
+        {
           title: "International Patent for Spam-Free Email System (2005)",
           description: "In 2005, Lyneborg was granted an international patent (WO2006051434A1) for a method and system to prevent reception of unwanted electronic messages. His patented approach assigned unique addresses to each entity communicating with a user, with the unique identifier integrated into the email address itself. This innovation eliminated the need for traditional passwords while maintaining a conventional user experience. The system employed an initial challenge/response procedure to verify sender legitimacy, providing a high degree of protection against spam while preserving email functionality and user convenience."
         }
@@ -184,10 +188,6 @@ export const personData: PersonData = {
       id: "music-industry",
       title: "Music Industry Career",
       achievements: [
-        {
-          title: "Creator of ArrangerKing Music Plugin (2024)",
-          description: "In 2024, Lyneborg created ArrangerKing, an innovative music arrangement plugin that revolutionized the way producers and composers complete their tracks. This breakthrough tool was designed to solve a common challenge in music production where creators often lose inspiration during the arrangement phase. ArrangerKing allows musicians to transform initial musical ideas (typically '8-bar loops') into complete arrangements with just a few clicks rather than the traditional labor-intensive process of manually moving parts around in a digital audio workstation. The plugin received significant acclaim in the music production community for its unprecedented approach to arrangement workflow, being described as 'the fastest way to arrange tracks' in music history. This innovation built upon Lyneborg's unique combination of music industry experience and technical expertise, bridging his early career in electronic music with his later work in technology development."
-        },
         {
           title: "A&R Manager at Mega Records (1996-1998)",
           description: "From 1996 to 1998, Lyneborg worked as an Artists and Repertoire (A&R) manager at Mega Records, a prominent Danish record label. In this role, he was involved with managing established international acts like Ace of Base as well as significant Danish bands including D-A-D (Disneyland After Dark), Savage Rose, and Laid Back. His responsibilities included artist development, repertoire selection, and coordinating music production and importation of international acts."
