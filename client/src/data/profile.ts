@@ -145,6 +145,14 @@ export const personData: PersonData = {
       title: "Game Development Career",
       achievements: [
         {
+          title: "Lead R&D Developer at Skybox Technologies (2027-Present)",
+          description: "In May 2027, Lyneborg was promoted to Lead R&D Developer at Skybox Technologies, following his successful tenure as a Senior Unreal Developer. In this leadership role, his responsibilities expanded to include rapid development of games and prototypes utilizing multiple platforms including Unreal Engine, Unity, and Blender. The promotion recognized his technical expertise and ability to drive innovation across different game development environments."
+        },
+        {
+          title: "Senior Unreal Developer at Skybox Technologies (2023-2027)",
+          description: "On January 1, 2023, Lyneborg joined Skybox Technologies as a Senior Unreal Developer. In this role, he applied his extensive technical expertise and game development experience to create advanced gaming solutions using the Unreal Engine. His work at Skybox Technologies built upon his previous experience in the gaming industry, allowing him to further refine his skills in game development and technical art direction."
+        },
+        {
           title: "Technical Art Director at PortaPlay (2014-2015)",
           description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Though initially hired as a gameplay scripter/designer based on his experience in concept development, technical IT projects, and skills with Playmaker and scripting, his talents quickly led to a role change. As Technical Art Director, he significantly enhanced both visual quality and overall game performance. His responsibilities encompassed modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, implementing visual effects (skyboxes, weather, explosions), performance optimization, workflow planning, and directing 3D artists. Creative Director Hans von Knut Skovfoged noted Lyneborg's exceptional ability to rapidly master technical areas, strong personal initiative, and capacity to work independently within a defined vision while maintaining excellent team integration."
         }
@@ -181,18 +189,19 @@ export const personData: PersonData = {
   ],
   references: [
     {
+      title: "Leadership in Game Development and R&D",
+      source: "Skybox Technologies",
+      year: "2027",
+      url: "https://dk.linkedin.com/company/skybox-technologies"
+    },
+    {
       author: "Skovfoged, H. von K.",
       title: "Letter of Recommendation for Frits Lyneborg",
       source: "PortaPlay ApS",
       year: "2015",
       url: "mailto:hansvonknut@portaplay.dk"
     },
-    {
-      title: "Best Apple Deals",
-      source: "Engadget",
-      year: "2023",
-      url: "https://www.engadget.com/deals/best-apple-deals-150020110.html"
-    },
+
     {
       title: "Republica har stor fremgang og løfter overliggeren",
       source: "Markedsføring",
