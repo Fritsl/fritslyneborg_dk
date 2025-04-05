@@ -3,7 +3,7 @@ import megaRecordsLogo from "../assets/mega_records_logo.jpg";
 import humanoidRobotImage from "../assets/humanoid_robot_expo.jpg";
 import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
 import longboardImage from "../assets/images/longboard.svg";
-import parakartImage from "../assets/images/parakart.svg";
+import parakartImage from "../assets/images/parakart_new.png";
 import talesFromVoidImage from "../assets/images/tales_from_void.svg";
 import arrangerKingPackshot from "../assets/images/Packshot.png";
 import aiArtImage1 from "../assets/images/ai_art_1.png";
@@ -539,11 +539,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
               
               {index === 1 && (
                 <figure className="wiki-figure mb-2">
-                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '220px' }}>
-                    <img src={parakartImage} alt="Illustration of parakart (kite buggy)" className="w-full" />
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '300px' }}>
+                    <img src={parakartImage} alt="Parakarts (kite buggies) with colorful kites at a beach event" className="w-full" />
                     <figcaption className="mt-1 text-xs px-1">
-                      Parakart (or kite buggy) is a wind-powered three-wheeled vehicle.
-                      <span className="block mt-0.5">Illustration</span>
+                      Parakarts (kite buggies) at a beach event with numerous colorful kites in the sky. Lyneborg has been an active participant in this wind-powered sport.
+                      <span className="block mt-0.5">Source: Actual parakart event photo</span>
                     </figcaption>
                   </div>
                 </figure>
