@@ -57,10 +57,6 @@ export const personData: PersonData = {
         {
           title: "Digital Director at Republica (2015)",
           description: "In 2015, Lyneborg was appointed as Digital Director (Digital Chef) at Republica, a prominent Danish digital agency. As reported in Markedsføring, one of his first tasks was to develop innovative digital flyers, moving beyond the existing PDF-based solutions that were common at the time. According to company leadership, 'We have hired a digital chief, Frits Lyneborg, who will enhance our competence in the area.' In this role, he led the company's digital innovation strategies and technical development teams, helping clients navigate the growing digital marketing landscape. His expertise in both technical implementation and strategic digital planning strengthened Republica's position in the competitive Danish marketing sector during a period of significant growth for the company."
-        },
-        {
-          title: "Head of IT, Denmark's Largest Advertising Agency (2012)",
-          description: "In 2012, Lyneborg became Head of IT at Denmark's largest advertising agency, managing digital infrastructure and driving innovation across the company."
         }
       ]
     },
