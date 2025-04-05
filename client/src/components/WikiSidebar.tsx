@@ -1,17 +1,12 @@
 import { PersonData } from "@/data/profile";
 import TableOfContents from "./TableOfContents";
 import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
-import fritsPortrait from "@assets/PXL_20240528_100052148.PORTRAIT.jpg";
 
 interface WikiSidebarProps {
   person: PersonData;
 }
 
 export default function WikiSidebar({ person }: WikiSidebarProps) {
-  const portraitImage = person.details.portraitImage ? fritsPortrait : fritsImage;
-  const portraitAlt = person.details.portraitImage ? "Recent portrait of Frits Lyneborg" : "Frits Lyneborg giving a presentation";
-  const captionText = person.details.portraitImage ? "Recent portrait of Frits Lyneborg (2024)" : "Lyneborg presenting at a technology workshop";
-
   return (
     <aside className="md:w-64 md:mr-8 md:order-1 hidden md:block no-print">
       <div className="sticky top-4 max-h-screen overflow-y-auto pb-8 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
@@ -28,12 +23,12 @@ export default function WikiSidebar({ person }: WikiSidebarProps) {
           <div className="p-4 pb-2">
             <figure className="mb-2">
               <img 
-                src={portraitImage} 
-                alt={portraitAlt} 
+                src={fritsImage} 
+                alt="Frits Lyneborg giving a presentation" 
                 className="w-full border border-wiki-border"
               />
               <figcaption className="text-xs mt-1 text-center text-gray-600">
-                {captionText}
+                Lyneborg presenting at a technology workshop
               </figcaption>
             </figure>
           </div>

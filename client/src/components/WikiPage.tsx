@@ -4,6 +4,7 @@ import ContentSection from "./ContentSection";
 import WikiSidebar from "./WikiSidebar";
 import References from "./References";
 import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
+import fritsPortrait from "@assets/PXL_20240528_100052148.PORTRAIT.jpg";
 import { FaLinkedin } from "react-icons/fa";
 
 interface WikiPageProps {
@@ -81,6 +82,22 @@ export default function WikiPage({ person }: WikiPageProps) {
           {/* Sidebar with TOC - visible only on medium and larger screens */}
           <WikiSidebar person={person} />
         </div>
+      </div>
+
+      {/* Recent portrait */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 mb-8 border-t border-wiki-border pt-6">
+        <figure className="flex flex-col items-center">
+          <div className="border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '400px' }}>
+            <img 
+              src={fritsPortrait} 
+              alt="Recent portrait of Frits Lyneborg (2024)" 
+              className="w-full"
+            />
+          </div>
+          <figcaption className="text-sm mt-2 text-center text-gray-600">
+            Recent portrait of Frits Lyneborg (2024)
+          </figcaption>
+        </figure>
       </div>
 
       {/* Footer */}
