@@ -20,6 +20,7 @@ import letsMakeRobotsCollage from "../assets/images/letsmakerobots_collage.png";
 import republicaImage from "../assets/images/frits_republica_digital_chef.png";
 import venstreLogo from "../assets/images/venstre_logo.png";
 import berlingskelogo from "../assets/images/berlingske_logo.jpg";
+import thieleLogo from "../assets/images/thiele_logo.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -89,25 +90,35 @@ export default function ContentSection({ section }: ContentSectionProps) {
             </>
           )}
           
-          {/* Venstre and Berlingske logos for Digital Innovation achievement */}
+          {/* Venstre, Berlingske and Thiele logos for Digital Innovation achievement */}
           {isWebEntrepreneurshipSection && achievement.title.includes("Digital Innovation for Major Danish Organizations") && (
             <>
-              <figure className="wiki-figure mb-3">
-                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '120px' }}>
-                  <img src={venstreLogo} alt="Venstre (Liberal Party of Denmark) logo" className="w-full" />
-                  <figcaption className="mt-1 text-xs px-1">
-                    Venstre logo. Lyneborg's web agency BEE3 created and managed over 300 websites for Denmark's Liberal Party.
-                  </figcaption>
-                </div>
-              </figure>
-              <figure className="wiki-figure mb-3">
-                <div className="float-left mr-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '120px' }}>
-                  <img src={berlingskelogo} alt="Berlingske Tidende (BT) logo" className="w-full" />
-                  <figcaption className="mt-1 text-xs px-1">
-                    Berlingske Tidende logo. Det Berlingske Officin was a major client of Lyneborg's web agency BEE3.
-                  </figcaption>
-                </div>
-              </figure>
+              <div className="flex flex-wrap">
+                <figure className="wiki-figure mb-3">
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '120px' }}>
+                    <img src={venstreLogo} alt="Venstre (Liberal Party of Denmark) logo" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Venstre logo. Lyneborg's web agency BEE3 created and managed over 300 websites for Denmark's Liberal Party.
+                    </figcaption>
+                  </div>
+                </figure>
+                <figure className="wiki-figure mb-3">
+                  <div className="float-left mr-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '120px' }}>
+                    <img src={berlingskelogo} alt="Berlingske Tidende (BT) logo" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Berlingske Tidende logo. Det Berlingske Officin was a major client of Lyneborg's web agency BEE3.
+                    </figcaption>
+                  </div>
+                </figure>
+                <figure className="wiki-figure mb-3">
+                  <div className="ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '120px' }}>
+                    <img src={thieleLogo} alt="Thiele optician chain logo" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Thiele logo. The national optician chain was among the prominent clients of Lyneborg's web agency BEE3.
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
             </>
           )}
           
