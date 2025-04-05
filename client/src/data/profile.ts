@@ -231,7 +231,7 @@ export const personData: PersonData = {
         },
         {
           title: "Parakart Driver",
-          description: "Lyneborg also engages in the dynamic sport of parakart driving (also known as kite buggying), where a three-wheeled buggy is powered by a kite. This activity combines wind energy harvesting with precise control techniques, creating an eco-friendly form of land sailing. His interest in this adventure sport connects to his broader fascination with alternative energy applications and autonomous motion systems, themes that have defined much of his professional work with drones and robotics."
+          description: "Lyneborg also engages in the dynamic sport of parakart driving (also known as kite buggying), where a three-wheeled buggy is powered by a kite. This activity combines wind energy harvesting with precise control techniques, creating an eco-friendly form of land sailing."
         }
       ]
     },
