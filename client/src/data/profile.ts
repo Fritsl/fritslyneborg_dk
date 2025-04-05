@@ -126,7 +126,7 @@ export const personData: PersonData = {
         },
         {
           title: "Digital Innovation for Major Danish Organizations",
-          description: "Under Lyneborg's leadership, BEE3 secured contracts with prominent clients including the government party Venstre, major news outlet Det Berlingske Officin, and national optician chain Thiele. His innovative web system for Venstre allowed party headquarters to maintain control over narrative and design across more than 100 local division websites while preserving local autonomy—an unprecedented feature credited with contributing to the party's electoral success through effective digital coordination."
+          description: "Under Lyneborg's leadership, BEE3 secured contracts with prominent clients including the government party Venstre (Denmark's Liberal Party), major news outlet Det Berlingske Officin, and national optician chain Thiele. His highly accessible and scalable CMS for Venstre's National Organization (Venstres Landsorganisation) allowed party headquarters to maintain consistent design standards across more than 300 websites while enabling easy maintenance by users with various levels of technical expertise—from students and IT enthusiasts to retirees. The system required minimal support, with new sites taking only seconds to create. As confirmed by Henrik Andersen, IT and Web Developer at Venstre, this innovative solution provided extremely cost-effective websites while ensuring design consistency and simplifying what would otherwise be a complex system for most users. This unprecedented web infrastructure was credited with contributing to the party's electoral success through effective digital coordination."
         }
       ]
     },
@@ -318,6 +318,12 @@ export const personData: PersonData = {
       title: "The Rise of Hobbyist Robotics Communities",
       source: "Technology Review",
       year: "2010"
+    },
+    {
+      author: "Andersen, H.",
+      title: "Recommendation of Frits Lyneborg",
+      source: "Venstres Landsorganisation",
+      year: "2008"
     },
     {
       title: "Open Source in Government: The Venstre Web Strategy",
