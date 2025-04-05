@@ -36,10 +36,24 @@ export const personData: PersonData = {
   introduction: "is a Danish technologist, entrepreneur, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, and developed groundbreaking technologies in emerging industries.",
   details: {
     nationality: "Danish",
-    fields: "Robotics, Autonomous Systems, IT Leadership",
-    knownFor: "Founding global robotics community, Autonomous drone development"
+    fields: "Robotics, Web Development, IT Leadership, Entrepreneurship",
+    knownFor: "Founding global robotics community, Open source web innovations, Autonomous drone development"
   },
   sections: [
+    {
+      id: "web-entrepreneurship",
+      title: "Web Development and Entrepreneurship",
+      achievements: [
+        {
+          title: "Founder of Leading Open Source Web Agency (2005-2008)",
+          description: "In 2005, Lyneborg founded BEE3, a Copenhagen-based web agency that became Denmark's leading specialist in open source content management systems (CMS). Operating without external investment, the bootstrapped company grew to 10 employees before closing during the economic recession of 2008. At a time when open source technologies were widely considered risky and non-professional options, BEE3 pioneered the use of TYPO3, a Danish-developed open source CMS."
+        },
+        {
+          title: "Digital Innovation for Major Danish Organizations",
+          description: "Under Lyneborg's leadership, BEE3 secured contracts with prominent clients including the government party Venstre, major news outlet Det Berlingske Officin, and national optician chain Thiele. His innovative web system for Venstre allowed party headquarters to maintain control over narrative and design across more than 100 local division websites while preserving local autonomy—an unprecedented feature credited with contributing to the party's electoral success through effective digital coordination."
+        }
+      ]
+    },
     {
       id: "robotics-community-education",
       title: "Robotics Community and Education",
@@ -87,6 +101,11 @@ export const personData: PersonData = {
       title: "Innovation Leaders in Danish Corporate IT",
       source: "Danish Business Weekly",
       year: "2013"
+    },
+    {
+      title: "Open Source in Government: The Venstre Web Strategy",
+      source: "Danish Digital Review",
+      year: "2008"
     }
   ]
 };
