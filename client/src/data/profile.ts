@@ -19,8 +19,10 @@ export interface Reference {
 
 export interface PersonDetails {
   nationality: string;
+  birthYear?: string;
   fields: string;
   knownFor: string;
+  portraitImage?: string;
 }
 
 export interface PersonData {
@@ -36,8 +38,10 @@ export const personData: PersonData = {
   introduction: "is a Danish technologist, entrepreneur, inventor, educator, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, music technology, and digital innovation. Currently, he collaborates with renowned Danish business executive Lars Kolind on the project \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\"), a roadshow and workshop series designed to prepare Danish and European business leaders and board members of large corporations for the imminent asymmetry in companies' deep usage and understanding of AI technology, with additional focus on Automation and Agentic AI using n8n technology. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries. As an educator, he taught 3D art principles to hundreds of students at the Royal Danish Academy of Art in Copenhagen among other institutions through his consultancy Blenderkursus.dk (2015-2022). His latest innovation, ArrangerKing (2024), represents a revolutionary approach to music arrangement that has been widely acclaimed by the production community.",
   details: {
     nationality: "Danish",
+    birthYear: "1970",
     fields: "Music Production, Robotics, AI Implementation, Vibe Coding, 3D Art Education, Web Development, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
-    knownFor: "Highly experienced Vibe Coder, Automation and Agentic AI consultant, Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Longboarding and parakart enthusiast"
+    knownFor: "Highly experienced Vibe Coder, Automation and Agentic AI consultant, Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Longboarding and parakart enthusiast",
+    portraitImage: "/src/assets/images/frits_portrait_2024.jpg"
   },
   sections: [
 
