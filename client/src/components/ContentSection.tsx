@@ -46,12 +46,33 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isITLeadershipSection = section.id === "it-leadership";
   
   return (
-    <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
-      <h2 className="text-2xl font-wiki-serif mb-4">{section.title}</h2>
+    <section 
+      id={section.id} 
+      className="py-4 border-t border-wiki-border overflow-hidden"
+      aria-labelledby={`heading-${section.id}`}
+      itemScope 
+      itemType="https://schema.org/CreativeWork"
+    >
+      <meta itemProp="about" content={`${section.title} achievements of Frits Lyneborg`} />
+      <h2 id={`heading-${section.id}`} className="text-2xl font-wiki-serif mb-4" itemProp="name">{section.title}</h2>
       
       {section.achievements.map((achievement, index) => (
-        <div key={index} className="mb-6 overflow-hidden">
-          <h3 className="text-xl font-wiki-serif mb-2">{achievement.title}</h3>
+        <div 
+          key={index} 
+          className="mb-6 overflow-hidden" 
+          itemScope 
+          itemType="https://schema.org/Thing"
+          itemProp="hasPart"
+        >
+          <meta itemProp="identifier" content={`achievement-${section.id}-${index}`} />
+          <meta itemProp="description" content={achievement.description} />
+          <h3 
+            id={`achievement-${section.id}-${index}`} 
+            className="text-xl font-wiki-serif mb-2" 
+            itemProp="name"
+          >
+            {achievement.title}
+          </h3>
 
           {/* Special content for IT Leadership section - Republica Digital Chief */}
           {isITLeadershipSection && achievement.title.includes("Digital Director at Republica") && (
@@ -64,7 +85,13 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     rel="noopener noreferrer"
                     className="block"
                   >
-                    <img src={republicaImage} alt="News article about Frits Lyneborg's appointment as Digital Chief at Republica in 2009" className="w-full" />
+                    <img 
+                      src={republicaImage} 
+                      alt="News article about Frits Lyneborg's appointment as Digital Chief at Republica in 2009" 
+                      className="w-full" 
+                      itemProp="image"
+                      loading="lazy"
+                    />
                   </a>
                   <figcaption className="mt-1 text-xs px-1">
                     <a 
@@ -170,6 +197,10 @@ export default function ContentSection({ section }: ContentSectionProps) {
                         src="https://img.youtube.com/vi/YWhO2vP2n9U/0.jpg" 
                         alt="Video thumbnail: Autonomous drone demonstration by Frits Lyneborg (2011)" 
                         className="w-full"
+                        itemProp="image"
+                        loading="lazy"
+                        width="800"
+                        height="450"
                       />
                     </a>
                     <figcaption className="mt-1 text-sm px-1">
@@ -218,7 +249,13 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <img src={arrangerKingPackshot} alt="ArrangerKing - music arrangement software packshot" className="w-full" />
+                  <img 
+                    src={arrangerKingPackshot} 
+                    alt="ArrangerKing - music arrangement software packshot" 
+                    className="w-full" 
+                    itemProp="image"
+                    loading="lazy"
+                  />
                 </a>
                 <figcaption className="mt-1 text-xs px-1">
                   ArrangerKing (2024) - Lyneborg's revolutionary music arrangement plugin that transforms musical ideas into complete arrangements with just a few clicks.
@@ -285,6 +322,10 @@ export default function ContentSection({ section }: ContentSectionProps) {
                       src={letsMakeRobotsCollage} 
                       alt="Collage of robot projects inspired by Frits Lyneborg's LetsMakeRobots community" 
                       className="w-full"
+                      itemProp="image"
+                      loading="lazy"
+                      width="700"
+                      height="400"
                     />
                     <figcaption className="mt-1 text-sm px-1">
                       <span className="font-semibold">A small fraction of the hundreds of thousands of robot building projects inspired by Frits Lyneborg</span>
