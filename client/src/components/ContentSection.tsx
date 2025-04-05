@@ -10,6 +10,8 @@ import aiArtImage1 from "../assets/images/ai_art_1.png";
 import aiArtImage2 from "../assets/images/ai_art_2.png";
 import aiArtImage3 from "../assets/images/ai_art_3.png";
 import aiArtImage4 from "../assets/images/ai_art_4.png";
+import blenderLogo from "../assets/images/blender_logo.png";
+import royalAcademyLogo from "../assets/images/royal_academy_logo.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -26,6 +28,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isLeisureSection = section.id === "leisure-activities";
   const isGameDevSection = section.id === "game-development";
   const isAISection = section.id === "ai-innovation";
+  const isTeachingSection = section.id === "teaching-experience";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
@@ -336,6 +339,35 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   These pieces represent some of Lyneborg's earliest explorations with Large Language Models (LLMs) for generative art creation in 2023, at a time when most people were unfamiliar with LLM technology and its creative applications. The artworks demonstrate both the technical capability to effectively prompt these systems and the artistic vision to create cohesive works through the emerging medium.
                 </p>
               </div>
+            </>
+          )}
+          
+          {/* Special content for the teaching section */}
+          {isTeachingSection && (
+            <>
+              {index === 0 && (
+                <figure className="wiki-figure mb-2">
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
+                    <img src={blenderLogo} alt="Blender 3D Software Logo" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      The Blender 3D software logo. Lyneborg specialized in teaching this powerful open-source 3D creation suite through his Blenderkursus.dk consultancy.
+                      <span className="block mt-0.5">Source: Blender Foundation</span>
+                    </figcaption>
+                  </div>
+                </figure>
+              )}
+              
+              {index === 1 && (
+                <figure className="wiki-figure mb-2">
+                  <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
+                    <img src={royalAcademyLogo} alt="Royal Danish Academy of Fine Arts Logo" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      The official seal of the Royal Danish Academy of Fine Arts (Det Kongelige Danske Kunstakademi), where Lyneborg taught 3D visualization techniques to students from 2015-2022.
+                      <span className="block mt-0.5">Source: Royal Danish Academy of Fine Arts</span>
+                    </figcaption>
+                  </div>
+                </figure>
+              )}
             </>
           )}
           
