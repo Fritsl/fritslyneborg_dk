@@ -48,6 +48,10 @@ export const personData: PersonData = {
         {
           title: "Digital Director at Republica (2015)",
           description: "In 2015, Lyneborg was appointed as Digital Director (Digital Chef) at Republica, a prominent Danish digital agency. As reported in Markedsføring, one of his first tasks was to develop innovative digital flyers, moving beyond the existing PDF-based solutions that were common at the time. According to company leadership, 'We have hired a digital chief, Frits Lyneborg, who will enhance our competence in the area.' In this role, he led the company's digital innovation strategies and technical development teams, helping clients navigate the growing digital marketing landscape. His expertise in both technical implementation and strategic digital planning strengthened Republica's position in the competitive Danish marketing sector during a period of significant growth for the company."
+        },
+        {
+          title: "Senior Strategic Advisor at Wemind A/S (2010-2013)",
+          description: "From 2010 to 2013, Lyneborg served as Senior Strategic Advisor (Senior Strategisk Rådgiver) at Wemind A/S, a Danish consultancy firm. In this role, he provided high-level strategic guidance on digital transformation and technology implementation to various client organizations. His work at Wemind allowed him to leverage his extensive experience across multiple technological domains to develop forward-thinking strategies for businesses navigating the rapidly evolving digital landscape. During this period, he established himself as a trusted advisor to executive leadership teams seeking to enhance their organizations' technical capabilities and digital presence."
         }
       ]
     },
@@ -429,6 +433,11 @@ export const personData: PersonData = {
       source: "DR (Danish Broadcasting Corporation)",
       year: "2010",
       url: "https://www.dr.dk/"
+    },
+    {
+      title: "Senior Strategic Advisor Position",
+      source: "Wemind A/S",
+      year: "2010-2013"
     },
     {
       author: "Lyneborg, F.",
