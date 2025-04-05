@@ -13,6 +13,8 @@ import aiArtImage4 from "../assets/images/ai_art_4.png";
 import blenderLogo from "../assets/images/blender_logo.png";
 import royalAcademyLogo from "../assets/images/royal_academy_logo.png";
 import bareFeetGameImage from "../assets/images/bare_feet_game.png";
+import unityLogo from "../assets/images/unity_logo.png";
+import unrealLogo from "../assets/images/unreal_logo.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -246,6 +248,30 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </div>
               )}
             </>
+          )}
+          
+          {/* Special content for the game engine expert section */}
+          {isGameDevSection && index === 1 && (
+            <div className="mt-3 mb-4">
+              <div className="flex flex-wrap items-center gap-6 mt-2">
+                <figure className="wiki-figure mb-2">
+                  <div className="border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '180px' }}>
+                    <img src={unityLogo} alt="Unity Game Engine Logo" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Unity game engine - one of the frameworks Lyneborg has mastered and taught throughout his career.
+                    </figcaption>
+                  </div>
+                </figure>
+                <figure className="wiki-figure mb-2">
+                  <div className="border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '180px' }}>
+                    <img src={unrealLogo} alt="Unreal Engine Logo" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Unreal Engine - Lyneborg has expertise in both major game development frameworks.
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
+            </div>
           )}
           
           {/* Special content for the game development section */}

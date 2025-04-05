@@ -185,6 +185,10 @@ export const personData: PersonData = {
           description: "On May 17, 2024, Lyneborg was promoted to Lead R&D Developer at Skybox Technologies, following his successful tenure as a Senior Unreal Developer. In this leadership role, his responsibilities expanded to include rapid development of games and prototypes utilizing multiple platforms including Unreal Engine, Unity, and Blender. His technological expertise and creative problem-solving abilities enabled him to effectively lead research and development initiatives, exploring new approaches to game development and innovative user experiences. He remained in this position until February 2025."
         },
         {
+          title: "Game Engine Expert and Educator",
+          description: "Throughout his career, Lyneborg has mastered both Unreal Engine and Unity game development frameworks, establishing himself as a versatile expert in the field. He has shared this knowledge through teaching both frameworks to private students and within game development studios. His comprehensive understanding of these competing technologies has allowed him to select the optimal engine for specific project requirements, recognizing the unique strengths of each platform. This dual expertise has proven particularly valuable in his leadership roles, where he could effectively guide development teams and make informed technical decisions regardless of the chosen engine architecture."
+        },
+        {
           title: "Senior Unreal Developer at Skybox Technologies (2023-2024)",
           description: "On January 1, 2023, Lyneborg joined Skybox Technologies as a Senior Unreal Developer. In this role, he applied his extensive technical expertise and game development experience to create advanced gaming solutions using the Unreal Engine. His work at Skybox Technologies built upon his previous experience in the gaming industry, allowing him to further refine his skills in game development and contribute to cutting-edge projects in the gaming sector."
         },
@@ -274,6 +278,12 @@ export const personData: PersonData = {
       source: "Skybox Technologies",
       year: "2024",
       url: "https://dk.linkedin.com/company/skybox-technologies"
+    },
+    {
+      title: "Unity and Unreal Engine Expertise",
+      source: "Game Development Portfolio",
+      year: "2014-2025",
+      url: "https://unity.com/"
     },
     {
       author: "Kolind, L.",
