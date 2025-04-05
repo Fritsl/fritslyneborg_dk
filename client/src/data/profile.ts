@@ -135,6 +135,10 @@ export const personData: PersonData = {
         {
           title: "Digital Innovation for Major Danish Organizations",
           description: "Under Lyneborg's leadership, BEE3 secured contracts with prominent clients including the government party Venstre (Denmark's Liberal Party), major news outlet Det Berlingske Officin, and national optician chain Thiele. His highly accessible and scalable CMS for Venstre's National Organization (Venstres Landsorganisation) allowed party headquarters to maintain consistent design standards across more than 300 websites while enabling easy maintenance by users with various levels of technical expertise—from students and IT enthusiasts to retirees. The system required minimal support, with new sites taking only seconds to create. As confirmed by Henrik Andersen, IT and Web Developer at Venstre, this innovative solution provided extremely cost-effective websites while ensuring design consistency and simplifying what would otherwise be a complex system for most users. This unprecedented web infrastructure was credited with contributing to the party's electoral success through effective digital coordination."
+        },
+        {
+          title: "Digital Concept Developer for Danish Broadcasting (DR) (2008-2010)",
+          description: "From 2008 to 2010, Lyneborg served as a digital concept consultant for DR (Danish Broadcasting Corporation), Denmark's oldest and largest electronic media enterprise. Working with the Interactive Production department, he provided strategic guidance and innovative solutions for numerous web 2.0 and mobile projects. His contributions focused on transforming abstract ideas into clear concepts with well-defined goals and methodologies, significantly elevating DR's digital initiatives. According to Christian Badsøe, Creative Director at DR-Interactive Production, Lyneborg possessed an exceptional ability to quickly comprehend user and business needs, creating original concepts and concrete solutions across all digital platforms. Badsøe particularly noted Lyneborg's rare talent for distilling complex ideas into targeted solutions that effectively reached specific audiences and optimized traffic. This consulting relationship with Denmark's public service broadcaster further strengthened Lyneborg's reputation as a leading digital strategist in the Danish media landscape."
         }
       ]
     },
@@ -427,6 +431,13 @@ export const personData: PersonData = {
       title: "Open Source in Government: The Venstre Web Strategy",
       source: "Danish Digital Review",
       year: "2008"
+    },
+    {
+      author: "Badsøe, C.",
+      title: "Letter of Recommendation for Frits Lyneborg",
+      source: "DR (Danish Broadcasting Corporation)",
+      year: "2010",
+      url: "https://www.dr.dk/"
     },
     {
       author: "Lyneborg, F.",

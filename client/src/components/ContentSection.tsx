@@ -15,6 +15,7 @@ import royalAcademyLogo from "../assets/images/royal_academy_logo.png";
 import bareFeetGameImage from "../assets/images/bare_feet_game.png";
 import unityLogo from "../assets/images/unity_logo.png";
 import unrealLogo from "../assets/images/unreal_logo.png";
+import drLogo from "../assets/images/dr_logo.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -32,6 +33,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isGameDevSection = section.id === "game-development";
   const isAISection = section.id === "ai-innovation";
   const isTeachingSection = section.id === "teaching-experience";
+  const isWebEntrepreneurshipSection = section.id === "web-entrepreneurship";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
@@ -40,6 +42,31 @@ export default function ContentSection({ section }: ContentSectionProps) {
       {section.achievements.map((achievement, index) => (
         <div key={index} className="mb-6 overflow-hidden">
           <h3 className="text-xl font-wiki-serif mb-2">{achievement.title}</h3>
+
+          {/* Special content for DR consulting position */}
+          {isWebEntrepreneurshipSection && achievement.title.includes("Digital Concept Developer for Danish Broadcasting (DR)") && (
+            <>
+              <figure className="wiki-figure mb-3">
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '180px' }}>
+                  <img src={drLogo} alt="DR (Danish Broadcasting Corporation) logo" className="w-full" />
+                  <figcaption className="mt-1 text-xs px-1">
+                    DR (Danish Broadcasting Corporation) logo. Lyneborg worked as a digital concept consultant for Denmark's public broadcaster from 2008 to 2010.
+                  </figcaption>
+                </div>
+              </figure>
+              <div className="mt-3 mb-3">
+                <p className="text-sm italic">
+                  <a
+                    href="#references"
+                    className="text-wiki-blue wiki-internal inline-flex items-center"
+                  >
+                    Letter of Recommendation from Christian Badsøe, Creative Director at DR-Interactive Production (2010)
+                  </a>
+                </p>
+              </div>
+            </>
+          )}
+          
           <p className="text-base leading-relaxed">
             {achievement.description}
           </p>
