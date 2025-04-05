@@ -5,6 +5,7 @@ import humanoidRobotImage from "../assets/humanoid_robot_expo.jpg";
 import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
 import longboardImage from "../assets/images/longboard.svg";
 import parakartImage from "../assets/images/parakart.svg";
+import talesFromVoidImage from "../assets/images/tales_from_void.svg";
 
 interface ContentSectionProps {
   section: Section;
@@ -19,6 +20,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const is3DPrintingSection = section.id === "3d-printing-consulting";
   const isMakeMagazineSection = section.id === "make-magazine-projects";
   const isLeisureSection = section.id === "leisure-activities";
+  const isGameDevSection = section.id === "game-development";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
@@ -208,6 +210,19 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </div>
               )}
             </>
+          )}
+          
+          {/* Special content for the game development section */}
+          {isGameDevSection && (
+            <figure className="wiki-figure mb-2">
+              <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
+                <img src={talesFromVoidImage} alt="Tales from the Void - a sci-fi strategy game" className="w-full" />
+                <figcaption className="mt-1 text-xs px-1">
+                  "Tales from the Void" - the sci-fi strategy game Lyneborg worked on as Technical Art Director at PortaPlay in 2014-2015.
+                  <span className="block mt-0.5">Conceptual representation</span>
+                </figcaption>
+              </div>
+            </figure>
           )}
           
           {/* Special content for the leisure activities section */}

@@ -145,6 +145,16 @@ export const personData: PersonData = {
       ]
     },
     {
+      id: "game-development",
+      title: "Game Development Career",
+      achievements: [
+        {
+          title: "Technical Art Director at PortaPlay (2014-2015)",
+          description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Though initially hired as a gameplay scripter/designer based on his experience in concept development, technical IT projects, and skills with Playmaker and scripting, his talents quickly led to a role change. As Technical Art Director, he significantly enhanced both visual quality and overall game performance. His responsibilities encompassed modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, implementing visual effects (skyboxes, weather, explosions), performance optimization, workflow planning, and directing 3D artists. Creative Director Hans von Knut Skovfoged noted Lyneborg's exceptional ability to rapidly master technical areas, strong personal initiative, and capacity to work independently within a defined vision while maintaining excellent team integration."
+        }
+      ]
+    },
+    {
       id: "leisure-activities",
       title: "Leisure Activities and Adventure Sports",
       achievements: [
@@ -174,6 +184,13 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      author: "Skovfoged, H. von K.",
+      title: "Letter of Recommendation for Frits Lyneborg",
+      source: "PortaPlay ApS",
+      year: "2015",
+      url: "mailto:hansvonknut@portaplay.dk"
+    },
     {
       title: "Best Apple Deals",
       source: "Engadget",
