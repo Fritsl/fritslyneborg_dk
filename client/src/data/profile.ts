@@ -33,7 +33,7 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, entrepreneur, inventor, educator, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, music technology, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries. As an educator, he taught 3D art principles to hundreds of students at the Royal Danish Academy of Art in Copenhagen among other institutions through his consultancy Blenderkursus.dk (2015-2022). His latest innovation, ArrangerKing (2024), represents a revolutionary approach to music arrangement that has been widely acclaimed by the production community.",
+  introduction: "is a Danish technologist, entrepreneur, inventor, educator, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, music technology, and digital innovation. Currently, he collaborates with renowned Danish business executive Lars Kolind on the project \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\"), a roadshow and workshop series designed to prepare Danish and European business leaders and board members of large corporations for the imminent asymmetry in companies' deep usage and understanding of AI technology. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries. As an educator, he taught 3D art principles to hundreds of students at the Royal Danish Academy of Art in Copenhagen among other institutions through his consultancy Blenderkursus.dk (2015-2022). His latest innovation, ArrangerKing (2024), represents a revolutionary approach to music arrangement that has been widely acclaimed by the production community.",
   details: {
     nationality: "Danish",
     fields: "Music Production, Robotics, 3D Art Education, Web Development, IT Leadership, Entrepreneurship, Patents, Consumer Technology, Adventure Sports",
@@ -148,7 +148,7 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Creator of ArrangerKing Music Plugin (2024)",
-          description: "In 2024, Lyneborg created ArrangerKing, an innovative music arrangement plugin that revolutionized the way producers and composers complete their tracks. This breakthrough technology was designed to solve a common challenge in music production where creators often lose inspiration during the arrangement phase. ArrangerKing allows musicians to transform initial musical ideas (typically '8-bar loops') into complete arrangements with just a few clicks rather than the traditional labor-intensive process of manually moving parts around in a digital audio workstation. The invention represents a significant technological advancement in music production software, combining complex algorithmic analysis with intuitive user interface design. The plugin received significant acclaim in the production community for its unprecedented approach to arrangement workflow, being described as 'the fastest way to arrange tracks' in music technology history. This invention demonstrates Lyneborg's unique ability to identify workflow challenges and develop technological solutions that transform creative processes."
+          description: "In 2024, Lyneborg created ArrangerKing, an innovative music arrangement plugin that revolutionized the way producers and composers complete their tracks. This breakthrough technology was designed to solve a common challenge in music production where creators often lose inspiration during the arrangement phase. Notably, while ArrangerKing itself is not an AI product, Lyneborg strategically utilized AI tools throughout its development process, exemplifying his forward-thinking approach to leveraging new technologies. ArrangerKing allows musicians to transform initial musical ideas (typically '8-bar loops') into complete arrangements with just a few clicks rather than the traditional labor-intensive process of manually moving parts around in a digital audio workstation. The invention represents a significant technological advancement in music production software, combining complex algorithmic analysis with intuitive user interface design. The plugin received significant acclaim in the production community for its unprecedented approach to arrangement workflow, being described as 'the fastest way to arrange tracks' in music technology history. This invention demonstrates Lyneborg's unique ability to identify workflow challenges and develop technological solutions that transform creative processes."
         },
         {
           title: "International Patent for Spam-Free Email System (2005)",
@@ -264,7 +264,7 @@ export const personData: PersonData = {
       year: "2015-2022"
     },
     {
-      title: "ArrangerKing: Revolutionary Music Arrangement Plugin",
+      title: "ArrangerKing: Revolutionary Music Arrangement Plugin (Built Using AI as a Tool)",
       source: "Barking Audio",
       year: "2024",
       url: "https://arrangerking.com/"
