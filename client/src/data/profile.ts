@@ -33,11 +33,11 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, entrepreneur, inventor, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, music technology, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries. His latest innovation, ArrangerKing (2024), represents a revolutionary approach to music arrangement that has been widely acclaimed by the production community.",
+  introduction: "is a Danish technologist, entrepreneur, inventor, educator, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, music technology, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries. As an educator, he taught 3D art principles to hundreds of students at the Royal Danish Academy of Art in Copenhagen among other institutions through his consultancy Blenderkursus.dk (2015-2022). His latest innovation, ArrangerKing (2024), represents a revolutionary approach to music arrangement that has been widely acclaimed by the production community.",
   details: {
     nationality: "Danish",
-    fields: "Music Production, Robotics, Web Development, IT Leadership, Entrepreneurship, Patents, Consumer Technology, Adventure Sports",
-    knownFor: "Creator of ArrangerKing music plugin, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Technology enthusiast, Longboarding and parakart enthusiast"
+    fields: "Music Production, Robotics, 3D Art Education, Web Development, IT Leadership, Entrepreneurship, Patents, Consumer Technology, Adventure Sports",
+    knownFor: "Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Technology enthusiast, Longboarding and parakart enthusiast"
   },
   sections: [
     {
@@ -163,6 +163,20 @@ export const personData: PersonData = {
       ]
     },
     {
+      id: "teaching-experience",
+      title: "3D Art Education and Teaching",
+      achievements: [
+        {
+          title: "Founder of Blenderkursus.dk (2015-2022)",
+          description: "From 2015 to 2022, Lyneborg operated Blenderkursus.dk, a specialized consultancy focused on 3D art education. Through this platform, he delivered comprehensive training in 3D modeling, animation, and fundamental artistic principles to hundreds of students across Denmark. His teaching methodology emphasized practical skills development alongside theoretical understanding, enabling students to rapidly apply complex 3D concepts to real-world creative projects. The consultancy grew to become a recognized resource for quality 3D education in Denmark."
+        },
+        {
+          title: "Instructor at the Royal Danish Academy of Art (2015-2022)",
+          description: "Throughout his seven-year tenure as an instructor at the prestigious Royal Danish Academy of Art in Copenhagen, Lyneborg developed and delivered specialized courses on 3D visualization techniques, digital sculpture, and computational design. Working with students across disciplines including fine arts, architecture, and design, he helped integrate cutting-edge digital 3D technologies into traditional art education. His workshops were known for bridging the gap between technical proficiency and artistic expression, encouraging students to explore new creative possibilities through digital media while maintaining strong foundational principles."
+        }
+      ]
+    },
+    {
       id: "game-development",
       title: "Game Development",
       achievements: [
@@ -210,6 +224,11 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "Blenderkursus.dk: 3D Art Education Platform",
+      source: "Royal Danish Academy of Art",
+      year: "2015-2022"
+    },
     {
       title: "ArrangerKing: Revolutionary Music Arrangement Plugin",
       source: "Barking Audio",
