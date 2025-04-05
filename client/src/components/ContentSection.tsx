@@ -17,6 +17,7 @@ import unityLogo from "../assets/images/unity_logo.png";
 import unrealLogo from "../assets/images/unreal_logo.png";
 import drLogo from "../assets/images/dr_logo.png";
 import letsMakeRobotsCollage from "../assets/images/letsmakerobots_collage.png";
+import republicaImage from "../assets/images/frits_republica_digital_chef.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -35,6 +36,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isAISection = section.id === "ai-innovation";
   const isTeachingSection = section.id === "teaching-experience";
   const isWebEntrepreneurshipSection = section.id === "web-entrepreneurship";
+  const isITLeadershipSection = section.id === "it-leadership";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
@@ -44,6 +46,47 @@ export default function ContentSection({ section }: ContentSectionProps) {
         <div key={index} className="mb-6 overflow-hidden">
           <h3 className="text-xl font-wiki-serif mb-2">{achievement.title}</h3>
 
+          {/* Special content for IT Leadership section - Republica Digital Chief */}
+          {isITLeadershipSection && achievement.title.includes("Digital Director at Republica") && (
+            <>
+              <figure className="wiki-figure mb-3">
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <a 
+                    href="https://bureaubiz.dk/navn/republica-fritz-lyneborg-som-digital-chef/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <img src={republicaImage} alt="News article about Frits Lyneborg's appointment as Digital Chief at Republica in 2009" className="w-full" />
+                  </a>
+                  <figcaption className="mt-1 text-xs px-1">
+                    <a 
+                      href="https://bureaubiz.dk/navn/republica-fritz-lyneborg-som-digital-chef/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue wiki-external"
+                    >
+                      Media coverage of Lyneborg's appointment as Digital Chief at Republica (April 1, 2009)
+                    </a>
+                    <span className="block mt-0.5">Source: BureauBiz.dk</span>
+                  </figcaption>
+                </div>
+              </figure>
+              <div className="mt-3 mb-3">
+                <p className="text-sm italic">
+                  <a
+                    href="https://markedsforing.dk/artikler/nyheder/republica-har-stor-fremgang-og-loefter-overliggeren/"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-wiki-blue wiki-external inline-flex items-center"
+                  >
+                    Markedsføring: "Republica har stor fremgang og løfter overliggeren" (2015)
+                  </a>
+                </p>
+              </div>
+            </>
+          )}
+          
           {/* Special content for DR consulting position */}
           {isWebEntrepreneurshipSection && achievement.title.includes("Digital Concept Developer for Danish Broadcasting (DR)") && (
             <>
