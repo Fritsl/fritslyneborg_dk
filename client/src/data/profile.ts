@@ -113,8 +113,8 @@ export const personData: PersonData = {
       title: "3D Printing and Strategic Consulting",
       achievements: [
         {
-          title: "3D Print Industry Frontrunner (2013)",
-          description: "In January 2013, Lyneborg was hired as a strategic consultant for PunchBowl Media Group based in Idaho, USA. Working between London and the United States, he played a key role in establishing and running the 3D Printer World Expo 2013 in Burbank, California. At the expo, Lyneborg worked with pioneering projects including the InMoov open-source humanoid robot, one of the first fully 3D-printable robots of its kind. His expertise helped showcase the intersection of robotics and 3D printing technologies, highlighting the transformative potential of additive manufacturing in fields ranging from consumer products to advanced robotics at a time when these technologies were still in early adoption phases."
+          title: "3D Print Industry Frontrunner (2013-2014)",
+          description: "In January 2013, Lyneborg was hired as a strategic consultant for PunchBowl Media Group based in Idaho, USA. Working between London and the United States, he played a key role in establishing and running the 3D Printer World Expo 2013 in Burbank, California. At the expo, Lyneborg worked with pioneering projects including the InMoov open-source humanoid robot, one of the first fully 3D-printable robots of its kind. His expertise helped showcase the intersection of robotics and 3D printing technologies, highlighting the transformative potential of additive manufacturing in fields ranging from consumer products to advanced robotics. Throughout 2014, Lyneborg continued his consulting work, spending significant time in Idaho where he helped develop strategies for future 3D printing expos and industry events. His international perspective and technical expertise were instrumental in establishing these early showcases of 3D printing technology at a time when the industry was still in its formative stages."
         }
       ]
     }
@@ -169,6 +169,11 @@ export const personData: PersonData = {
       title: "Early Humanoid Robot Prototypes at 3D Printer World Expo",
       source: "3D Printing Industry",
       year: "2013"
+    },
+    {
+      title: "International Consulting and 3D Print Strategy Development",
+      source: "PunchBowl Media Group Archives",
+      year: "2014"
     },
     {
       title: "Open Source in Government: The Venstre Web Strategy",

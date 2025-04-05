@@ -2,6 +2,7 @@ import { Section } from "@/data/profile";
 import droneDemoImage from "../assets/drone_demonstration.png";
 import megaRecordsLogo from "../assets/mega_records_logo.jpg";
 import humanoidRobotImage from "../assets/humanoid_robot_expo.jpg";
+import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
 
 interface ContentSectionProps {
   section: Section;
@@ -133,6 +134,21 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   </div>
                 </figure>
               </div>
+              
+              <p className="py-2 clear-both"></p>
+              
+              <div className="mt-3 mb-4">
+                <figure className="wiki-figure">
+                  <div className="float-left mr-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                    <img src={fritsIdahoImage} alt="Frits Lyneborg in Idaho, USA while working on 3D print expos in 2014" className="w-full" />
+                    <figcaption className="mt-1 text-xs px-1">
+                      Lyneborg in Idaho, USA during his work as a consultant for PunchBowl Media Group (2014).
+                      <span className="block mt-1">Source: Personal archives</span>
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
+              
               <div className="mt-3">
                 <p className="text-sm italic">
                   <a 
