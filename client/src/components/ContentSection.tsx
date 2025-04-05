@@ -6,7 +6,10 @@ import longboardImage from "../assets/images/longboard.svg";
 import parakartImage from "../assets/images/parakart.svg";
 import talesFromVoidImage from "../assets/images/tales_from_void.svg";
 import arrangerKingPackshot from "../assets/images/Packshot.png";
-import aiArtworkImage from "@assets/billede_1743846899891.png";
+import aiArtImage1 from "../assets/images/ai_art_1.png";
+import aiArtImage2 from "../assets/images/ai_art_2.png";
+import aiArtImage3 from "../assets/images/ai_art_3.png";
+import aiArtImage4 from "../assets/images/ai_art_4.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -286,15 +289,53 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {/* Special content for the AI Innovation section */}
           {isAISection && index === 1 && (
             <>
-              <figure className="wiki-figure mb-2">
-                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '280px' }}>
-                  <img src={aiArtworkImage} alt="AI-generated artwork created by Frits Lyneborg using early LLM models (2023)" className="w-full" />
-                  <figcaption className="mt-1 text-xs px-1">
-                    Example of AI-generated artwork created by Lyneborg during his early experimentation with LLM models in 2023.
-                    <span className="block mt-0.5">Source: Personal archives</span>
-                  </figcaption>
+              <div className="mt-4 mb-6 clear-both">
+                <h4 className="text-lg font-wiki-serif mb-3">Early AI Art Gallery (2023)</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <figure className="wiki-figure mb-2">
+                    <div className="border border-wiki-border p-1 bg-wiki-light-gray">
+                      <img src={aiArtImage1} alt="AI-generated abstract artwork created by Frits Lyneborg using early LLM models (2023)" className="w-full h-auto" />
+                      <figcaption className="mt-1 text-xs px-1">
+                        "Wrapped Essence" - Created using early LLM art generation (2023)
+                        <span className="block mt-0.5">Source: Personal archives</span>
+                      </figcaption>
+                    </div>
+                  </figure>
+                  
+                  <figure className="wiki-figure mb-2">
+                    <div className="border border-wiki-border p-1 bg-wiki-light-gray">
+                      <img src={aiArtImage2} alt="AI-generated blue abstract sculpture created by Frits Lyneborg using early LLM models (2023)" className="w-full h-auto" />
+                      <figcaption className="mt-1 text-xs px-1">
+                        "Blue Flow" - Digital sculpture generated through LLM technology (2023)
+                        <span className="block mt-0.5">Source: Personal archives</span>
+                      </figcaption>
+                    </div>
+                  </figure>
+                  
+                  <figure className="wiki-figure mb-2">
+                    <div className="border border-wiki-border p-1 bg-wiki-light-gray">
+                      <img src={aiArtImage3} alt="AI-generated abstract landscape by Frits Lyneborg using early LLM models (2023)" className="w-full h-auto" />
+                      <figcaption className="mt-1 text-xs px-1">
+                        "Amber Topology" - Experimental landscape created with AI (2023)
+                        <span className="block mt-0.5">Source: Personal archives</span>
+                      </figcaption>
+                    </div>
+                  </figure>
+                  
+                  <figure className="wiki-figure mb-2">
+                    <div className="border border-wiki-border p-1 bg-wiki-light-gray">
+                      <img src={aiArtImage4} alt="AI-generated abstract organic form by Frits Lyneborg using early LLM models (2023)" className="w-full h-auto" />
+                      <figcaption className="mt-1 text-xs px-1">
+                        "Feathered Construct" - Abstract organic form generated through AI prompting (2023)
+                        <span className="block mt-0.5">Source: Personal archives</span>
+                      </figcaption>
+                    </div>
+                  </figure>
                 </div>
-              </figure>
+                <p className="text-sm italic mt-4">
+                  These pieces represent some of Lyneborg's earliest explorations with Large Language Models (LLMs) for generative art creation in 2023, at a time when most people were unfamiliar with LLM technology and its creative applications. The artworks demonstrate both the technical capability to effectively prompt these systems and the artistic vision to create cohesive works through the emerging medium.
+                </p>
+              </div>
             </>
           )}
           
