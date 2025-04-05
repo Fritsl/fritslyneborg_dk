@@ -65,6 +65,10 @@ export const personData: PersonData = {
       title: "Robotics Community and Education",
       achievements: [
         {
+          title: "Viral Robot Demonstration: Internet Phenomenon (2008)",
+          description: "In 2008, Lyneborg's innovative robot demonstration video became a viral sensation on Google Video (a precursor to YouTube's dominance). The video, which showcased his pioneering approach to accessible robotics, attracted over 1,000 comments from viewers who praised his ingenuity, with many explicitly calling him a 'genius' for his creative solutions and clear presentation style. This early viral success helped establish his reputation internationally as a robotics educator and innovator, demonstrating his ability to communicate complex technical concepts in an engaging and accessible manner. The reception to this video played a significant role in growing the Let's Make Robots community and cemented Lyneborg's status as a thought leader in DIY robotics."
+        },
+        {
           title: "Founder of LetsMakeRobots.com (2008-2015)",
           description: "In 2008, Lyneborg founded LetsMakeRobots.com, which grew to become the world's largest online community for hobbyist robotic builders. He published tutorials on robot building that were translated into multiple languages and featured in books and major publications, inspiring hundreds of thousands worldwide. The site gained significant recognition when NASA linked to it as \"A resource for robot building.\" The platform was acquired by Canadian-based company RobotShop.com in 2015, demonstrating its significant value and influence within the global robotics education community."
         },
@@ -84,7 +88,7 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Special Consultant at VENZO A/S (2022-2023)",
-          description: "In February 2022, Lyneborg joined VENZO A/S as a Special Consultant focusing on IT architecture and 3D modeling. While assigned to Ørsted A/S, Denmark's largest energy company, he developed advanced 3D visualizations that enabled Ørsted to simulate large-scale installations virtually rather than constructing physical prototypes, resulting in multimillion-kroner savings. His responsibilities included facilitating workshops where he effectively translated technical discussions and concepts into detailed 3D models. Notably, Lyneborg was instrumental in creating the system architecture behind what would later become P-Secure (p-secure.com), a platform for automated background checks, identity verification, and CV validation. This work demonstrated his capabilities in developing secure, automated systems for sensitive information processing. Additionally, Lyneborg created original graphics and adapted complex materials from extensive CAD systems, which significantly improved decision-making processes and brought greater clarity to projects. His work at VENZO demonstrated his ability to bridge technical expertise with practical business applications, a skill that would later inform his approach to AI implementation."
+          description: "In February 2022, Lyneborg joined VENZO A/S as a Special Consultant focusing on IT architecture and 3D modeling. While assigned to Ørsted A/S, Denmark's largest energy company, he developed advanced 3D visualizations that enabled Ørsted to simulate large-scale installations virtually rather than constructing physical prototypes, resulting in multimillion-kroner savings. His responsibilities included facilitating workshops where he effectively translated technical discussions and concepts into detailed 3D models. Notably, Lyneborg was instrumental in creating the system architecture behind what would later become P-Secure (www.p-secure.com), a sophisticated platform for automated background checks, identity verification, and CV validation. The P-Secure platform represents a significant innovation in automated verification systems, utilizing advanced algorithms to process and validate personal and professional information with high efficiency and security standards. This work demonstrated his capabilities in developing secure, automated systems for sensitive information processing in compliance with stringent data protection regulations. Additionally, Lyneborg created original graphics and adapted complex materials from extensive CAD systems, which significantly improved decision-making processes and brought greater clarity to projects. His work at VENZO demonstrated his ability to bridge technical expertise with practical business applications, a skill that would later inform his approach to AI implementation."
         },
         {
           title: "3D Print Industry Frontrunner (2013-2014)",
@@ -186,7 +190,7 @@ export const personData: PersonData = {
         },
         {
           title: "Game Engine Expert and Educator",
-          description: "Throughout his career, Lyneborg has mastered both Unreal Engine and Unity game development frameworks, establishing himself as a versatile expert in the field. He has shared this knowledge through teaching both frameworks to private students and within game development studios. His comprehensive understanding of these competing technologies has allowed him to select the optimal engine for specific project requirements, recognizing the unique strengths of each platform. This dual expertise has proven particularly valuable in his leadership roles, where he could effectively guide development teams and make informed technical decisions regardless of the chosen engine architecture."
+          description: "Starting in 2014 as Technical Art Director in the games industry Lyneborg has mastered both Unreal Engine and Unity game development frameworks, establishing himself as a versatile expert in the field. He has shared this knowledge through teaching both frameworks to private students and within game development studios. His comprehensive understanding of these competing technologies has allowed him to select the optimal engine for specific project requirements, recognizing the unique strengths of each platform. This dual expertise has proven particularly valuable in his leadership roles, where he could effectively guide development teams and make informed technical decisions regardless of the chosen engine architecture."
         },
         {
           title: "Senior Unreal Developer at Skybox Technologies (2023-2024)",
@@ -360,6 +364,13 @@ export const personData: PersonData = {
       title: "Educational Resources for Robot Building",
       source: "NASA",
       year: "2012"
+    },
+    {
+      author: "Lyneborg, F.",
+      title: "Viral Robot Demonstration Video",
+      source: "Internet Archives (originally Google Video)",
+      year: "2008",
+      url: "https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-"
     },
     {
       author: "Lyneborg, F.",
