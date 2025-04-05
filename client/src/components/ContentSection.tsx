@@ -135,9 +135,9 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </figure>
               </div>
               
-              <p className="py-2 clear-both"></p>
+              <div className="clear-both py-8"></div>
               
-              <div className="mt-3 mb-4">
+              <div className="mb-4">
                 <figure className="wiki-figure">
                   <div className="float-left mr-4 mb-2 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
                     <img src={fritsIdahoImage} alt="Frits Lyneborg in Idaho, USA while working on 3D print expos in 2014" className="w-full" />
@@ -149,6 +149,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 </figure>
               </div>
               
+              <div className="clear-both pt-4"></div>
               <div className="mt-3">
                 <p className="text-sm italic">
                   <a 
