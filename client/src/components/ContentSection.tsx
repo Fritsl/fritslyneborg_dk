@@ -39,16 +39,34 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   </figcaption>
                 </div>
               </figure>
-              <p className="text-sm italic mt-2">
-                <a 
-                  href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-wiki-blue wiki-external inline-flex items-center"
-                >
-                  Video documentation of autonomous drone demonstration (2011)
-                </a>
-              </p>
+              <div className="mt-2 mb-4">
+                <figure className="wiki-figure">
+                  <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                    <a 
+                      href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block"
+                    >
+                      <img 
+                        src="https://img.youtube.com/vi/YWhO2vP2n9U/0.jpg" 
+                        alt="Video thumbnail: Autonomous drone demonstration by Frits Lyneborg (2011)" 
+                        className="w-full"
+                      />
+                    </a>
+                    <figcaption className="mt-1 text-xs px-1">
+                      <a 
+                        href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-wiki-blue wiki-external"
+                      >
+                        Video documentation of autonomous drone demonstration (2011)
+                      </a>
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
             </>
           )}
           
@@ -98,17 +116,33 @@ export default function ContentSection({ section }: ContentSectionProps) {
           
           {/* Special music video reference */}
           {isMusicSection && index === 0 && (
-            <div className="mt-3">
-              <p className="text-sm italic">
-                <a 
-                  href="https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-wiki-blue wiki-external inline-flex items-center"
-                >
-                  "Wanna B" music video by Submission (1994)
-                </a>
-              </p>
+            <div className="mt-2 mb-4">
+              <figure className="wiki-figure">
+                <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <a 
+                    href="https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <img 
+                      src="https://img.youtube.com/vi/iD0HK_snvOI/0.jpg" 
+                      alt="Video thumbnail: 'Wanna B' music video by Submission (1994)" 
+                      className="w-full"
+                    />
+                  </a>
+                  <figcaption className="mt-1 text-xs px-1">
+                    <a 
+                      href="https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue wiki-external"
+                    >
+                      "Wanna B" music video by Submission (1994)
+                    </a>
+                  </figcaption>
+                </div>
+              </figure>
             </div>
           )}
           
