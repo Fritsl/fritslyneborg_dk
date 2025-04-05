@@ -294,9 +294,9 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <figure className="wiki-figure mb-2">
                     <div className="border border-wiki-border p-1 bg-wiki-light-gray">
-                      <img src={aiArtImage1} alt="AI-generated abstract artwork created by Frits Lyneborg using early LLM models (2023)" className="w-full h-auto" />
+                      <img src={aiArtImage1} alt="AI-generated abstract artwork titled 'UFO Wind Love Machine' featuring a windmill-like structure with ethereal lighting, created by Frits Lyneborg using early LLM models (2023)" className="w-full h-auto" />
                       <figcaption className="mt-1 text-xs px-1">
-                        "Wrapped Essence" - Created using early LLM art generation (2023)
+                        "UFO Wind Love Machine" - Created using early LLM art generation (2023)
                         <span className="block mt-0.5">Source: Personal archives</span>
                       </figcaption>
                     </div>
