@@ -22,6 +22,7 @@ import venstreLogo from "../assets/images/venstre_logo.png";
 import berlingskelogo from "../assets/images/berlingske_logo.jpg";
 import thieleLogo from "../assets/images/thiele_logo.png";
 import n8nLogo from "../assets/images/n8n_logo.png";
+import optimeringSloganImage from "../assets/images/optimering_er_intet.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -553,6 +554,24 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {/* Special content for the AI Innovation section - Lars Kolind Collaboration */}
           {isAISection && index === 0 && (
             <>
+              <div className="mt-4 mb-6">
+                <figure className="wiki-figure">
+                  <div className="mb-2 border border-wiki-border p-2 bg-wiki-light-gray" style={{ maxWidth: '800px', margin: '0 auto' }}>
+                    <img 
+                      src={optimeringSloganImage} 
+                      alt="Optimering er intet, Automatisering er alt - The focal point of Lyneborg's current collaboration with Lars Kolind" 
+                      className="w-full"
+                    />
+                    <figcaption className="mt-1 text-sm px-1">
+                      <span className="font-semibold">The focal point of Lyneborg's current collaboration with Lars Kolind: "Optimering er intet, Automatisering er alt" (2025)</span>
+                      <span className="block mt-1">
+                        This slogan ("Optimization is nothing, Automation is everything") encapsulates the core message of their roadshow and workshop series designed to prepare business leaders for the AI revolution, emphasizing how automation technologies fundamentally transform business rather than merely optimizing existing processes.
+                      </span>
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
+              
               <figure className="wiki-figure mb-3">
                 <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '220px' }}>
                   <img src={n8nLogo} alt="n8n logo - Automation and workflow platform" className="w-full" />
