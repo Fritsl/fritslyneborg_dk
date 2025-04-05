@@ -74,9 +74,9 @@ export default function ContentSection({ section }: ContentSectionProps) {
           {/* Special content for the drone section */}
           {isDroneSection && (
             <>
-              <div className="mt-2 mb-4">
+              <div className="mt-4 mb-6">
                 <figure className="wiki-figure">
-                  <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                  <div className="mb-2 border border-wiki-border p-2 bg-wiki-light-gray" style={{ maxWidth: '800px', margin: '0 auto' }}>
                     <a 
                       href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
                       target="_blank" 
@@ -89,12 +89,12 @@ export default function ContentSection({ section }: ContentSectionProps) {
                         className="w-full"
                       />
                     </a>
-                    <figcaption className="mt-1 text-xs px-1">
+                    <figcaption className="mt-1 text-sm px-1">
                       <a 
                         href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-wiki-blue wiki-external"
+                        className="text-wiki-blue wiki-external font-semibold"
                       >
                         Video documentation of autonomous drone demonstration (2011)
                       </a>
