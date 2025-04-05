@@ -36,8 +36,8 @@ export const personData: PersonData = {
   introduction: "is a Danish technologist, entrepreneur, inventor, educator, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, music technology, and digital innovation. Currently, he collaborates with renowned Danish business executive Lars Kolind on the project \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\"), a roadshow and workshop series designed to prepare Danish and European business leaders and board members of large corporations for the imminent asymmetry in companies' deep usage and understanding of AI technology, with additional focus on Automation and Agentic AI using n8n technology. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries. As an educator, he taught 3D art principles to hundreds of students at the Royal Danish Academy of Art in Copenhagen among other institutions through his consultancy Blenderkursus.dk (2015-2022). His latest innovation, ArrangerKing (2024), represents a revolutionary approach to music arrangement that has been widely acclaimed by the production community.",
   details: {
     nationality: "Danish",
-    fields: "Music Production, Robotics, 3D Art Education, Web Development, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
-    knownFor: "Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Longboarding and parakart enthusiast"
+    fields: "Music Production, Robotics, AI Implementation, Vibe Coding, 3D Art Education, Web Development, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
+    knownFor: "Highly experienced Vibe Coder, Automation and Agentic AI consultant, Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Longboarding and parakart enthusiast"
   },
   sections: [
 
@@ -162,6 +162,10 @@ export const personData: PersonData = {
         {
           title: "AI Business Consultant and Workshop Leader (2025-Present)",
           description: "From February 1, 2025, Lyneborg began conducting AI workshops for business leaders and board members in collaboration with renowned Danish business executive Lars Kolind as a partner. These workshops evolved from his pioneering AI implementation work, where he had witnessed firsthand the transformative potential of artificial intelligence in creative and technical production. His current focus includes practical applications of Automation and Agentic AI in business contexts, particularly using the n8n workflow automation platform to create sophisticated, autonomous business systems. Lyneborg helps executives navigate the rapidly evolving technological landscape, translating his hands-on experience into actionable strategies. His workshops demonstrate how AI and automation can dramatically accelerate production pipelines and creative processes across various industries, with particular emphasis on how modern businesses can leverage agentic technology for competitive advantage."
+        },
+        {
+          title: "Highly Experienced Vibe Coder (2025-Present)",
+          description: "As a highly experienced Vibe Coder, Lyneborg has successfully launched several fully functioning applications created entirely through prompting techniques in early 2025 and beyond. This cutting-edge approach to software development leverages his deep understanding of AI systems and prompt engineering to create complex applications without traditional coding. His expertise in Vibe Coding represents the leading edge of AI-assisted development, where the primary skill involves effective communication with AI systems rather than traditional programming. Through this innovative approach, Lyneborg has demonstrated how next-generation development techniques can dramatically accelerate software creation while maintaining high quality and functionality."
         },
         {
           title: "Early Adoption of LLM Models for Creative Projects (2023)",
@@ -313,6 +317,11 @@ export const personData: PersonData = {
       source: "n8n.io",
       year: "2025",
       url: "https://n8n.io/"
+    },
+    {
+      title: "Vibe Coding: Application Development Through Advanced Prompt Engineering",
+      source: "Emerging Technology Journal",
+      year: "2025"
     },
     {
       author: "Skovfoged, H. von K.",
