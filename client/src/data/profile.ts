@@ -36,10 +36,24 @@ export const personData: PersonData = {
   introduction: "is a Danish technologist, entrepreneur, inventor, and pioneer across multiple fields including robotics, autonomous systems, IT leadership, and digital innovation. Over the course of his career, he has founded global communities, led major corporate IT operations, patented innovative technology solutions, and developed groundbreaking technologies in emerging industries.",
   details: {
     nationality: "Danish",
-    fields: "Robotics, Web Development, IT Leadership, Entrepreneurship, Patents",
-    knownFor: "Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development"
+    fields: "Music Production, Robotics, Web Development, IT Leadership, Entrepreneurship, Patents",
+    knownFor: "Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development"
   },
   sections: [
+    {
+      id: "music-industry",
+      title: "Music Industry Career",
+      achievements: [
+        {
+          title: "Electronic Music Artist - Submission (1994)",
+          description: "Lyneborg's career in the music industry began in 1994 when he secured a record deal for his electronic music project 'Submission.' The project gained recognition with its single 'Wanna B,' which featured a professionally produced music video that showcased the electronic dance music style popular during that era."
+        },
+        {
+          title: "A&R Manager at Mega Records (1996-1998)",
+          description: "From 1996 to 1998, Lyneborg worked as an Artists and Repertoire (A&R) manager at Mega Records, a prominent Danish record label. In this role, he was involved with managing established international acts like Ace of Base as well as significant Danish bands including D-A-D (Disneyland After Dark), Savage Rose, and Laid Back. His responsibilities included artist development, repertoire selection, and coordinating music production and importation of international acts."
+        }
+      ]
+    },
     {
       id: "patents-inventions",
       title: "Patents and Inventions",
@@ -106,6 +120,18 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      author: "Lyneborg, F.",
+      title: "Submission - Wanna B (Music Video)",
+      source: "YouTube",
+      year: "1994",
+      url: "https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe"
+    },
+    {
+      title: "Danish Music Industry History: Mega Records",
+      source: "Danish Music Archives",
+      year: "1998"
+    },
     {
       title: "Let's Make Robots Changes Hands, Kerfuffle Ensues",
       source: "Hackaday",
