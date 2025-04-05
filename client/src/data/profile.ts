@@ -149,20 +149,30 @@ export const personData: PersonData = {
       ]
     },
     {
-      id: "game-development",
-      title: "Game Development and AI Innovation",
+      id: "ai-innovation",
+      title: "AI Innovation and Implementation",
       achievements: [
         {
           title: "AI Business Consultant and Workshop Leader (2025-Present)",
-          description: "From February 1, 2025, Lyneborg began conducting AI workshops for business leaders and board members in collaboration with renowned Danish business executive Lars Kolind as a partner. These workshops directly evolved from his pioneering AI implementation work at Skybox Technologies, where he had witnessed firsthand the transformative potential of artificial intelligence in creative and technical production. Now focusing on practical applications of AI in business contexts, Lyneborg helps executives navigate the rapidly evolving technological landscape, translating his hands-on experience into actionable strategies. His workshops demonstrate how AI can dramatically accelerate production pipelines and creative processes across various industries, just as it had in his game development career."
+          description: "From February 1, 2025, Lyneborg began conducting AI workshops for business leaders and board members in collaboration with renowned Danish business executive Lars Kolind as a partner. These workshops evolved from his pioneering AI implementation work, where he had witnessed firsthand the transformative potential of artificial intelligence in creative and technical production. Now focusing on practical applications of AI in business contexts, Lyneborg helps executives navigate the rapidly evolving technological landscape, translating his hands-on experience into actionable strategies. His workshops demonstrate how AI can dramatically accelerate production pipelines and creative processes across various industries."
         },
         {
+          title: "Early Adoption of LLM Models for Creative Projects (2023)",
+          description: "In 2023, Lyneborg was among the early adopters of Large Language Models (LLMs) for creative applications. He began exploring the artistic potential of these AI systems, creating experimental art projects that leveraged the capabilities of early LLM models. This pioneering work represented some of the first attempts to use generative AI as a creative medium in Denmark. His experimentation with these emerging technologies established him as an innovator in the practical application of AI for creative endeavors, well before such applications became mainstream."
+        }
+      ]
+    },
+    {
+      id: "game-development",
+      title: "Game Development",
+      achievements: [
+        {
           title: "Lead R&D Developer at Skybox Technologies (2024-2025)",
-          description: "On May 17, 2024, Lyneborg was promoted to Lead R&D Developer at Skybox Technologies, following his successful tenure as a Senior Unreal Developer. In this leadership role, his responsibilities expanded to include rapid development of games and prototypes utilizing multiple platforms including Unreal Engine, Unity, and Blender. Notably, during this period, Lyneborg began extensively incorporating AI tools into his development workflow, achieving unprecedented production speeds that caught the attention of company leadership. His innovative AI implementation methods allowed for dramatic acceleration of asset creation, code development, and prototyping processes. This pioneering work with AI tools sparked his interest in their broader business applications, setting the foundation for his subsequent career transition into AI consulting. He remained in this position until February 2025, when he partnered with Lars Kolind to develop AI workshops for business leaders."
+          description: "On May 17, 2024, Lyneborg was promoted to Lead R&D Developer at Skybox Technologies, following his successful tenure as a Senior Unreal Developer. In this leadership role, his responsibilities expanded to include rapid development of games and prototypes utilizing multiple platforms including Unreal Engine, Unity, and Blender. His technological expertise and creative problem-solving abilities enabled him to effectively lead research and development initiatives, exploring new approaches to game development and innovative user experiences. He remained in this position until February 2025."
         },
         {
           title: "Senior Unreal Developer at Skybox Technologies (2023-2024)",
-          description: "On January 1, 2023, Lyneborg joined Skybox Technologies as a Senior Unreal Developer. In this role, he applied his extensive technical expertise and game development experience to create advanced gaming solutions using the Unreal Engine. During this period, he began experimenting with early AI-assisted development tools, integrating them into traditional development pipelines to enhance productivity. His work at Skybox Technologies built upon his previous experience in the gaming industry, allowing him to further refine his skills in game development while beginning to explore what would become a transformative interest in AI-assisted creative production."
+          description: "On January 1, 2023, Lyneborg joined Skybox Technologies as a Senior Unreal Developer. In this role, he applied his extensive technical expertise and game development experience to create advanced gaming solutions using the Unreal Engine. His work at Skybox Technologies built upon his previous experience in the gaming industry, allowing him to further refine his skills in game development and contribute to cutting-edge projects in the gaming sector."
         },
         {
           title: "Technical Art Director at PortaPlay (2014-2015)",

@@ -6,6 +6,7 @@ import longboardImage from "../assets/images/longboard.svg";
 import parakartImage from "../assets/images/parakart.svg";
 import talesFromVoidImage from "../assets/images/tales_from_void.svg";
 import arrangerKingPackshot from "../assets/images/Packshot.png";
+import aiArtworkImage from "@assets/billede_1743846899891.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -21,6 +22,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isMakeMagazineSection = section.id === "make-magazine-projects";
   const isLeisureSection = section.id === "leisure-activities";
   const isGameDevSection = section.id === "game-development";
+  const isAISection = section.id === "ai-innovation";
   
   return (
     <section id={section.id} className="py-4 border-t border-wiki-border overflow-hidden">
@@ -240,7 +242,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           )}
           
           {/* Special content for the game development section */}
-          {isGameDevSection && (
+          {isGameDevSection && index === 2 && (
             <figure className="wiki-figure mb-2">
               <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '250px' }}>
                 <img src={talesFromVoidImage} alt="Tales from the Void - a sci-fi strategy game" className="w-full" />
@@ -278,6 +280,21 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   </div>
                 </figure>
               )}
+            </>
+          )}
+          
+          {/* Special content for the AI Innovation section */}
+          {isAISection && index === 1 && (
+            <>
+              <figure className="wiki-figure mb-2">
+                <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '280px' }}>
+                  <img src={aiArtworkImage} alt="AI-generated artwork created by Frits Lyneborg using early LLM models (2023)" className="w-full" />
+                  <figcaption className="mt-1 text-xs px-1">
+                    Example of AI-generated artwork created by Lyneborg during his early experimentation with LLM models in 2023.
+                    <span className="block mt-0.5">Source: Personal archives</span>
+                  </figcaption>
+                </div>
+              </figure>
             </>
           )}
           
