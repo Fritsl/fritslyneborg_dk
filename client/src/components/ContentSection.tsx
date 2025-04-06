@@ -48,7 +48,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
   const isITLeadershipSection = section.id === "it-leadership";
   
   return (
-    <React.Fragment>
+    <>
       <section 
         id={section.id} 
         className="py-2 border-t border-wiki-border overflow-hidden"
@@ -83,7 +83,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
             
             {/* Special content for n8n workflow automation */}
             {isAISection && achievement.title.includes("Workflow Automation") && (
-              <React.Fragment>
+              <>
                 <figure className="wiki-figure mb-3">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '180px' }}>
                     <img 
@@ -103,12 +103,12 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     </figcaption>
                   </div>
                 </figure>
-              </React.Fragment>
+              </>
             )}
 
             {/* Special content for Optimization quote */}
             {isAISection && achievement.title.includes("Collaboration with Lars Kolind") && (
-              <React.Fragment>
+              <>
                 <figure className="wiki-figure mb-3 mt-3">
                   <div className="mx-auto mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '600px' }}>
                     <img 
@@ -128,12 +128,12 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     </figcaption>
                   </div>
                 </figure>
-              </React.Fragment>
+              </>
             )}
             
             {/* Special content for Patents section - ArrangerKing */}
             {isPatentSection && achievement.title.includes("Music Arrangement Technology") && (
-              <React.Fragment>
+              <>
                 <figure className="wiki-figure mb-2">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '250px' }}>
                     <img 
@@ -168,12 +168,12 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     </p>
                   </div>
                 </figure>
-              </React.Fragment>
+              </>
             )}
             
             {/* Special content for Make Magazine section - Google Trends */}
             {isMakeMagazineSection && achievement.title.includes("How to Make a Robot") && (
-              <React.Fragment>
+              <>
                 <figure className="wiki-figure mb-4 mt-4">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '450px' }}>
                     <img 
@@ -205,12 +205,12 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     </a>
                   </p>
                 </div>
-              </React.Fragment>
+              </>
             )}
             
             {/* Special content for AI Innovation section - AI Art */}
             {isAISection && achievement.title.includes("AI-Generated Art") && (
-              <React.Fragment>
+              <>
                 <div className="mt-4 mb-4">
                   <div className="grid grid-cols-2 gap-4">
                     {/* AI Artwork 1 */}
@@ -298,7 +298,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     </figure>
                   </div>
                 </div>
-              </React.Fragment>
+              </>
             )}
           </div>
         ))}
@@ -309,6 +309,6 @@ export default function ContentSection({ section }: ContentSectionProps) {
         onClose={() => setModalOpen(false)}
         image={selectedImage}
       />
-    </React.Fragment>
+    </>
   );
 }
