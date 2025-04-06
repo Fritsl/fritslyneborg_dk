@@ -86,17 +86,27 @@ export const personData: PersonData = {
       ]
     },
     {
-      id: "3d-printing-consulting",
-      title: "3D Printing and Strategic Consulting",
+      id: "strategic-consulting",
+      title: "Strategic Consulting",
       achievements: [
         {
+          title: "External Advisor for Universal Robots (2023)",
+          description: "In 2023, Lyneborg served as an external advisor for Universal Robots, the Danish pioneer and global leader in collaborative robot technology. Universal Robots has revolutionized industrial automation with their flexible, user-friendly cobots that work safely alongside humans without safety barriers, making automation accessible to small and medium-sized businesses worldwide."
+        },
+        {
           title: "External Advisor on Disruptive Technologies for Siemens Germany (2013)",
-          description: "In 2013, when many industrial giants were struggling to adapt to rapid technological changes, Lyneborg served as an external advisor on disruptive technologies for Siemens Germany, one of the world's largest industrial manufacturing companies. His forward-thinking insights helped the organization navigate emerging technology trends and identify strategic opportunities at a critical period of digital transformation. This consulting relationship demonstrates Lyneborg's recognition as a thought leader in technological innovation even by established global industry leaders, who valued his unique perspective on identifying transformative technologies before they reached mainstream adoption."
+          description: "In 2013, when many industrial giants were struggling to adapt to rapid technological changes, Lyneborg served as an external advisor on disruptive technologies for Siemens Germany, one of the world's largest industrial manufacturing companies."
         },
         {
           title: "Special Consultant at VENZO A/S (2022-2023)",
           description: "At VENZO A/S (2022-2023), Lyneborg led 3D visualization projects for Ørsted that saved millions by enabling virtual simulation of large-scale installations instead of physical prototypes. He developed the system architecture for P-Secure (www.p-secure.com), an innovative automated platform for background checks and identity verification that has since evolved into an independent company. His work created secure, automated systems for sensitive information processing while complying with strict data regulations. He also produced graphics from complex CAD systems that significantly improved decision-making clarity. This experience bridging technical expertise with business applications became foundational for his later AI implementation work."
-        },
+        }
+      ]
+    },
+    {
+      id: "3d-printing",
+      title: "3D Printing Innovation",
+      achievements: [
         {
           title: "3D Print Expo Consultant for Punchbowl Media (2013-2014)",
           description: "Just as 3D printing was about to explode into mainstream awareness, Lyneborg served as strategic consultant for Idaho-based PunchBowl Media (2013-2014), helping create and organize 3D printing exhibitions across multiple countries. He was instrumental in establishing the 3D Printer World Expo 2013 in Burbank, California, where he curated pioneering projects including the InMoov open-source humanoid robot—one of the first fully 3D-printable robots. This was a full year before major companies began investing heavily in the technology and two years before consumer 3D printers became widely available. His international perspective and technical expertise helped establish early showcases of this transformative technology precisely when it was transitioning from niche industrial process to a consumer-accessible fabrication method."
@@ -216,6 +226,10 @@ export const personData: PersonData = {
           description: "Lyneborg participated in the development of 'Cosmic Top Secret', an award-winning documentary game created by Danish studio Klassefilm. Released in 2018, the game follows creator Trine Laier's investigation into her parents' past as Cold War spies. The game's unique paper-craft aesthetic and innovative narrative approach earned it significant critical acclaim, including a Special Jury Award at A MAZE Berlin and Best Storytelling at Indie Prize London. Developed in Unity, the game was released on multiple platforms including PC, mobile, Nintendo Switch, PlayStation 4, and Xbox One. Lyneborg was part of the development team that helped bring this distinctive and historically significant game to life."
         },
         {
+          title: "Graphics Developer at Cape Copenhagen for LEGO Ninjago: Wu-Cru (2015-2017)",
+          description: "Lyneborg contributed to LEGO Ninjago: Wu-Cru at game company Cape Copenhagen from 2015-2017. He is officially credited for Graphics work on the mobile game for Android platforms."
+        },
+        {
           title: "Technical Art Director at PortaPlay (2014-2015)",
           description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Though initially hired as a gameplay scripter/designer based on his experience in concept development, technical IT projects, and skills with Playmaker and scripting, his talents quickly led to a role change. As Technical Art Director, he significantly enhanced both visual quality and overall game performance. His responsibilities encompassed modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, implementing visual effects (skyboxes, weather, explosions), performance optimization, workflow planning, and directing 3D artists. Creative Director Hans von Knut Skovfoged noted Lyneborg's exceptional ability to rapidly master technical areas, strong personal initiative, and capacity to work independently within a defined vision while maintaining excellent team integration."
         },
@@ -267,6 +281,18 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "LEGO Ninjago: Wu-Cru Graphics Credit",
+      source: "MobyGames",
+      year: "2015-2017",
+      url: "https://www.mobygames.com/game/80616/lego-ninjago-wu-cru/credits/android/"
+    },
+    {
+      title: "Collaborative Robotics Advisory Services",
+      source: "Universal Robots",
+      year: "2023",
+      url: "https://www.universal-robots.com/"
+    },
     {
       title: "Cosmic Top Secret",
       source: "Klassefilm",
