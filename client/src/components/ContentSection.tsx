@@ -535,7 +535,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           )}
           
           {/* Special content for TIXITAXI game */}
-          {isGameDevSection && index === 3 && (
+          {isGameDevSection && index === 6 && (
             <div className="mt-2 mb-4">
               <figure className="wiki-figure">
                 <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
@@ -571,7 +571,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           )}
           
           {/* Special content for Bare Feet mobile game */}
-          {isGameDevSection && index === 4 && (
+          {isGameDevSection && index === 7 && (
             <div className="mt-2 mb-4">
               <figure className="wiki-figure">
                 <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
