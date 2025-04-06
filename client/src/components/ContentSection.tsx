@@ -27,6 +27,7 @@ import thieleLogo from "../assets/images/thiele_logo.png";
 import n8nLogo from "../assets/images/n8n_logo.png";
 import optimeringSloganImage from "../assets/images/optimering_er_intet.png";
 
+
 interface ContentSectionProps {
   section: Section;
 }
