@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Section } from "@/data/profile";
+import ImagePreviewModal from "./ImagePreviewModal";
 import megaRecordsLogo from "../assets/mega_records_logo.jpg";
 import humanoidRobotImage from "../assets/humanoid_robot_expo.jpg";
 import fritsIdahoImage from "../assets/frits_idaho_2014.jpg";
@@ -33,6 +35,21 @@ interface ContentSectionProps {
 }
 
 export default function ContentSection({ section }: ContentSectionProps) {
+  // State for image preview modal
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState({
+    src: '',
+    alt: '',
+    title: '',
+    caption: '',
+    source: ''
+  });
+
+  const openImageModal = (image: typeof selectedImage) => {
+    setSelectedImage(image);
+    setModalOpen(true);
+  };
+
   // Special treatment for sections with additional references
   const isDroneSection = section.id === "drone-innovation";
   const isPatentSection = section.id === "patents-inventions";
