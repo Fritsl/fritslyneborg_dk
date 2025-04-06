@@ -561,7 +561,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                       "TIXITAXI" - Game trailer video
                     </a>
                     <span className="block mt-1">
-                      An innovative children's puzzle game with all characters fully driven by AI, created by Lyneborg with funding from the Danish Film Institute.
+                      This innovative 2020 children's puzzle game featured characters that were 100% AI-driven, where players provided instructions rather than direct control. Created by Lyneborg, who specialized in AI for game characters, with funding from the Danish Film Institute.
                       <span className="block mt-0.5">Source: Frits Lyneborg</span>
                     </span>
                   </figcaption>

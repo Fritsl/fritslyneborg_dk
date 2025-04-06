@@ -234,8 +234,8 @@ export const personData: PersonData = {
           description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Though initially hired as a gameplay scripter/designer based on his experience in concept development, technical IT projects, and skills with Playmaker and scripting, his talents quickly led to a role change. As Technical Art Director, he significantly enhanced both visual quality and overall game performance. His responsibilities encompassed modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, implementing visual effects (skyboxes, weather, explosions), performance optimization, workflow planning, and directing 3D artists. Creative Director Hans von Knut Skovfoged noted Lyneborg's exceptional ability to rapidly master technical areas, strong personal initiative, and capacity to work independently within a defined vision while maintaining excellent team integration."
         },
         {
-          title: "TIXITAXI: AI-Driven Children's Puzzle Game",
-          description: "TIXITAXI was an innovative children's puzzle game developed entirely by Lyneborg, featuring characters fully driven by artificial intelligence—long before AI became mainstream in game development. The project received funding from the Danish Film Institute, which recognized its innovative approach to children's educational entertainment. The game combined puzzle-solving mechanics with AI-driven character behaviors to create an engaging and responsive play experience for young audiences. Lyneborg's early implementation of AI for character behavior demonstrated his forward-thinking approach to game design and technology integration."
+          title: "TIXITAXI: AI-Driven Children's Puzzle Game (2020)",
+          description: "TIXITAXI was an innovative children's puzzle game developed entirely by Lyneborg in 2020, featuring characters that were 100% driven by artificial intelligence—long before AI became mainstream in game development. Unlike traditional games where players directly control characters, TIXITAXI implemented a groundbreaking approach where the AI-driven characters moved according to player instructions rather than through direct control. Lyneborg specialized in developing AI for non-player characters (NPCs), but TIXITAXI went further by applying this technology to main characters as well. The project received funding from the Danish Film Institute, which recognized its innovative approach to children's educational entertainment. The game combined puzzle-solving mechanics with these sophisticated AI-driven character behaviors to create an engaging and responsive play experience for young audiences. Lyneborg's pioneering implementation of AI for character behavior demonstrated his forward-thinking approach to game design and technology integration."
         },
         {
           title: "Mobile Games Released: Bare Feet! (2020)",
@@ -308,7 +308,7 @@ export const personData: PersonData = {
       author: "Lyneborg, F.",
       title: "TIXITAXI - Children's Puzzle Game with AI-Driven Characters",
       source: "Danish Film Institute",
-      year: "2018",
+      year: "2020",
       url: "https://youtu.be/4PC-NnqzKX4?si=rWbGwxpjSlHROMgg"
     },
     {
