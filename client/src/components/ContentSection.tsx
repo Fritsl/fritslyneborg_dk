@@ -1,17 +1,6 @@
 import React, { useState } from "react";
 import { Section } from "@/data/profile";
 import ImagePreviewModal from "./ImagePreviewModal";
-import googleTrendsImage from "@assets/howtomakearobot.jpg";
-import n8nLogo from "@assets/n8nlogo.png";
-import arrangerKingPackshot from "@assets/Packshot.png";
-import blenderLogo from "@assets/blender-seeklogo.png";
-import unityLogo from "@assets/Unity-logo.png";
-import unrealLogo from "@assets/Unreal_Engine_Logo.svg.png";
-import aiArtImage1 from "@assets/billede_1743878729353.png";
-import aiArtImage2 from "@assets/billede_1743879836567.png";
-import aiArtImage3 from "@assets/billede_1743880834153.png";
-import aiArtImage4 from "@assets/billede_1743946916059.png";
-import optimeringSloganImage from "@assets/billede_1743875595792.png";
 
 interface ContentSectionProps {
   section: Section;
@@ -87,11 +76,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 <figure className="wiki-figure mb-3">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '180px' }}>
                     <img 
-                      src={n8nLogo} 
+                      src="/attached_assets/n8nlogo.png" 
                       alt="n8n workflow automation platform logo" 
                       className="w-full cursor-pointer wiki-hover-gray"
                       onClick={() => openImageModal({
-                        src: n8nLogo,
+                        src: "/attached_assets/n8nlogo.png",
                         alt: "n8n workflow automation platform logo",
                         title: "n8n Workflow Automation Platform",
                         caption: "n8n is an open-source workflow automation platform where Frits Lyneborg created advanced AI-driven workflows.",
@@ -112,11 +101,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 <figure className="wiki-figure mb-3 mt-3">
                   <div className="mx-auto mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '600px' }}>
                     <img 
-                      src={optimeringSloganImage} 
+                      src="/attached_assets/billede_1743875595792.png" 
                       alt="Optimization is nothing, automation is everything" 
                       className="w-full cursor-pointer wiki-hover-gray"
                       onClick={() => openImageModal({
-                        src: optimeringSloganImage,
+                        src: "/attached_assets/billede_1743875595792.png",
                         alt: "Optimization is nothing, automation is everything",
                         title: "Lyneborg's Automation Philosophy",
                         caption: "Frits Lyneborg and Lars Kolind's influential mantra: 'Optimering er intet, Automatisering er alt' (Optimization is nothing, Automation is everything).",
@@ -137,13 +126,13 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 <figure className="wiki-figure mb-2">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '250px' }}>
                     <img 
-                      src={arrangerKingPackshot} 
+                      src="/attached_assets/Packshot.png" 
                       alt="ArrangerKing - music arrangement software packshot" 
                       className="w-full cursor-pointer wiki-hover-gray" 
                       itemProp="image"
                       loading="lazy"
                       onClick={() => openImageModal({
-                        src: arrangerKingPackshot,
+                        src: "/attached_assets/Packshot.png",
                         alt: "ArrangerKing - music arrangement software packshot",
                         title: "ArrangerKing Music Arrangement Software",
                         caption: "ArrangerKing (2024) - Lyneborg's revolutionary music arrangement plugin that transforms musical ideas into complete arrangements with just a few clicks.",
@@ -177,11 +166,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
                 <figure className="wiki-figure mb-4 mt-4">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '450px' }}>
                     <img 
-                      src={googleTrendsImage} 
+                      src="/attached_assets/howtomakearobot.jpg" 
                       alt="Google Trends graph showing spike in 'how to make a robot' searches after Frits Lyneborg's Make Magazine feature" 
                       className="w-full cursor-pointer wiki-hover-gray"
                       onClick={() => openImageModal({
-                        src: googleTrendsImage,
+                        src: "/attached_assets/howtomakearobot.jpg",
                         alt: "Google Trends graph showing spike in 'how to make a robot' searches",
                         title: "Impact on 'How to Make a Robot' Google Searches",
                         caption: "Google Trends data showing the significant spike in worldwide searches for 'how to make a robot' following Lyneborg's Make Magazine feature in 2008.",
@@ -217,11 +206,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     <figure className="wiki-figure">
                       <div className="border border-wiki-border p-1 bg-wiki-light-gray">
                         <img 
-                          src={aiArtImage1}
+                          src="/attached_assets/billede_1743878729353.png"
                           alt="AI-generated artwork by Frits Lyneborg - abstract cityscape" 
                           className="w-full cursor-pointer wiki-hover-gray"
                           onClick={() => openImageModal({
-                            src: aiArtImage1,
+                            src: "/attached_assets/billede_1743878729353.png",
                             alt: "AI-generated artwork by Frits Lyneborg - abstract cityscape",
                             title: "AI-Generated Abstract Cityscape",
                             caption: "AI-generated artwork created by Frits Lyneborg using custom AI models and prompting techniques.",
@@ -238,11 +227,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     <figure className="wiki-figure">
                       <div className="border border-wiki-border p-1 bg-wiki-light-gray">
                         <img 
-                          src={aiArtImage2} 
+                          src="/attached_assets/billede_1743879836567.png" 
                           alt="AI-generated artwork by Frits Lyneborg - futuristic landscape" 
                           className="w-full cursor-pointer wiki-hover-gray"
                           onClick={() => openImageModal({
-                            src: aiArtImage2,
+                            src: "/attached_assets/billede_1743879836567.png",
                             alt: "AI-generated artwork by Frits Lyneborg - futuristic landscape",
                             title: "AI-Generated Futuristic Landscape",
                             caption: "AI-generated artwork created by Frits Lyneborg using custom AI models and prompting techniques.",
@@ -259,11 +248,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     <figure className="wiki-figure">
                       <div className="border border-wiki-border p-1 bg-wiki-light-gray">
                         <img 
-                          src={aiArtImage3} 
+                          src="/attached_assets/billede_1743880834153.png" 
                           alt="AI-generated artwork by Frits Lyneborg - abstract pattern" 
                           className="w-full cursor-pointer wiki-hover-gray"
                           onClick={() => openImageModal({
-                            src: aiArtImage3,
+                            src: "/attached_assets/billede_1743880834153.png",
                             alt: "AI-generated artwork by Frits Lyneborg - abstract pattern",
                             title: "AI-Generated Abstract Pattern",
                             caption: "AI-generated artwork created by Frits Lyneborg using custom AI models and prompting techniques.",
@@ -280,11 +269,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     <figure className="wiki-figure">
                       <div className="border border-wiki-border p-1 bg-wiki-light-gray">
                         <img 
-                          src={aiArtImage4} 
+                          src="/attached_assets/billede_1743946916059.png" 
                           alt="AI-generated artwork by Frits Lyneborg - surreal composition" 
                           className="w-full cursor-pointer wiki-hover-gray"
                           onClick={() => openImageModal({
-                            src: aiArtImage4,
+                            src: "/attached_assets/billede_1743946916059.png",
                             alt: "AI-generated artwork by Frits Lyneborg - surreal composition",
                             title: "AI-Generated Surreal Composition",
                             caption: "AI-generated artwork created by Frits Lyneborg using custom AI models and prompting techniques.",
