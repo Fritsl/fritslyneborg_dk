@@ -421,16 +421,34 @@ export default function ContentSection({ section }: ContentSectionProps) {
             <>
               {index === 0 && (
                 <div className="mt-2 mb-4">
-                  <p className="text-sm italic mt-2">
-                    <a 
-                      href="https://makezine.com/projects/yellow-drum-machine/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-wiki-blue wiki-external inline-flex items-center"
-                    >
-                      Make Magazine: Yellow Drum Machine (2012)
-                    </a>
-                  </p>
+                  <figure className="wiki-figure">
+                    <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                      <a 
+                        href="https://makezine.com/projects/yellow-drum-machine/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="block"
+                      >
+                        <img 
+                          src="/yellow_drum_machine.jpg" 
+                          alt="The Yellow Drum Machine - robotic percussion instrument by Frits Lyneborg (2012)" 
+                          className="w-full"
+                          loading="lazy"
+                          width="800"
+                        />
+                      </a>
+                      <figcaption className="mt-1 text-xs px-1">
+                        <a 
+                          href="https://makezine.com/projects/yellow-drum-machine/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-wiki-blue wiki-external"
+                        >
+                          Make Magazine: Yellow Drum Machine (2012)
+                        </a>
+                      </figcaption>
+                    </div>
+                  </figure>
                 </div>
               )}
               {index === 1 && (
