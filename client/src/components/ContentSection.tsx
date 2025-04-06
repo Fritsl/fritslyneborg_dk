@@ -353,7 +353,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           )}
           
           {/* Special content for the music section */}
-          {isMusicSection && index === 1 && (
+          {isMusicSection && index === 0 && (
             <figure className="wiki-figure mb-2">
               <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '220px' }}>
                 <img src={megaRecordsLogo} alt="Mega Records logo" className="w-full" />
@@ -365,7 +365,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           )}
           
           {/* Special music video reference */}
-          {isMusicSection && index === 0 && (
+          {isMusicSection && index === 1 && (
             <div className="mt-2 mb-4">
               <figure className="wiki-figure">
                 <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
