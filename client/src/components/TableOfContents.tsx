@@ -15,8 +15,8 @@ export default function TableOfContents({ sections }: TableOfContentsProps) {
       itemType="https://schema.org/Table"
     >
       <meta itemProp="about" content="Frits Lyneborg career sections" />
-      <div className="flex justify-between items-center mb-2">
-        <h2 id="contents-heading" className="font-bold text-sm" itemProp="name">Contents</h2>
+      <div className="flex justify-between items-center mb-1">
+        <h2 id="contents-heading" className="font-bold text-sm hidden md:block" itemProp="name">Contents</h2>
         <button
           onClick={() => setIsCollapsed(!isCollapsed)}
           className="text-wiki-blue text-xs hover:underline"
@@ -31,7 +31,7 @@ export default function TableOfContents({ sections }: TableOfContentsProps) {
       {!isCollapsed && (
         <nav id="toc-nav" aria-labelledby="contents-heading" role="navigation">
           <ol 
-            className="list-none pl-1 text-sm" 
+            className="list-none pl-0 text-sm grid grid-cols-1 md:grid-cols-1 gap-0.5" 
             role="list"
             itemProp="itemListElement" 
             itemScope 
@@ -40,13 +40,13 @@ export default function TableOfContents({ sections }: TableOfContentsProps) {
             {sections.map((section, index) => (
               <li 
                 key={section.id} 
-                className="mb-1.5" 
+                className="my-0.5" 
                 itemProp="item" 
                 itemScope 
                 itemType="https://schema.org/ListItem"
               >
                 <meta itemProp="position" content={`${index + 1}`} />
-                <span className="inline-block w-5 text-right mr-1" aria-hidden="true">{index + 1}.</span>
+                <span className="inline-block w-4 text-right mr-1" aria-hidden="true">{index + 1}.</span>
                 <a 
                   href={`#${section.id}`} 
                   className="toc-link"

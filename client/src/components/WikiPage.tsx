@@ -37,17 +37,17 @@ export default function WikiPage({ person }: WikiPageProps) {
       <meta itemProp="alumniOf" content="IT University of Copenhagen" />
       
       {/* Header */}
-      <header className="border-b border-wiki-border pb-2 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+      <header className="border-b border-wiki-border pb-2 max-w-6xl mx-auto px-2 sm:px-4 lg:px-6 mt-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-3xl md:text-4xl font-wiki-serif" id="main-heading">{person.name}</h1>
+          <h1 className="text-2xl md:text-3xl font-wiki-serif" id="main-heading">{person.name}</h1>
           <a 
             href="https://www.linkedin.com/in/frits-lyneborg/" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="flex items-center gap-2 text-wiki-blue hover:text-blue-700 transition-colors"
+            className="flex items-center gap-1 text-wiki-blue hover:text-blue-700 transition-colors"
             aria-label="View Frits Lyneborg's LinkedIn profile"
           >
-            <FaLinkedin className="text-2xl" />
+            <FaLinkedin className="text-xl" />
             <span className="hidden sm:inline text-sm">LinkedIn Profile</span>
           </a>
         </div>
@@ -55,40 +55,43 @@ export default function WikiPage({ person }: WikiPageProps) {
       </header>
 
       {/* Main content with sidebar layout */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-2 sm:px-4 lg:px-6">
         <div className="flex flex-col md:flex-row">
           {/* Main content */}
           <main className="flex-1 md:order-2 overflow-x-auto">
             {/* Introduction Section */}
-            <section className="py-4" aria-labelledby="introduction-section">
+            <section className="py-2" aria-labelledby="introduction-section">
               <h2 id="introduction-section" className="sr-only">Introduction</h2>
               <p className="text-base leading-relaxed" itemProp="description">
                 <strong itemProp="givenName">{person.name}</strong> {person.introduction}
               </p>
             </section>
 
-            {/* Mobile image - visible only on small screens */}
-            <div className="md:hidden my-4">
-              <figure className="mb-2" itemScope itemType="https://schema.org/ImageObject">
-                <img 
-                  src={fritsImage} 
-                  alt="Frits Lyneborg giving a presentation" 
-                  className="w-full border border-wiki-border"
-                  loading="eager"
-                  itemProp="contentUrl"
-                />
+            {/* Mobile image and TOC side by side on small screens */}
+            <div className="md:hidden grid grid-cols-1 sm:grid-cols-2 gap-3 my-3">
+              <figure className="sm:order-2" itemScope itemType="https://schema.org/ImageObject">
+                <div className="border border-wiki-border">
+                  <img 
+                    src={fritsImage} 
+                    alt="Frits Lyneborg giving a presentation" 
+                    className="w-full"
+                    loading="eager"
+                    itemProp="contentUrl"
+                  />
+                </div>
                 <figcaption className="text-xs mt-1 text-center text-gray-600" itemProp="caption">
                   Lyneborg presenting at a technology workshop
                 </figcaption>
                 <meta itemProp="name" content="Frits Lyneborg at a technology workshop" />
                 <meta itemProp="description" content="Frits Lyneborg presenting at a technology workshop about innovation and robotics" />
               </figure>
+              
+              {/* Table of Contents (mobile) */}
+              <section className="bg-wiki-light-gray border border-wiki-border rounded p-2 sm:order-1 no-print z-10 text-sm">
+                <strong className="block mb-1">Contents</strong>
+                <TableOfContents sections={person.sections} />
+              </section>
             </div>
-
-            {/* Table of Contents (mobile) - visible only on small screens */}
-            <section className="md:hidden bg-wiki-light-gray p-4 border border-wiki-border rounded my-4 no-print sticky top-0 z-10 shadow-sm">
-              <TableOfContents sections={person.sections} />
-            </section>
 
             {/* Content Sections */}
             {person.sections.map((section) => (
@@ -105,9 +108,9 @@ export default function WikiPage({ person }: WikiPageProps) {
       </div>
 
       {/* Recent portrait */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 mb-8 border-t border-wiki-border pt-6">
-        <figure className="flex flex-col items-center" itemScope itemType="https://schema.org/ImageObject">
-          <div className="border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '400px' }}>
+      <div className="max-w-6xl mx-auto px-2 sm:px-4 lg:px-6 mt-4 mb-4 border-t border-wiki-border pt-4">
+        <figure className="flex flex-col md:flex-row items-center gap-6" itemScope itemType="https://schema.org/ImageObject">
+          <div className="border border-wiki-border bg-wiki-light-gray md:w-1/3" style={{ maxWidth: '350px' }}>
             <img 
               src={fritsPortrait} 
               alt="Recent portrait of Frits Lyneborg (2024)" 
@@ -116,8 +119,9 @@ export default function WikiPage({ person }: WikiPageProps) {
               itemProp="contentUrl"
             />
           </div>
-          <figcaption className="text-sm mt-2 text-center text-gray-600" itemProp="caption">
-            Recent portrait of Frits Lyneborg (2024)
+          <figcaption className="text-sm md:w-2/3 text-center md:text-left text-gray-600" itemProp="caption">
+            <p className="mb-1">Recent portrait of Frits Lyneborg (2024)</p>
+            <p className="text-xs italic">Frits continues to lead innovative technology projects and advise businesses on implementation of disruptive technologies, with a current focus on automation and AI.</p>
           </figcaption>
           <meta itemProp="name" content="Frits Lyneborg portrait 2024" />
           <meta itemProp="description" content="Recent professional portrait photograph of Frits Lyneborg taken in 2024" />
@@ -125,9 +129,9 @@ export default function WikiPage({ person }: WikiPageProps) {
       </div>
 
       {/* Footer */}
-      <footer className="mt-8 border-t border-wiki-border py-4 text-sm text-gray-600 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row justify-between">
-          <div className="mb-4 md:mb-0">
+      <footer className="mt-4 border-t border-wiki-border py-2 text-xs text-gray-600 max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="mb-2 md:mb-0">
             This page was last edited on {lastEditedDate}
           </div>
           <div>
@@ -135,10 +139,10 @@ export default function WikiPage({ person }: WikiPageProps) {
               href="https://www.linkedin.com/in/frits-lyneborg/" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="flex items-center gap-2 text-wiki-blue hover:text-blue-700 transition-colors"
+              className="flex items-center gap-1 text-wiki-blue hover:text-blue-700 transition-colors"
               aria-label="View Frits Lyneborg's LinkedIn profile"
             >
-              <FaLinkedin className="text-lg" />
+              <FaLinkedin className="text-sm" />
               <span>LinkedIn Profile</span>
             </a>
           </div>

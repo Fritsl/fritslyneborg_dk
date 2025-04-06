@@ -8,19 +8,19 @@ export default function References({ references }: ReferencesProps) {
   return (
     <section 
       id="references" 
-      className="py-4 border-t border-wiki-border mt-4" 
+      className="py-2 border-t border-wiki-border mt-3" 
       aria-labelledby="references-heading"
       itemScope 
       itemType="https://schema.org/ItemList"
     >
       <meta itemProp="name" content="References for Frits Lyneborg" />
       <meta itemProp="itemListOrder" content="Unordered" />
-      <h2 id="references-heading" className="text-2xl font-wiki-serif mb-4" itemProp="headline">References</h2>
-      <ol className="list-decimal list-outside pl-5 text-sm">
+      <h2 id="references-heading" className="text-xl font-wiki-serif mb-2" itemProp="headline">References</h2>
+      <ol className="list-decimal list-outside pl-5 text-sm grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-1">
         {references.map((reference, index) => (
           <li 
             key={index} 
-            className="mb-2" 
+            className="mb-1" 
             itemScope 
             itemType="https://schema.org/CreativeWork"
             itemProp="itemListElement"

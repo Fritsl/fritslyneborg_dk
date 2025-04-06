@@ -48,18 +48,18 @@ export default function ContentSection({ section }: ContentSectionProps) {
   return (
     <section 
       id={section.id} 
-      className="py-4 border-t border-wiki-border overflow-hidden"
+      className="py-2 border-t border-wiki-border overflow-hidden"
       aria-labelledby={`heading-${section.id}`}
       itemScope 
       itemType="https://schema.org/CreativeWork"
     >
       <meta itemProp="about" content={`${section.title} achievements of Frits Lyneborg`} />
-      <h2 id={`heading-${section.id}`} className="text-2xl font-wiki-serif mb-4" itemProp="name">{section.title}</h2>
+      <h2 id={`heading-${section.id}`} className="text-xl font-wiki-serif mb-2" itemProp="name">{section.title}</h2>
       
       {section.achievements.map((achievement, index) => (
         <div 
           key={index} 
-          className="mb-6 overflow-hidden" 
+          className="mb-4 overflow-hidden" 
           itemScope 
           itemType="https://schema.org/Thing"
           itemProp="hasPart"
@@ -68,7 +68,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
           <meta itemProp="description" content={achievement.description} />
           <h3 
             id={`achievement-${section.id}-${index}`} 
-            className="text-xl font-wiki-serif mb-2" 
+            className="text-lg font-wiki-serif mb-1" 
             itemProp="name"
           >
             {achievement.title}
