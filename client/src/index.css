@@ -34,6 +34,10 @@
   .bg-wiki-light-gray {
     background-color: #F8F9FA;
   }
+  
+  .bg-wiki-hover-gray {
+    background-color: #eaecf0;
+  }
 
   .border-wiki-border {
     border-color: #a2a9b1;
