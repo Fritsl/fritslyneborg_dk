@@ -39,8 +39,8 @@ export const personData: PersonData = {
   details: {
     nationality: "Danish",
     birthYear: "1970",
-    fields: "Music Production, Robotics, AI Implementation, Vibe Coding, 3D Art Education, Web Development, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
-    knownFor: "Highly experienced Vibe Coder, Automation and Agentic AI consultant, Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Longboarding and parakart enthusiast",
+    fields: "Music Production, Robotics, AI Implementation, Vibe Coding, 3D Art Education, Web Development, C# Programming, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
+    knownFor: "Highly experienced Vibe Coder, Fluent C# programmer, Automation and Agentic AI consultant, Creator of ArrangerKing music plugin, 3D Art Educator at Royal Danish Academy of Art, Electronic music artist, A&R manager at Mega Records, Founding global robotics community, Email security patent, Open source web innovations, Autonomous drone development, Longboarding and parakart enthusiast",
     portraitImage: "/src/assets/images/frits_portrait_2024.jpg"
   },
   sections: [
