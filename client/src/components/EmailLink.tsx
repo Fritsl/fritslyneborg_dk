@@ -4,9 +4,10 @@ import { FaEnvelope } from 'react-icons/fa';
 interface EmailLinkProps {
   className?: string;
   showText?: boolean;
+  hideTextOnMobile?: boolean;
 }
 
-export default function EmailLink({ className = '', showText = true }: EmailLinkProps) {
+export default function EmailLink({ className = '', showText = true, hideTextOnMobile = false }: EmailLinkProps) {
   const [emailLink, setEmailLink] = useState('');
   
   useEffect(() => {
@@ -19,11 +20,12 @@ export default function EmailLink({ className = '', showText = true }: EmailLink
   return (
     <a 
       href={emailLink}
-      className={`flex items-center gap-1 text-wiki-blue hover:text-blue-700 transition-colors ${className}`}
+      className={`flex items-center gap-1 text-red-600 hover:text-red-800 transition-colors ${className}`}
       aria-label="Send email to Frits Lyneborg"
     >
       <FaEnvelope className={showText ? "text-sm" : "text-xl"} />
-      {showText && <span>Email</span>}
+      {showText && <span>{hideTextOnMobile ? "Email" : "Mail me"}</span>}
+      {!showText && hideTextOnMobile && <span className="hidden sm:inline text-sm">Mail me</span>}
     </a>
   );
 }
