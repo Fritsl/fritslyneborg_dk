@@ -51,7 +51,7 @@ export default function WikiPage({ person }: WikiPageProps) {
             <span className="hidden sm:inline text-sm">LinkedIn Profile</span>
           </a>
         </div>
-        <p className="text-sm text-gray-600 mt-1">My work in disruptive technologies has always been about what's next. When I see potential in emerging tech—whether robotics, drones, or AI—I dive in. Today, AI and automation are the most transformative technologies in the market, and they have my full focus.</p>
+        <p className="text-sm text-gray-600 mt-1">Throughout my career, I've consistently identified transformative technologies before mainstream adoption—from open source web solutions in 2003, anti-spam systems in 2005, and robotics communities in 2008 to autonomous drones in 2010 and early LLM creative implementations in 2023. Today, AI and automation are the most disruptive technologies in the market, and they have my full focus.</p>
       </header>
 
       {/* Main content with sidebar layout */}
