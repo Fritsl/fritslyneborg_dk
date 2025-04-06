@@ -196,6 +196,10 @@ export const personData: PersonData = {
           description: "From 2015 to 2022, Lyneborg operated Blenderkursus.dk, a specialized consultancy focused on 3D art education. Through this platform, he delivered comprehensive training in 3D modeling, animation, and fundamental artistic principles to hundreds of students across Denmark. His teaching methodology emphasized practical skills development alongside theoretical understanding, enabling students to rapidly apply complex 3D concepts to real-world creative projects. The consultancy grew to become a recognized resource for quality 3D education in Denmark."
         },
         {
+          title: "External TA at Aalborg University Copenhagen (2012)",
+          description: "In 2012, Lyneborg served as an external Teaching Assistant at Aalborg University Copenhagen, where he taught development with creativity and new technology. His courses covered microprocessors, actuators, and interactive installations, providing students with hands-on experience integrating emerging technologies into innovative projects. Lyneborg's practical approach and industry expertise offered students valuable insights into real-world applications of creative technology."
+        },
+        {
           title: "Instructor at the Royal Danish Academy of Fine Arts (2015-2022)",
           description: "Throughout his seven-year tenure as an instructor at the prestigious Royal Danish Academy of Fine Arts (Det Kongelige Danske Kunstakademi) in Copenhagen, Lyneborg developed and delivered specialized courses on 3D visualization techniques, digital sculpture, and computational design. Working with students across disciplines including fine arts, architecture, and design, he helped integrate cutting-edge digital 3D technologies into traditional art education. In addition to his formal teaching responsibilities at the academy, Lyneborg also provided private lessons to individual students who sought more personalized instruction in advanced 3D techniques. His workshops were known for bridging the gap between technical proficiency and artistic expression, encouraging students to explore new creative possibilities through digital media while maintaining strong foundational principles."
         }
@@ -277,6 +281,11 @@ export const personData: PersonData = {
     }
   ],
   references: [
+    {
+      title: "External Teaching Assistant in Creative Technology",
+      source: "Aalborg University Copenhagen",
+      year: "2012"
+    },
     {
       title: "LEGO Ninjago: Wu-Cru Graphics Credit",
       source: "MobyGames",
