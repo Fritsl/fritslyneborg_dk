@@ -51,7 +51,7 @@ export default function WikiPage({ person }: WikiPageProps) {
             <span className="hidden sm:inline text-sm">LinkedIn Profile</span>
           </a>
         </div>
-        <p className="text-sm text-gray-600 mt-1">My work in disruptive technologies has always been about what's next. When I see potential in emerging tech—whether robotics, drones, or now AI—I dive in. Being at the forefront of automation today simply follows the same pattern I've maintained throughout my career: identifying transformative innovations before they become mainstream. This Wikipedia format chronicles that journey.</p>
+        <p className="text-sm text-gray-600 mt-1">My work in disruptive technologies has always been about what's next. When I see potential in emerging tech—whether robotics, drones, or now AI—I dive in. Being at the forefront of automation today simply follows the same pattern I've maintained throughout my career: identifying transformative innovations before they become mainstream.</p>
       </header>
 
       {/* Main content with sidebar layout */}
