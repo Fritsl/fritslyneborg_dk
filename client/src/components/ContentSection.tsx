@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 import { Section } from "@/data/profile";
 import ImagePreviewModal from "./ImagePreviewModal";
-import howtomakerobotImage from "@assets/howtomakearobot.jpg";
-import n8nLogoImage from "@assets/n8nlogo.png";
-import packshotImage from "@assets/Packshot.png";
-import optimizationQuoteImage from "@assets/billede_1743875595792.png";
-import aiArt1Image from "@assets/billede_1743878729353.png";
-import aiArt2Image from "@assets/billede_1743879836567.png";
-import aiArt3Image from "@assets/billede_1743880834153.png";
-import aiArt4Image from "@assets/billede_1743946916059.png";
 
 interface ContentSectionProps {
   section: Section;
