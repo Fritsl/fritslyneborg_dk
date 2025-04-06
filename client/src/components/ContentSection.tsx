@@ -776,6 +776,21 @@ export default function ContentSection({ section }: ContentSectionProps) {
               )}
               
               {index === 1 && (
+                <div className="mt-2 mb-2">
+                  <p className="text-sm italic">
+                    <a 
+                      href="https://www.aau.dk/om-aau/aalborg-universitets-historie/campus-kobenhavn/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue wiki-external inline-flex items-center"
+                    >
+                      Aalborg University Copenhagen - Department of Architecture, Design and Media Technology
+                    </a>
+                  </p>
+                </div>
+              )}
+              
+              {index === 2 && (
                 <figure className="wiki-figure mb-2">
                   <div className="float-right ml-4 mb-1 border border-wiki-border p-1 bg-wiki-light-gray wiki-mobile-float-reset" style={{ maxWidth: '250px' }}>
                     <img src={royalAcademyLogo} alt="Royal Danish Academy of Fine Arts Logo" className="w-full" />
