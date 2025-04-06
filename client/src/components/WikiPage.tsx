@@ -3,6 +3,7 @@ import TableOfContents from "./TableOfContents";
 import ContentSection from "./ContentSection";
 import WikiSidebar from "./WikiSidebar";
 import References from "./References";
+import EmailLink from "./EmailLink";
 import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
 import fritsPortrait from "@assets/PXL_20240528_100052148.PORTRAIT.jpg";
 import { FaLinkedin } from "react-icons/fa";
@@ -40,16 +41,19 @@ export default function WikiPage({ person }: WikiPageProps) {
       <header className="border-b border-wiki-border pb-2 max-w-6xl mx-auto px-2 sm:px-4 lg:px-6 mt-4">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl md:text-3xl font-wiki-serif" id="main-heading">{person.name}</h1>
-          <a 
-            href="https://www.linkedin.com/in/frits-lyneborg/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="flex items-center gap-1 text-wiki-blue hover:text-blue-700 transition-colors"
-            aria-label="View Frits Lyneborg's LinkedIn profile"
-          >
-            <FaLinkedin className="text-xl" />
-            <span className="hidden sm:inline text-sm">LinkedIn Profile</span>
-          </a>
+          <div className="flex items-center gap-3">
+            <EmailLink showText={false} />
+            <a 
+              href="https://www.linkedin.com/in/frits-lyneborg/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center gap-1 text-wiki-blue hover:text-blue-700 transition-colors"
+              aria-label="View Frits Lyneborg's LinkedIn profile"
+            >
+              <FaLinkedin className="text-xl" />
+              <span className="hidden sm:inline text-sm">LinkedIn Profile</span>
+            </a>
+          </div>
         </div>
         <p className="text-sm text-gray-600 mt-1">Throughout my career, I've consistently identified transformative technologies before mainstream adoption—from open source web solutions in 2003, anti-spam systems in 2005, and robotics communities in 2008 to autonomous drones in 2010 and early LLM creative implementations in 2023. Today, AI and automation are the most disruptive technologies in the market, and they have my full focus.</p>
       </header>
@@ -134,7 +138,8 @@ export default function WikiPage({ person }: WikiPageProps) {
           <div className="mb-2 md:mb-0">
             This page was last edited on {lastEditedDate}
           </div>
-          <div>
+          <div className="flex items-center gap-4">
+            <EmailLink />
             <a 
               href="https://www.linkedin.com/in/frits-lyneborg/" 
               target="_blank" 
