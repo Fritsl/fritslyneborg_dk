@@ -142,7 +142,7 @@ export const personData: PersonData = {
       title: "Web Development and Entrepreneurship",
       achievements: [
         {
-          title: "Founder of Leading Open Source Web Agency (2003-2008)",
+          title: "Founder of BEE3, Denmark's Premier Open Source Web Agency (2003-2008)",
           description: "As open source software was just beginning to gain legitimacy in commercial environments, Lyneborg founded BEE3 in 2003, a Copenhagen-based web agency that became Denmark's leading specialist in open source content management systems. At a time when proprietary solutions dominated the market and most businesses viewed open source as risky and unprofessional, Lyneborg recognized its transformative potential. Operating without external investment, his bootstrapped company grew to 10 employees before closing during the economic recession of 2008, pioneering the use of TYPO3, a Danish-developed open source CMS, long before open source became the standard approach for enterprise software."
         },
         {
@@ -174,12 +174,12 @@ export const personData: PersonData = {
       title: "AI Innovation and Implementation",
       achievements: [
         {
-          title: "AI Business Consultant and Workshop Leader (2025-Present)",
-          description: "Since February 2025, Lyneborg has partnered with renowned Danish business executive Lars Kolind to conduct AI workshops for business leaders and board members. His current focus is on practical applications of Automation and Agentic AI in business, particularly using n8n workflow automation to create sophisticated, autonomous business systems. Drawing from his firsthand AI implementation experience, Lyneborg helps executives navigate the rapidly evolving technological landscape with actionable strategies. His workshops demonstrate how AI and automation dramatically accelerate production pipelines across industries, emphasizing how businesses can leverage agentic technology for competitive advantage."
+          title: "AI Business Consultant and Workshop Leader (2025-2028)",
+          description: "In February 2025, Lyneborg partnered with renowned Danish business executive Lars Kolind to conduct AI workshops for business leaders and board members. His focus was on practical applications of Automation and Agentic AI in business, particularly using n8n workflow automation to create sophisticated, autonomous business systems. Drawing from his firsthand AI implementation experience, Lyneborg helped executives navigate the rapidly evolving technological landscape with actionable strategies. His workshops demonstrated how AI and automation dramatically accelerate production pipelines across industries, emphasizing how businesses can leverage agentic technology for competitive advantage."
         },
         {
-          title: "Highly Experienced Vibe Coder (2025-Present)",
-          description: "As a highly experienced Vibe Coder, Lyneborg has launched several fully functioning applications created entirely through advanced prompting techniques in 2025. This cutting-edge development approach leverages his deep understanding of AI systems to create complex applications without traditional coding. His expertise represents the leading edge of AI-assisted development, where the primary skill is effective communication with AI systems rather than programming. Through this innovative approach, Lyneborg demonstrates how next-generation techniques dramatically accelerate software creation while maintaining high quality."
+          title: "Highly Experienced Vibe Coder (2025-2028)",
+          description: "As a highly experienced Vibe Coder, Lyneborg launched several fully functioning applications created entirely through advanced prompting techniques in 2025. This cutting-edge development approach leveraged his deep understanding of AI systems to create complex applications without traditional coding. His expertise represented the leading edge of AI-assisted development, where the primary skill is effective communication with AI systems rather than programming. Through this innovative approach, Lyneborg demonstrated how next-generation techniques dramatically accelerate software creation while maintaining high quality."
         },
         {
           title: "Early Adoption of LLM Models for Creative Projects (2023)",
@@ -211,7 +211,7 @@ export const personData: PersonData = {
         },
         {
           title: "Game Engine Expert and Educator",
-          description: "Starting in 2014 as Technical Art Director in the games industry Lyneborg has mastered both Unreal Engine and Unity game development frameworks, establishing himself as a versatile expert in the field. He has shared this knowledge through teaching both frameworks to private students and within game development studios. His comprehensive understanding of these competing technologies has allowed him to select the optimal engine for specific project requirements, recognizing the unique strengths of each platform. This dual expertise has proven particularly valuable in his leadership roles, where he could effectively guide development teams and make informed technical decisions regardless of the chosen engine architecture."
+          description: "Starting in 2014 as Technical Art Director in the games industry, Lyneborg mastered both Unreal Engine and Unity game development frameworks, establishing himself as a versatile expert in the field. He shared this knowledge through teaching both frameworks to private students and within game development studios. His comprehensive understanding of these competing technologies allowed him to select the optimal engine for specific project requirements, recognizing the unique strengths of each platform. This dual expertise proved particularly valuable in his leadership roles, where he could effectively guide development teams and make informed technical decisions regardless of the chosen engine architecture."
         },
         {
           title: "Senior Unreal Developer at Skybox Technologies (2023-2024)",
@@ -245,19 +245,19 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Photography Enthusiast",
-          description: "Lyneborg is passionate about photography, particularly nature and landscape compositions. He has developed a keen eye for capturing unique perspectives and lighting conditions, as exemplified in his forest photography work that explores the interplay between natural elements and atmospheric conditions."
+          description: "Lyneborg maintains a passion for photography, particularly nature and landscape compositions. Over time, he developed a keen eye for capturing unique perspectives and lighting conditions, as exemplified in his forest photography work that explores the interplay between natural elements and atmospheric conditions."
         },
         {
           title: "Ceramics Artisan",
-          description: "Frits has been building his own ceramics ovens, pottery wheel ('drejebænk'), and mixing homemade glazing as a hobby. This creative pursuit allows him to explore three-dimensional form and material properties in a tactile, hands-on manner that complements his digital design work."
+          description: "Frits built his own ceramics ovens, pottery wheel ('drejebænk'), and mixed homemade glazing as a hobby. This creative pursuit allowed him to explore three-dimensional form and material properties in a tactile, hands-on manner that complemented his digital design work."
         },
         {
           title: "Longboard Skateboarding Enthusiast",
-          description: "Beyond his professional endeavors, Lyneborg is an avid longboard skateboarder. This activity, which combines elements of traditional skateboarding with surfing techniques, reflects his interest in balance, momentum, and motion—themes that also appear in his robotics work. Longboarding provides him with a physical counterpoint to his technical interests, allowing him to experience motion and physics directly rather than through digital or mechanical intermediaries."
+          description: "Beyond his professional endeavors, Lyneborg developed a passion for longboard skateboarding. This activity, which combines elements of traditional skateboarding with surfing techniques, reflects his interest in balance, momentum, and motion—themes that also appear in his robotics work. Longboarding provided him with a physical counterpoint to his technical interests, allowing him to experience motion and physics directly rather than through digital or mechanical intermediaries."
         },
         {
           title: "Parakart Driver",
-          description: "Lyneborg also engages in the dynamic sport of parakart driving (also known as kite buggying), where a three-wheeled buggy is powered by a kite. This activity combines wind energy harvesting with precise control techniques, creating an eco-friendly form of land sailing."
+          description: "Lyneborg also engaged in the dynamic sport of parakart driving (also known as kite buggying), where a three-wheeled buggy is powered by a kite. This activity combined wind energy harvesting with precise control techniques, creating an eco-friendly form of land sailing."
         }
       ]
     },

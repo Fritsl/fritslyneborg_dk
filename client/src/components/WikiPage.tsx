@@ -13,8 +13,8 @@ interface WikiPageProps {
 }
 
 export default function WikiPage({ person }: WikiPageProps) {
-  // Using a fixed date rather than the current date to avoid the page looking constantly updated
-  const lastEditedDate = "April 5, 2025";
+  // Using a fixed statement about AI generation instead of an edit date
+  const pageInfoText = "This page is generated and maintained by AI based on publicly available information about Frits Lyneborg";
 
   return (
     <article className="bg-white text-wiki-heading font-wiki-sans" itemScope itemType="https://schema.org/Person">
@@ -132,7 +132,7 @@ export default function WikiPage({ person }: WikiPageProps) {
       <footer className="mt-4 border-t border-wiki-border py-2 text-xs text-gray-600 max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-2 md:mb-0">
-            This page was last edited on {lastEditedDate}
+            {pageInfoText}
           </div>
           <div className="flex items-center gap-4">
             <EmailLink />
