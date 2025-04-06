@@ -19,6 +19,7 @@ import unityLogo from "../assets/images/unity_logo.png";
 import unrealLogo from "../assets/images/unreal_logo.png";
 import drLogo from "../assets/images/dr_logo.png";
 import letsMakeRobotsCollage from "../assets/images/letsmakerobots_collage.png";
+import googleTrendsImage from "../assets/images/howtomakearobot.jpg";
 import republicaImage from "../assets/images/frits_republica_digital_chef.png";
 import venstreLogo from "../assets/images/venstre_logo.png";
 import berlingskelogo from "../assets/images/berlingske_logo.jpg";
@@ -332,6 +333,25 @@ export default function ContentSection({ section }: ContentSectionProps) {
                       <span className="block mt-1">
                         This collage represents just a tiny sample of the massive global community of robot builders that emerged from LetsMakeRobots.com between 2008-2015.
                         <span className="block mt-0.5">Source: LetsMakeRobots.com archives</span>
+                      </span>
+                    </figcaption>
+                  </div>
+                </figure>
+                
+                <figure className="wiki-figure mt-4">
+                  <div className="mb-2 border border-wiki-border p-2 bg-wiki-light-gray" style={{ maxWidth: '700px', margin: '0 auto' }}>
+                    <img 
+                      src={googleTrendsImage} 
+                      alt="Google Trends data showing worldwide interest in 'how to make a robot' during Frits Lyneborg's active period with LetsMakeRobots" 
+                      className="w-full"
+                      itemProp="image"
+                      loading="lazy"
+                    />
+                    <figcaption className="mt-1 text-sm px-1">
+                      <span className="font-semibold">Google Trends data for "how to make a robot" (2004-present)</span>
+                      <span className="block mt-1">
+                        The highlighted period (2008-2015) shows a dramatic rise in global interest in robot building during Lyneborg's active period with LetsMakeRobots.com, followed by a decline after his departure.
+                        <span className="block mt-0.5">Source: Google Trends</span>
                       </span>
                     </figcaption>
                   </div>
