@@ -348,9 +348,9 @@ export default function ContentSection({ section }: ContentSectionProps) {
                       loading="lazy"
                     />
                     <figcaption className="mt-1 text-sm px-1">
-                      <span className="font-semibold">Google Trends data for "how to make a robot" (2004-present)</span>
+                      <span className="font-semibold">Global transformation in robot building interest (2004-present)</span>
                       <span className="block mt-1">
-                        The highlighted period (2008-2015) shows a dramatic rise in global interest in robot building during Lyneborg's active period with LetsMakeRobots.com, followed by a decline after his departure.
+                        Google Trends data shows worldwide interest in "how to make a robot" was stable before 2008, then dramatically increased exactly when Lyneborg launched LetsMakeRobots.com. This sharp rise continued throughout his active period (red box: 2008-2015), followed by an immediate decline after he left the platform. This correlation suggests his direct influence on the global maker movement, transforming robotics from a niche interest to a mainstream educational pursuit.
                         <span className="block mt-0.5">Source: Google Trends</span>
                       </span>
                     </figcaption>
