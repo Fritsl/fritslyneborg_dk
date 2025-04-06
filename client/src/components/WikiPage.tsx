@@ -51,7 +51,7 @@ export default function WikiPage({ person }: WikiPageProps) {
             <span className="hidden sm:inline text-sm">LinkedIn Profile</span>
           </a>
         </div>
-        <p className="text-sm text-gray-600 mt-1">My career centers on disruptive technologies—innovations that transform industries and create new markets. This focus naturally spans multiple fields, explaining the breadth of my work. As a front-runner in technological disruption, my current concentration on AI and automation represents a natural progression, as these are today's most transformative innovations. This Wikipedia-style format offers a comprehensive overview of this journey.</p>
+        <p className="text-sm text-gray-600 mt-1">My work in disruptive technologies has always been about what's next. When I see potential in emerging tech—whether robotics, drones, or now AI—I dive in. Being at the forefront of automation today simply follows the same pattern I've maintained throughout my career: identifying transformative innovations before they become mainstream. This Wikipedia format chronicles that journey.</p>
       </header>
 
       {/* Main content with sidebar layout */}
