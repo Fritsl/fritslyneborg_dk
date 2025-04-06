@@ -68,8 +68,8 @@ export const personData: PersonData = {
       title: "Robotics Community and Education",
       achievements: [
         {
-          title: "Viral Robot Demonstration: Internet Phenomenon (2008)",
-          description: "Lyneborg's 2008 robot demonstration video became a viral sensation on Google Video with over 1,000 comments praising his ingenuity. Many viewers explicitly called him a 'genius' for his creative solutions and clear presentation style. This viral success established his international reputation in robotics education and significantly grew the Let's Make Robots community, cementing his status as a DIY robotics thought leader."
+          title: "Viral Robot Projects: Internet Phenomenon and Yellow Drum Machine (2008-2012)",
+          description: "Lyneborg's 2008 robot demonstration video became a viral sensation on Google Video with over 1,000 comments praising his ingenuity. Many viewers explicitly called him a 'genius' for his creative solutions and clear presentation style. This viral success established his international reputation in robotics education and significantly grew the Let's Make Robots community. Building on this foundation, in 2012 Lyneborg created the Yellow Drum Machine, an innovative open-source robotic percussion instrument that garnered significant attention in the maker community. Featured as a step-by-step tutorial in Make Magazine, this project combined robotics, music, and digital fabrication, showcasing Lyneborg's ability to blend his musical background with his expertise in robotics and programming."
         },
         {
           title: "Founder of LetsMakeRobots.com (2008-2015)",
@@ -117,10 +117,6 @@ export const personData: PersonData = {
       id: "make-magazine-projects",
       title: "Make Magazine Projects and Contributions",
       achievements: [
-        {
-          title: "Yellow Drum Machine (2012)",
-          description: "Lyneborg created the Yellow Drum Machine, an innovative open-source robotic percussion instrument that garnered significant attention in the maker community. The project, which combined robotics, music, and digital fabrication, was featured as a step-by-step tutorial in Make Magazine, showcasing Lyneborg's ability to blend his musical background with his expertise in robotics and programming."
-        },
         {
           title: "Tutorial Series on Hobby Robotics (2011)",
           description: "Throughout 2011, Lyneborg authored a series of tutorials and articles for Make Magazine titled 'The Latest in Hobby Robotics.' These educational pieces provided accessible instructions for creating various robotic projects, including a three-servo walking robot and a drifting robot car. His approachable teaching style and innovative designs helped democratize robotics for hobbyists worldwide, contributing to the growth of the DIY robotics movement."
@@ -443,17 +439,10 @@ export const personData: PersonData = {
     },
     {
       author: "Lyneborg, F.",
-      title: "Viral Robot Demonstration Video",
-      source: "Internet Archives (originally Google Video)",
-      year: "2008",
+      title: "Viral Robot Projects: Demonstration Video and Yellow Drum Machine",
+      source: "Internet Archives & Make Magazine",
+      year: "2008-2012",
       url: "https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq"
-    },
-    {
-      author: "Lyneborg, F.",
-      title: "Yellow Drum Machine",
-      source: "Make Magazine",
-      year: "2012",
-      url: "https://makezine.com/projects/yellow-drum-machine/"
     },
     {
       author: "Lyneborg, F.",

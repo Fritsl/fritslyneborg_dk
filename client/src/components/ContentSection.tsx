@@ -278,38 +278,72 @@ export default function ContentSection({ section }: ContentSectionProps) {
             </figure>
           )}
 
-          {/* Special content for the robotics section - viral robot demonstration */}
-          {isRoboticsSection && achievement.title.includes("Viral Robot Demonstration") && (
+          {/* Special content for the robotics section - viral robot projects */}
+          {isRoboticsSection && achievement.title.includes("Viral Robot Projects") && (
             <div className="mt-2 mb-4">
-              <figure className="wiki-figure">
-                <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
-                  <a 
-                    href="https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="block"
-                  >
-                    <img 
-                      src="https://img.youtube.com/vi/_RyodnisVvU/0.jpg" 
-                      alt="Frits Lyneborg's viral robot demonstration video (2008)" 
-                      className="w-full"
-                    />
-                  </a>
-                  <figcaption className="mt-1 text-xs px-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <figure className="wiki-figure">
+                  <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
                     <a 
                       href="https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-wiki-blue wiki-external"
+                      className="block"
                     >
-                      Viral robot demonstration video (2008)
+                      <img 
+                        src="https://img.youtube.com/vi/_RyodnisVvU/0.jpg" 
+                        alt="Frits Lyneborg's viral robot demonstration video (2008)" 
+                        className="w-full"
+                      />
                     </a>
-                    <span className="block mt-1">
-                      Lyneborg's world-famous robot demonstration that went viral on Google Video before being uploaded to YouTube, with over 1,000 people calling him a genius in the comments.
-                    </span>
-                  </figcaption>
-                </div>
-              </figure>
+                    <figcaption className="mt-1 text-xs px-1">
+                      <a 
+                        href="https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-wiki-blue wiki-external"
+                      >
+                        Viral robot demonstration video (2008)
+                      </a>
+                      <span className="block mt-1">
+                        Lyneborg's world-famous robot demonstration that went viral on Google Video before being uploaded to YouTube, with over 1,000 people calling him a genius in the comments.
+                      </span>
+                    </figcaption>
+                  </div>
+                </figure>
+                
+                <figure className="wiki-figure">
+                  <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
+                    <a 
+                      href="https://makezine.com/projects/yellow-drum-machine/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block"
+                    >
+                      <img 
+                        src="/yellow_drum_machine.jpg" 
+                        alt="The Yellow Drum Machine - robotic percussion instrument by Frits Lyneborg (2012)" 
+                        className="w-full"
+                        loading="lazy"
+                        width="800"
+                      />
+                    </a>
+                    <figcaption className="mt-1 text-xs px-1">
+                      <a 
+                        href="https://makezine.com/projects/yellow-drum-machine/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-wiki-blue wiki-external"
+                      >
+                        Make Magazine: Yellow Drum Machine (2012)
+                      </a>
+                      <span className="block mt-1">
+                        An innovative open-source robotic percussion instrument that garnered significant attention in the maker community.
+                      </span>
+                    </figcaption>
+                  </div>
+                </figure>
+              </div>
             </div>
           )}
 
@@ -421,38 +455,6 @@ export default function ContentSection({ section }: ContentSectionProps) {
             <>
               {index === 0 && (
                 <div className="mt-2 mb-4">
-                  <figure className="wiki-figure">
-                    <div className="mb-1 border border-wiki-border p-1 bg-wiki-light-gray" style={{ maxWidth: '300px' }}>
-                      <a 
-                        href="https://makezine.com/projects/yellow-drum-machine/" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="block"
-                      >
-                        <img 
-                          src="/yellow_drum_machine.jpg" 
-                          alt="The Yellow Drum Machine - robotic percussion instrument by Frits Lyneborg (2012)" 
-                          className="w-full"
-                          loading="lazy"
-                          width="800"
-                        />
-                      </a>
-                      <figcaption className="mt-1 text-xs px-1">
-                        <a 
-                          href="https://makezine.com/projects/yellow-drum-machine/" 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-wiki-blue wiki-external"
-                        >
-                          Make Magazine: Yellow Drum Machine (2012)
-                        </a>
-                      </figcaption>
-                    </div>
-                  </figure>
-                </div>
-              )}
-              {index === 1 && (
-                <div className="mt-2 mb-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
                     <p className="text-sm italic">
                       <a 
@@ -477,7 +479,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   </div>
                 </div>
               )}
-              {index === 2 && (
+              {index === 1 && (
                 <div className="mt-2 mb-4">
                   <p className="text-sm italic mt-2">
                     <a 
