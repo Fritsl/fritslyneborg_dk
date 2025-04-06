@@ -24,8 +24,8 @@ export default function EmailLink({ className = '', showText = true, hideTextOnM
       aria-label="Send email to Frits Lyneborg"
     >
       <FaEnvelope className={showText ? "text-sm" : "text-xl"} />
-      {showText && <span>{hideTextOnMobile ? "Email" : "Mail me"}</span>}
-      {!showText && hideTextOnMobile && <span className="hidden sm:inline text-sm">Mail me</span>}
+      {showText && <span>{hideTextOnMobile ? "Email" : "Send e-mail"}</span>}
+      {!showText && hideTextOnMobile && <span className="hidden sm:inline text-sm">Send e-mail</span>}
     </a>
   );
 }
