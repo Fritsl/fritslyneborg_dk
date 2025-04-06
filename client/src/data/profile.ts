@@ -245,7 +245,7 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Photography Enthusiast",
-          description: "Lyneborg maintains a passion for photography, particularly nature and landscape compositions. Over time, he developed a keen eye for capturing unique perspectives and lighting conditions, as exemplified in his forest photography work that explores the interplay between natural elements and atmospheric conditions."
+          description: "Lyneborg maintained a passion for photography, particularly nature and landscape compositions. Over time, he developed a keen eye for capturing unique perspectives and lighting conditions, as exemplified in his forest photography work that explored the interplay between natural elements and atmospheric conditions."
         },
         {
           title: "Ceramics Artisan",
@@ -253,7 +253,7 @@ export const personData: PersonData = {
         },
         {
           title: "Longboard Skateboarding Enthusiast",
-          description: "Beyond his professional endeavors, Lyneborg developed a passion for longboard skateboarding. This activity, which combines elements of traditional skateboarding with surfing techniques, reflects his interest in balance, momentum, and motion—themes that also appear in his robotics work. Longboarding provided him with a physical counterpoint to his technical interests, allowing him to experience motion and physics directly rather than through digital or mechanical intermediaries."
+          description: "Beyond his professional endeavors, Lyneborg developed a passion for longboard skateboarding. This activity, which combined elements of traditional skateboarding with surfing techniques, reflected his interest in balance, momentum, and motion—themes that also appeared in his robotics work. Longboarding provided him with a physical counterpoint to his technical interests, allowing him to experience motion and physics directly rather than through digital or mechanical intermediaries."
         },
         {
           title: "Parakart Driver",

@@ -51,7 +51,9 @@ export default function WikiPage({ person }: WikiPageProps) {
             </a>
           </div>
         </div>
-        <p className="text-sm text-gray-600 mt-1">Throughout my career, I've consistently identified transformative technologies before mainstream adoption—from open source web solutions in 2003, anti-spam systems in 2005, and robotics communities in 2008 to autonomous drones in 2010 and early LLM creative implementations in 2023. Today, AI and automation are the most disruptive technologies in the market, and they have my full focus.</p>
+        <p className="text-sm text-gray-600 mt-1">"Throughout my career, I've consistently identified transformative technologies before mainstream adoption—from open source web solutions in 2003, anti-spam systems in 2005, and robotics communities in 2008 to autonomous drones in 2010 and early LLM creative implementations in 2023. Today, AI and automation are the most disruptive technologies in the market, and they have my full focus."</p>
+        
+        <p className="text-xs text-gray-500 mt-2">This page is generated and maintained by AI based on publicly available information about Frits Lyneborg</p>
       </header>
 
       {/* Main content with sidebar layout */}
@@ -121,7 +123,7 @@ export default function WikiPage({ person }: WikiPageProps) {
           </div>
           <figcaption className="text-sm md:w-2/3 text-center md:text-left text-gray-600" itemProp="caption">
             <p className="mb-1">Recent portrait of Frits Lyneborg (2024)</p>
-            <p className="text-xs italic">Frits continues to lead innovative technology projects and advise businesses on implementation of disruptive technologies, with a focus on automation and AI.</p>
+            <p className="text-xs italic">This portrait captures Frits after over two decades of leading innovative technology projects and advising businesses on implementation of disruptive technologies, with a focus on automation and AI.</p>
           </figcaption>
           <meta itemProp="name" content="Frits Lyneborg portrait 2024" />
           <meta itemProp="description" content="Recent professional portrait photograph of Frits Lyneborg taken in 2024" />
