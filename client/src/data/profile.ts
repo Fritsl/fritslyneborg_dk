@@ -90,6 +90,10 @@ export const personData: PersonData = {
       title: "3D Printing and Strategic Consulting",
       achievements: [
         {
+          title: "External Advisor on Disruptive Technologies for Siemens Germany (2013)",
+          description: "In 2013, when many industrial giants were struggling to adapt to rapid technological changes, Lyneborg served as an external advisor on disruptive technologies for Siemens Germany, one of the world's largest industrial manufacturing companies. His forward-thinking insights helped the organization navigate emerging technology trends and identify strategic opportunities at a critical period of digital transformation. This consulting relationship demonstrates Lyneborg's recognition as a thought leader in technological innovation even by established global industry leaders, who valued his unique perspective on identifying transformative technologies before they reached mainstream adoption."
+        },
+        {
           title: "Special Consultant at VENZO A/S (2022-2023)",
           description: "At VENZO A/S (2022-2023), Lyneborg led 3D visualization projects for Ørsted that saved millions by enabling virtual simulation of large-scale installations instead of physical prototypes. He developed the system architecture for P-Secure (www.p-secure.com), an innovative automated platform for background checks and identity verification that has since evolved into an independent company. His work created secure, automated systems for sensitive information processing while complying with strict data regulations. He also produced graphics from complex CAD systems that significantly improved decision-making clarity. This experience bridging technical expertise with business applications became foundational for his later AI implementation work."
         },
@@ -377,6 +381,12 @@ export const personData: PersonData = {
       title: "3D Print Exhibition Consulting Services",
       source: "PunchBowl Media Group Archives",
       year: "2014"
+    },
+    {
+      title: "Disruptive Technology Advisory Services",
+      source: "Siemens Germany",
+      year: "2013",
+      url: "https://www.siemens.com/"
     },
     {
       title: "Innovation Leaders in Danish Corporate IT",

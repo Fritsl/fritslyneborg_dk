@@ -1,6 +1,10 @@
 import { PersonData } from "@/data/profile";
 import TableOfContents from "./TableOfContents";
 import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
+import siemensLogo from "@assets/siemens_logo.png";
+import n8nLogo from "@assets/n8nlogo.png";
+import thielelogo from "@assets/thielelogo.png";
+import btLogo from "@assets/BTlogo.jpg";
 
 interface WikiSidebarProps {
   person: PersonData;
@@ -60,6 +64,45 @@ export default function WikiSidebar({ person }: WikiSidebarProps) {
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+
+        {/* Organizations section */}
+        <div className="bg-wiki-light-gray border border-wiki-border rounded overflow-hidden mt-6" role="complementary" aria-label="Organizations">
+          <div className="bg-gray-200 px-4 py-2 font-bold text-center text-sm">Notable Organizations</div>
+          <div className="p-4 flex flex-wrap justify-center items-center gap-4">
+            <a href="https://www.siemens.com/" target="_blank" rel="noopener noreferrer" className="inline-block" title="Siemens Germany - External Advisor (2013)">
+              <img 
+                src={siemensLogo} 
+                alt="Siemens Logo" 
+                className="h-8 object-contain"
+                loading="lazy"
+              />
+            </a>
+            <a href="https://n8n.io/" target="_blank" rel="noopener noreferrer" className="inline-block" title="n8n - Workflow Automation Technology">
+              <img 
+                src={n8nLogo} 
+                alt="n8n Logo" 
+                className="h-8 object-contain"
+                loading="lazy"
+              />
+            </a>
+            <a href="https://www.thiele.dk/" target="_blank" rel="noopener noreferrer" className="inline-block" title="Thiele - Former Client">
+              <img 
+                src={thielelogo} 
+                alt="Thiele Logo" 
+                className="h-8 object-contain"
+                loading="lazy"
+              />
+            </a>
+            <a href="https://www.bt.dk/" target="_blank" rel="noopener noreferrer" className="inline-block" title="Berlingske Tidende - Former Client">
+              <img 
+                src={btLogo} 
+                alt="Berlingske Tidende Logo" 
+                className="h-8 object-contain"
+                loading="lazy"
+              />
+            </a>
           </div>
         </div>
       </div>
