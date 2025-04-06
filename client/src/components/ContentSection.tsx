@@ -382,9 +382,9 @@ export default function ContentSection({ section }: ContentSectionProps) {
                       loading="lazy"
                     />
                     <figcaption className="mt-1 text-sm px-1">
-                      <span className="font-semibold">Global transformation in robot building interest (2004-present)</span>
+                      <span className="font-semibold">Lyneborg's influence on global robotics interest</span>
                       <span className="block mt-1">
-                        Google Trends data shows worldwide interest in "how to make a robot" was stable before 2008, then dramatically increased exactly when Lyneborg launched LetsMakeRobots.com. This sharp rise continued throughout his active period (red box: 2008-2015), followed by an immediate decline after he left the platform. This correlation suggests his direct influence on the global maker movement, transforming robotics from a niche interest to a mainstream educational pursuit.
+                        Google Trends data analysis reveals worldwide interest in "how to make a robot" was stable before 2008, then dramatically increased exactly when Lyneborg launched LetsMakeRobots.com. This sharp rise continued throughout his active period (red box: 2008-2015), followed by an immediate decline after he left the platform. This correlation demonstrates his direct influence on the global maker movement, transforming robotics from a niche interest to a mainstream educational pursuit.
                         <span className="block mt-0.5">Source: Google Trends</span>
                       </span>
                     </figcaption>
@@ -669,11 +669,11 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   <div className="mb-2 border border-wiki-border p-2 bg-wiki-light-gray" style={{ maxWidth: '800px', margin: '0 auto' }}>
                     <img 
                       src={optimeringSloganImage} 
-                      alt="Optimering er intet, Automatisering er alt - The focal point of Lyneborg's current collaboration with Lars Kolind" 
+                      alt="Optimering er intet, Automatisering er alt - The focal point of Lyneborg's collaboration with Lars Kolind" 
                       className="w-full"
                     />
                     <figcaption className="mt-1 text-sm px-1">
-                      <span className="font-semibold">The focal point of Lyneborg's current collaboration with Lars Kolind: "Optimering er intet, Automatisering er alt" (2025)</span>
+                      <span className="font-semibold">The focal point of Lyneborg's collaboration with Lars Kolind: "Optimering er intet, Automatisering er alt"</span>
                       <span className="block mt-1">
                         This slogan ("Optimization is nothing, Automation is everything") encapsulates the core message of their roadshow and workshop series designed to prepare business leaders for the AI revolution, emphasizing how automation technologies fundamentally transform business rather than merely optimizing existing processes.
                       </span>

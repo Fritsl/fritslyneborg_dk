@@ -13,12 +13,8 @@ interface WikiPageProps {
 }
 
 export default function WikiPage({ person }: WikiPageProps) {
-  const today = new Date();
-  const lastEditedDate = today.toLocaleDateString('en-US', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric'
-  });
+  // Using a fixed date rather than the current date to avoid the page looking constantly updated
+  const lastEditedDate = "April 5, 2025";
 
   return (
     <article className="bg-white text-wiki-heading font-wiki-sans" itemScope itemType="https://schema.org/Person">
@@ -125,7 +121,7 @@ export default function WikiPage({ person }: WikiPageProps) {
           </div>
           <figcaption className="text-sm md:w-2/3 text-center md:text-left text-gray-600" itemProp="caption">
             <p className="mb-1">Recent portrait of Frits Lyneborg (2024)</p>
-            <p className="text-xs italic">Frits continues to lead innovative technology projects and advise businesses on implementation of disruptive technologies, with a current focus on automation and AI.</p>
+            <p className="text-xs italic">Frits continues to lead innovative technology projects and advise businesses on implementation of disruptive technologies, with a focus on automation and AI.</p>
           </figcaption>
           <meta itemProp="name" content="Frits Lyneborg portrait 2024" />
           <meta itemProp="description" content="Recent professional portrait photograph of Frits Lyneborg taken in 2024" />

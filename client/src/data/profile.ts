@@ -35,7 +35,7 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, inventor, and pioneer in disruptive technologies. He currently collaborates with Lars Kolind on \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\"), preparing corporate leaders for the AI revolution through practical Agentic AI implementations using n8n technology. Throughout his career, he has founded global communities, led corporate IT operations, patented innovative solutions, and created groundbreaking technologies. His teaching at the Royal Danish Academy of Art (2015-2022) influenced hundreds of 3D artists. His latest innovation, ArrangerKing (2024), transforms music arrangement with revolutionary AI-driven techniques.",
+  introduction: "is a Danish technologist, inventor, and pioneer in disruptive technologies. He collaborates with Lars Kolind on \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\"), preparing corporate leaders for the AI revolution through practical Agentic AI implementations using n8n technology. Throughout his career, he has founded global communities, led corporate IT operations, patented innovative solutions, and created groundbreaking technologies. His teaching at the Royal Danish Academy of Art (2015-2022) influenced hundreds of 3D artists. His innovation, ArrangerKing (2024), transforms music arrangement with revolutionary AI-driven techniques.",
   details: {
     nationality: "Danish",
     birthYear: "1970",
