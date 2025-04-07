@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sun circle -->
+  <circle cx="256" cy="256" r="120" fill="#FDB813" stroke="#F57C00" stroke-width="8"/>
+  
+  <!-- Sun rays -->
+  <g stroke="#F57C00" stroke-width="16" stroke-linecap="round">
+    <!-- Top ray -->
+    <line x1="256" y1="80" x2="256" y2="110" />
+    <!-- Top right ray -->
+    <line x1="353" y1="122" x2="332" y2="148" />
+    <!-- Right ray -->
+    <line x1="432" y1="256" x2="402" y2="256" />
+    <!-- Bottom right ray -->
+    <line x1="353" y1="390" x2="332" y2="364" />
+    <!-- Bottom ray -->
+    <line x1="256" y1="432" x2="256" y2="402" />
+    <!-- Bottom left ray -->
+    <line x1="159" y1="390" x2="180" y2="364" />
+    <!-- Left ray -->
+    <line x1="80" y1="256" x2="110" y2="256" />
+    <!-- Top left ray -->
+    <line x1="159" y1="122" x2="180" y2="148" />
+  </g>
+</svg>
