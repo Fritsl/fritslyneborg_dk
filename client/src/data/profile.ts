@@ -35,12 +35,12 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, inventor, and pioneer in disruptive technologies. He collaborates with Lars Kolind on \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\"), preparing corporate leaders for the AI revolution through practical Agentic AI implementations using n8n technology. Throughout his career, he has founded global communities, led corporate IT operations, patented innovative solutions, and created groundbreaking technologies. His teaching at the Royal Danish Academy of Art (2015-2022) influenced hundreds of 3D artists. His innovation, ArrangerKing (2024), transforms music arrangement with revolutionary AI-driven techniques.",
+  introduction: "is a Danish technologist, inventor, and pioneer in disruptive technologies. As founder and partner of FRITS AI APS, he provides GDPR-compliant AI chatbot solutions for European enterprises. He has collaborated with renowned business executive Lars Kolind, delivering \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\") workshops that prepare corporate leaders for the AI revolution through practical Agentic AI implementations. Throughout his career, he has founded global communities, led corporate IT operations, patented innovative solutions, and created groundbreaking technologies. His teaching at the Royal Danish Academy of Art (2015-2022) influenced hundreds of 3D artists. His innovation, ArrangerKing (2024), transforms music arrangement with revolutionary AI-driven techniques.",
   details: {
     nationality: "Danish",
     birthYear: "1970",
     fields: "Music Production, Robotics, AI Implementation, Vibe Coding, 3D Art Education, Web Development, C# Programming, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
-    knownFor: "Founding global robotics community LetsMakeRobots.com (2008-2015), Creating ArrangerKing music production plugin (2024), Pioneering Vibe Coding techniques, 3D Art education at Royal Danish Academy of Art, Email encryption patent, Web infrastructure for Denmark's Liberal Party, Early adoption of AI technologies",
+    knownFor: "Founding FRITS AI APS for GDPR-compliant enterprise AI solutions (2025), Founding global robotics community LetsMakeRobots.com (2008-2015), Creating ArrangerKing music production plugin (2024), Pioneering Vibe Coding techniques, 3D Art education at Royal Danish Academy of Art, Email encryption patent, Web infrastructure for Denmark's Liberal Party, Early adoption of AI technologies",
     portraitImage: "/src/assets/images/frits_portrait_2024.jpg"
   },
   sections: [
@@ -174,8 +174,12 @@ export const personData: PersonData = {
       title: "AI Innovation and Implementation",
       achievements: [
         {
-          title: "AI Business Consultant and Workshop Leader (2025-2028)",
-          description: "In February 2025, Lyneborg partnered with renowned Danish business executive Lars Kolind to conduct AI workshops for business leaders and board members. His focus was on practical applications of Automation and Agentic AI in business, particularly using n8n workflow automation to create sophisticated, autonomous business systems. Drawing from his firsthand AI implementation experience, Lyneborg helped executives navigate the rapidly evolving technological landscape with actionable strategies. His workshops demonstrated how AI and automation dramatically accelerate production pipelines across industries, emphasizing how businesses can leverage agentic technology for competitive advantage."
+          title: "Founder and Partner at FRITS AI APS (2025-Present)",
+          description: "In 2025, Lyneborg founded FRITS AI APS, a Copenhagen-based company specializing in GDPR-compliant AI chatbot solutions for European enterprises. Headquartered at Nyhavn 38 in Copenhagen, the company addresses a critical challenge facing European businesses: enabling employees to use ChatGPT and other AI tools while maintaining full compliance with GDPR Article 28 requirements. FRITS AI provides enterprise-grade AI solutions where data never leaves Europe, offering the same ChatGPT experience without compliance risks. The platform features enterprise SSO integration, audit-ready architecture, centralized usage analytics, and team collaboration capabilities—all built specifically for European privacy standards. With 15-minute deployment and zero learning curve, FRITS AI transforms scattered, non-compliant AI usage into a centralized, audit-ready system that legal teams approve. The company operates on European infrastructure with European data centers, making AI productivity tools accessible to privacy-conscious organizations while respecting strict data boundaries. More information at frits.ai."
+        },
+        {
+          title: "AI Business Consultant and Workshop Leader (2025)",
+          description: "In February 2025, Lyneborg partnered with renowned Danish business executive Lars Kolind to deliver completed workshops titled \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\") for business leaders and board members. His focus was on practical applications of Automation and Agentic AI in business, particularly using n8n workflow automation to create sophisticated, autonomous business systems. Drawing from his firsthand AI implementation experience, Lyneborg helped executives navigate the rapidly evolving technological landscape with actionable strategies. His workshops demonstrated how AI and automation dramatically accelerate production pipelines across industries, emphasizing how businesses can leverage agentic technology for competitive advantage."
         },
         {
           title: "Highly Experienced Vibe Coder (2025-2028)",
