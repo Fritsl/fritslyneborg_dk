@@ -6,7 +6,9 @@ import References from "./References";
 import EmailLink from "./EmailLink";
 import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
 import fritsPortrait from "@assets/PXL_20240528_100052148.PORTRAIT.jpg";
+import gdprchatImage from "@assets/gdprchat-screenshot.png";
 import { FaLinkedin } from "react-icons/fa";
+import { ExternalLink } from "lucide-react";
 
 interface WikiPageProps {
   person: PersonData;
@@ -67,6 +69,54 @@ export default function WikiPage({ person }: WikiPageProps) {
               <p className="text-base leading-relaxed" itemProp="description">
                 <strong itemProp="givenName">{person.name}</strong> {person.introduction}
               </p>
+            </section>
+
+            {/* Featured Project - GDPRchat.eu */}
+            <section className="my-4 border border-wiki-border bg-wiki-light-gray p-4 rounded">
+              <div className="flex flex-col md:flex-row gap-4 items-start">
+                <div className="flex-1">
+                  <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
+                    Current Project (2025)
+                  </h3>
+                  <p className="text-sm leading-relaxed mb-3">
+                    Creator of <a 
+                      href="https://gdprchat.eu" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue hover:underline font-semibold inline-flex items-center gap-1"
+                      data-testid="link-gdprchat"
+                    >
+                      gdprchat.eu
+                      <ExternalLink className="w-3 h-3" />
+                    </a>, establishing one of the first fully autonomous AI communication systems designed for legal data compliance in the European market, integrating a proxy-based personal-data verification layer between users and language models.
+                  </p>
+                  <a 
+                    href="https://gdprchat.eu" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm text-wiki-blue hover:underline"
+                    data-testid="link-visit-gdprchat"
+                  >
+                    Visit gdprchat.eu
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
+                <div className="w-full md:w-1/2">
+                  <a 
+                    href="https://gdprchat.eu" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block border border-wiki-border hover:shadow-lg transition-shadow"
+                  >
+                    <img 
+                      src={gdprchatImage} 
+                      alt="GDPRchat.eu - A chatbot like ChatGPT, but is safe to use at work"
+                      className="w-full h-auto"
+                      data-testid="img-gdprchat"
+                    />
+                  </a>
+                </div>
+              </div>
             </section>
 
             {/* Mobile image and TOC side by side on small screens */}
