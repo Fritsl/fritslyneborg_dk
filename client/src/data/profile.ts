@@ -248,28 +248,6 @@ export const personData: PersonData = {
       ]
     },
     {
-      id: "leisure-activities",
-      title: "Leisure Activities and Adventure Sports",
-      achievements: [
-        {
-          title: "Photography Enthusiast",
-          description: "Lyneborg maintained a passion for photography, particularly nature and landscape compositions. Over time, he developed a keen eye for capturing unique perspectives and lighting conditions, as exemplified in his forest photography work that explored the interplay between natural elements and atmospheric conditions."
-        },
-        {
-          title: "Ceramics Artisan",
-          description: "Frits built his own ceramics ovens, pottery wheel ('drejebænk'), and mixed homemade glazing as a hobby. This creative pursuit allowed him to explore three-dimensional form and material properties in a tactile, hands-on manner that complemented his digital design work."
-        },
-        {
-          title: "Longboard Skateboarding Enthusiast",
-          description: "Beyond his professional endeavors, Lyneborg developed a passion for longboard skateboarding. This activity, which combined elements of traditional skateboarding with surfing techniques, reflected his interest in balance, momentum, and motion—themes that also appeared in his robotics work. Longboarding provided him with a physical counterpoint to his technical interests, allowing him to experience motion and physics directly rather than through digital or mechanical intermediaries."
-        },
-        {
-          title: "Parakart Driver",
-          description: "Lyneborg also engaged in the dynamic sport of parakart driving (also known as kite buggying), where a three-wheeled buggy is powered by a kite. This activity combined wind energy harvesting with precise control techniques, creating an eco-friendly form of land sailing."
-        }
-      ]
-    },
-    {
       id: "music-industry",
       title: "Music Industry Career",
       achievements: [
