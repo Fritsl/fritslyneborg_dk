@@ -73,7 +73,7 @@ export const personData: PersonData = {
         },
         {
           title: "Founder of LetsMakeRobots.com (2008-2015)",
-          description: "Lyneborg founded LetsMakeRobots.com in 2008, which grew to become one of the largest online communities for hobbyist robotics. His tutorials were translated into multiple languages and featured in books and publications. NASA linked to the site as \"A resource for robot building.\" Canadian company RobotShop.com acquired the platform in 2015."
+          description: "Lyneborg founded LetsMakeRobots.com in 2008, which grew to become one of the largest online communities for hobbyist robotics. His tutorials were translated into multiple languages and featured in books and publications. NASA linked to the site as \"A resource for robot building.\" Canadian company RobotShop.com acquired the platform in 2015 (see PitchBook company profile for acquisition details)."
         },
         {
           title: "Robot Racing Events and Public Exhibitions (2015)",
@@ -522,9 +522,9 @@ export const personData: PersonData = {
       url: "https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe"
     },
     {
-      title: "FRITS AI APS Company Profile",
+      title: "LetsMakeRobots.com Company Profile and Acquisition History",
       source: "PitchBook",
-      year: "2025",
+      year: "2015",
       url: "https://pitchbook.com/profiles/company/123477-40#investors"
     }
   ]
