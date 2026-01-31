@@ -35,7 +35,7 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, inventor, and entrepreneur known for identifying and implementing transformative technologies ahead of mainstream adoption. Born in 1970, Lyneborg has built a career spanning robotics education, corporate IT leadership, AI innovation, 3D art instruction, music technology, and game development. In 2025, he founded FRITS AI APS, a Copenhagen-based company providing GDPR-compliant AI chatbot solutions for European enterprises seeking to leverage ChatGPT while maintaining regulatory compliance. His earlier pioneering work includes founding LetsMakeRobots.com (2008-2015), one of the world's first global robotics communities, and securing an international patent for spam-free email systems (2005). As an educator, Lyneborg taught 3D visualization and digital sculpture at the Royal Danish Academy of Fine Arts for seven years (2015-2022), influencing hundreds of artists. His recent innovations include ArrangerKing (2024), a music production plugin that revolutionizes arrangement workflows, and collaboration with renowned business executive Lars Kolind on AI automation workshops for corporate leaders. Throughout his career, Lyneborg has demonstrated a consistent pattern of recognizing disruptive technologies early—from open source web solutions in 2003 and robotics communities in 2008 to autonomous drones in 2010 and early LLM creative implementations in 2023.",
+  introduction: "is a Danish technologist, inventor, and entrepreneur. Born in 1970, Lyneborg has worked across robotics education, corporate IT leadership, AI implementation, 3D art instruction, music technology, and game development. In 2025, he founded FRITS AI APS, a Copenhagen-based company providing GDPR-compliant AI chatbot solutions for European enterprises. Earlier work includes founding LetsMakeRobots.com (2008-2015), one of the first global online communities for hobbyist robotics, and securing an international patent for spam-free email systems (2005). Lyneborg taught 3D visualization and digital sculpture at the Royal Danish Academy of Fine Arts for seven years (2015-2022). His recent projects include ArrangerKing (2024), a music production plugin for arrangement automation, and AI automation workshops with business executive Lars Kolind. His career has included early work with open source web solutions (2003), robotics communities (2008), autonomous drones (2010), and LLM implementations (2023).",
   details: {
     nationality: "Danish",
     birthYear: "1970",
@@ -51,15 +51,15 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Digital Director at Republica (2015)",
-          description: "Lyneborg led Republica's digital innovation as Digital Director in 2015. Featured in Markedsføring, he transformed digital flyers beyond traditional PDF solutions while overseeing technical development teams. His dual expertise in technical implementation and strategic planning strengthened Republica's market position during a significant growth period. Company leadership stated, 'We have hired a digital chief, Frits Lyneborg, who will enhance our competence in the area.'"
+          description: "Lyneborg served as Digital Director at Republica in 2015, overseeing technical development teams. Featured in Markedsføring, he worked on digital flyer solutions. Company leadership stated, 'We have hired a digital chief, Frits Lyneborg, who will enhance our competence in the area.'"
         },
         {
           title: "Senior Strategic Advisor at Wemind A/S (2010-2013)",
-          description: "As Senior Strategic Advisor at Wemind A/S (2010-2013), Lyneborg delivered high-level guidance on digital transformation to major organizations. He developed forward-thinking strategies across multiple technological domains for businesses adapting to the digital landscape. He became a trusted advisor to executive teams seeking to enhance their organizations' technical capabilities and market presence."
+          description: "As Senior Strategic Advisor at Wemind A/S (2010-2013), Lyneborg provided guidance on digital transformation to organizations, developing strategies across multiple technological domains."
         },
         {
           title: "IT and Development Chief at UVCB (1999-2003)",
-          description: "Lyneborg led UVCB's IT department (1999-2003) with exceptional results. Secretary Chief Henrik Brandt praised his remarkable skill in developing custom IT solutions including networks, remote workstations, and web platforms that precisely met organizational needs. Lyneborg excelled at both strategic planning and practical implementation, delivering tangible results while maintaining precise budgets. His independent leadership style effectively engaged both internal staff and external partners across national boundaries."
+          description: "Lyneborg led UVCB's IT department (1999-2003), developing custom IT solutions including networks, remote workstations, and web platforms. Secretary Chief Henrik Brandt noted his work in meeting organizational needs while maintaining budgets."
         }
       ]
     },
@@ -68,20 +68,20 @@ export const personData: PersonData = {
       title: "Robotics Community and Education",
       achievements: [
         {
-          title: "Viral Robot Projects: Internet Phenomenon and Yellow Drum Machine (2008-2012)",
-          description: "Lyneborg's 2008 robot demonstration video became a viral sensation on Google Video with over 1,000 comments praising his ingenuity. Many viewers explicitly called him a 'genius' for his creative solutions and clear presentation style. This viral success established his international reputation in robotics education and significantly grew the Let's Make Robots community. Building on this foundation, in 2012 Lyneborg created the Yellow Drum Machine, an innovative open-source robotic percussion instrument that garnered significant attention in the maker community. Featured as a step-by-step tutorial in Make Magazine, this project combined robotics, music, and digital fabrication, showcasing Lyneborg's ability to blend his musical background with his expertise in robotics and programming."
+          title: "Robot Projects and Yellow Drum Machine (2008-2012)",
+          description: "Lyneborg's 2008 robot demonstration video received over 1,000 comments on Google Video and contributed to the growth of the LetsMakeRobots.com community. In 2012, he created the Yellow Drum Machine, an open-source robotic percussion instrument. Featured as a tutorial in Make Magazine, this project combined robotics, music, and digital fabrication."
         },
         {
           title: "Founder of LetsMakeRobots.com (2008-2015)",
-          description: "At the precise moment when STEM education was becoming a major public policy focus in the United States, Lyneborg founded LetsMakeRobots.com (2008), which became the world's largest online community for hobbyist robotics. Google Trends data confirms that worldwide interest in \"how to make a robot\" was flat before 2008, then dramatically increased exactly when Lyneborg launched his platform, and notably declined after his departure in 2015. This correlation demonstrates his transformative influence in popularizing robotics as a mainstream educational pursuit. His tutorials were translated into multiple languages and featured in books and major publications, inspiring hundreds of thousands globally. NASA linked to the site as \"A resource for robot building\" before Canadian company RobotShop.com acquired the platform in 2015, validating Lyneborg's early recognition of the growing importance of practical robotics education."
+          description: "Lyneborg founded LetsMakeRobots.com in 2008, which grew to become one of the largest online communities for hobbyist robotics. His tutorials were translated into multiple languages and featured in books and publications. NASA linked to the site as \"A resource for robot building.\" Canadian company RobotShop.com acquired the platform in 2015."
         },
         {
           title: "Robot Racing Events and Public Exhibitions (2015)",
-          description: "Lyneborg organized and led public robotics events, including robot racing competitions at libraries, as documented in the 2015 Dinavis.dk article 'Robotræs på biblioteket' ('Robot Racing at the Library'). These community events brought robotics to the general public, allowing people of all ages to experience the excitement of robot building and competition firsthand. Through these exhibitions, Lyneborg helped bridge the gap between online robotics communities and real-world interactions, making technology more accessible and engaging for Danish communities."
+          description: "Lyneborg organized public robotics events, including robot racing competitions at libraries, as documented in the 2015 Dinavis.dk article 'Robotræs på biblioteket' ('Robot Racing at the Library')."
         },
         {
           title: "Robotics Philosophy and Media Coverage (2013)",
-          description: "Lyneborg's unique philosophy on robotics was featured in a 2013 Videnskab.dk article titled 'Den er levende, når man synes, den er sød' ('It's alive when you think it's cute'). In the article, he discussed his perspective that a robot becomes 'alive' when humans develop an emotional connection to it. He shared the example of a robot trapped in a jar that knocks on the lid and asks to be let out when someone passes by—suggesting that if one feels sympathy for the robot, it has achieved a kind of liveliness. While serving as director at BEE3, Lyneborg continued to expand LetsMakeRobots.com as a global platform for hobbyist robotics enthusiasts, helping democratize robotics knowledge and fostering innovation within the maker community."
+          description: "Lyneborg was featured in a 2013 Videnskab.dk article titled 'Den er levende, når man synes, den er sød' ('It's alive when you think it's cute'), discussing his perspective that a robot becomes 'alive' when humans develop an emotional connection to it. He gave the example of a robot in a jar that knocks on the lid when someone passes by."
         }
       ]
     },
@@ -91,15 +91,15 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "External Advisor for Universal Robots (2023)",
-          description: "In 2023, Lyneborg served as an external advisor for Universal Robots, the Danish pioneer and global leader in collaborative robot technology. Universal Robots has revolutionized industrial automation with their flexible, user-friendly cobots that work safely alongside humans without safety barriers, making automation accessible to small and medium-sized businesses worldwide."
+          description: "In 2023, Lyneborg served as an external advisor for Universal Robots, a Danish company specializing in collaborative robot technology."
         },
         {
-          title: "External Advisor on Disruptive Technologies for Siemens Germany (2013)",
-          description: "In 2013, when many industrial giants were struggling to adapt to rapid technological changes, Lyneborg served as an external advisor on disruptive technologies for Siemens Germany, one of the world's largest industrial manufacturing companies."
+          title: "External Advisor for Siemens Germany (2013)",
+          description: "In 2013, Lyneborg served as an external advisor on disruptive technologies for Siemens Germany."
         },
         {
           title: "System Designer at VENZO A/S (2021-2023)",
-          description: "At VENZO A/S (June 2021 - January 2023), Lyneborg served as System Designer, 3D Interaction and Media Creator. He led 3D visualization projects for Ørsted that saved millions by enabling virtual simulation of large-scale installations instead of physical prototypes. Most significantly, he designed a revolutionary automated background verification system—a world-first architecture that fundamentally reimagined personnel screening. Where traditional background checks required HR staff to manually collect and verify personal data, Lyneborg's system design replaced this with an automated pipeline that reduced verification time and effort to a fraction of traditional methods while enabling scalable, HR-independent processing. This pioneering system architecture became the foundation for P-Secure (www.p-secure.com), which has since evolved into a successful independent company. His innovative approach to automating sensitive information processing while maintaining strict data compliance demonstrated how visionary system design can directly enable new business ventures."
+          description: "At VENZO A/S (June 2021 - January 2023), Lyneborg served as System Designer, 3D Interaction and Media Creator. He led 3D visualization projects for Ørsted, enabling virtual simulation of large-scale installations instead of physical prototypes. He designed an automated background verification system that replaced manual HR data collection with an automated pipeline, enabling scalable processing without dedicated personnel. This system architecture became the foundation for P-Secure (www.p-secure.com), which has since become an independent company."
         }
       ]
     },
@@ -109,7 +109,7 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "3D Print Expo Consultant for Punchbowl Media (2013-2014)",
-          description: "Just as 3D printing was about to explode into mainstream awareness, Lyneborg served as strategic consultant for Idaho-based PunchBowl Media (2013-2014), helping create and organize 3D printing exhibitions across multiple countries. He was instrumental in establishing the 3D Printer World Expo 2013 in Burbank, California, where he curated pioneering projects including the InMoov open-source humanoid robot—one of the first fully 3D-printable robots. This was a full year before major companies began investing heavily in the technology and two years before consumer 3D printers became widely available. His international perspective and technical expertise helped establish early showcases of this transformative technology precisely when it was transitioning from niche industrial process to a consumer-accessible fabrication method."
+          description: "Lyneborg served as consultant for Idaho-based PunchBowl Media (2013-2014), helping organize 3D printing exhibitions across multiple countries. He contributed to the 3D Printer World Expo 2013 in Burbank, California, curating projects including the InMoov open-source humanoid robot, one of the first fully 3D-printable robots."
         }
       ]
     },
@@ -119,11 +119,11 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Tutorial Series on Hobby Robotics (2011)",
-          description: "Throughout 2011, Lyneborg authored a series of tutorials and articles for Make Magazine titled 'The Latest in Hobby Robotics.' These educational pieces provided accessible instructions for creating various robotic projects, including a three-servo walking robot and a drifting robot car. His approachable teaching style and innovative designs helped democratize robotics for hobbyists worldwide, contributing to the growth of the DIY robotics movement."
+          description: "Throughout 2011, Lyneborg authored tutorials and articles for Make Magazine titled 'The Latest in Hobby Robotics,' providing instructions for projects including a three-servo walking robot and a drifting robot car."
         },
         {
           title: "Robotic 3D Carver of Invisible Stuff (2011)",
-          description: "In November 2011, Lyneborg developed and documented the 'Robotic 3D Carver of Invisible Stuff,' an experimental robotic art project that created three-dimensional carvings in space using light and motion. This innovative project, featured in Make Magazine, demonstrated Lyneborg's creative approach to robotics as both a technical and artistic medium, pushing the boundaries of what robotics could achieve in visual art and conceptual design."
+          description: "In November 2011, Lyneborg developed the 'Robotic 3D Carver of Invisible Stuff,' an experimental robotic art project that created three-dimensional carvings in space using light and motion. The project was featured in Make Magazine."
         }
       ]
     },
@@ -132,8 +132,8 @@ export const personData: PersonData = {
       title: "Drone Innovation and Autonomous Systems",
       achievements: [
         {
-          title: "Early Developer of Fully Autonomous Drones (2010-2011)",
-          description: "Nearly a decade before drones became crucial in modern warfare as seen in Ukraine and years before commercial drones were widely available, Lyneborg was pioneering autonomous drone technology in 2010. At a time when most hobby aircraft were manually controlled with limited range, he built drones with internet-connected navigation via Google Maps. His innovations included fully autonomous flying drones with camera gimbals and multiple communication systems at a time when such capabilities were primarily limited to military applications. In 2011, he developed custom FPV (First Person View) video goggles for drone control—technology that would not be commercially available for several more years. His work was featured in Make Magazine, showcasing capabilities that foreshadowed drone applications that would become standard nearly a decade later."
+          title: "Autonomous Drone Development (2010-2011)",
+          description: "In 2010, Lyneborg built drones with internet-connected navigation via Google Maps, including autonomous flying drones with camera gimbals and multiple communication systems. In 2011, he developed custom FPV (First Person View) video goggles for drone control. This work was featured in Make Magazine."
         }
       ]
     },
@@ -142,16 +142,16 @@ export const personData: PersonData = {
       title: "Web Development and Entrepreneurship",
       achievements: [
         {
-          title: "Founder of BEE3, Denmark's Premier Open Source Web Agency (2003-2008)",
-          description: "As open source software was just beginning to gain legitimacy in commercial environments, Lyneborg founded BEE3 in 2003, a Copenhagen-based web agency that became Denmark's leading specialist in open source content management systems. At a time when proprietary solutions dominated the market and most businesses viewed open source as risky and unprofessional, Lyneborg recognized its transformative potential. Operating without external investment, his bootstrapped company grew to 10 employees before closing during the economic recession of 2008, pioneering the use of TYPO3, a Danish-developed open source CMS, long before open source became the standard approach for enterprise software."
+          title: "Founder of BEE3 (2003-2008)",
+          description: "Lyneborg founded BEE3 in 2003, a Copenhagen-based web agency specializing in open source content management systems. The company specialized in TYPO3, an open source CMS. Operating without external investment, the company grew to 10 employees before closing during the 2008 economic recession."
         },
         {
-          title: "Digital Innovation for Major Danish Organizations",
-          description: "Under Lyneborg's leadership, BEE3 secured contracts with prominent clients including the government party Venstre (Denmark's Liberal Party), major news outlet Det Berlingske Officin, and national optician chain Thiele. His highly accessible and scalable CMS for Venstre's National Organization (Venstres Landsorganisation) allowed party headquarters to maintain consistent design standards across more than 300 websites while enabling easy maintenance by users with various levels of technical expertise—from students and IT enthusiasts to retirees. The system required minimal support, with new sites taking only seconds to create. As confirmed by Henrik Andersen, IT and Web Developer at Venstre, this innovative solution provided extremely cost-effective websites while ensuring design consistency and simplifying what would otherwise be a complex system for most users. This unprecedented web infrastructure was credited with contributing to the party's electoral success through effective digital coordination."
+          title: "Web Development for Danish Organizations",
+          description: "Under Lyneborg's leadership, BEE3 secured contracts with clients including Venstre (Denmark's Liberal Party), Det Berlingske Officin, and national optician chain Thiele. The CMS for Venstre's National Organization maintained consistent design standards across more than 300 websites with minimal support requirements. Henrik Andersen, IT and Web Developer at Venstre, confirmed the system provided cost-effective websites with design consistency."
         },
         {
           title: "Digital Concept Developer for Danish Broadcasting (DR) (2008-2010)",
-          description: "As Web 2.0 was transforming user engagement on the internet, Lyneborg served as a digital concept consultant for DR (Danish Broadcasting Corporation) from 2008 to 2010. When most media organizations were still adapting to basic online presence, he guided Denmark's oldest electronic media enterprise through the shift from static content delivery to dynamic user participation. Working with the Interactive Production department, he provided strategic guidance for numerous web 2.0 and mobile projects, transforming traditional broadcasting into interactive public dialogue. According to Christian Badsøe, Creative Director at DR-Interactive Production, Lyneborg possessed an exceptional ability to quickly comprehend user and business needs, creating solutions that effectively reached specific audiences and optimized traffic. This work with Denmark's public broadcaster positioned Lyneborg at the forefront of the social media revolution."
+          description: "Lyneborg served as digital concept consultant for DR (Danish Broadcasting Corporation) from 2008 to 2010. Working with the Interactive Production department, he provided guidance for web 2.0 and mobile projects. Christian Badsøe, Creative Director at DR-Interactive Production, noted his ability to comprehend user and business needs."
         }
       ]
     },
@@ -161,11 +161,11 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Creator of ArrangerKing Music Plugin (2024)",
-          description: "In 2024, Lyneborg created ArrangerKing, revolutionizing music production by solving a critical workflow challenge. This plugin transforms initial musical ideas ('8-bar loops') into complete arrangements with just a few clicks—eliminating the labor-intensive process of manual arrangement. While not an AI product itself, Lyneborg strategically used AI tools throughout its development process. The invention combines complex algorithmic analysis with intuitive interface design and has received significant acclaim in the production community as 'the fastest way to arrange tracks' in music technology history. ArrangerKing demonstrates Lyneborg's talent for identifying workflow bottlenecks and creating technological solutions that transform creative processes."
+          description: "In 2024, Lyneborg created ArrangerKing, a music production plugin that transforms initial musical ideas (8-bar loops) into complete arrangements. The plugin automates the arrangement process that traditionally requires manual editing. AI tools were used during its development. The plugin combines algorithmic analysis with interface design for music arrangement automation."
         },
         {
           title: "International Patent for Spam-Free Email System (2005)",
-          description: "At a time when spam was overwhelming global email systems and costing businesses billions in lost productivity, Lyneborg was granted an international patent (WO2006051434A1) in 2005 for an innovative method to prevent unwanted electronic messages. His approach assigned unique addresses to each entity communicating with a user, with identifiers integrated directly into the email address. This eliminated traditional passwords while maintaining conventional user experience. The system employed a challenge/response procedure to verify sender legitimacy, providing robust protection while preserving email functionality and user convenience—addressing a critical global technology challenge well before most commercial solutions became effective."
+          description: "In 2005, Lyneborg was granted an international patent (WO2006051434A1) for a method to prevent unwanted electronic messages. The approach assigned unique addresses to each entity communicating with a user, with identifiers integrated into the email address. The system employed a challenge/response procedure to verify sender legitimacy."
         }
       ]
     },
@@ -179,15 +179,15 @@ export const personData: PersonData = {
         },
         {
           title: "AI Business Consultant and Workshop Leader (2025)",
-          description: "In February 2025, Lyneborg partnered with renowned Danish business executive Lars Kolind to deliver completed workshops titled \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\") for business leaders and board members. His focus was on practical applications of Automation and Agentic AI in business, particularly using n8n workflow automation to create sophisticated, autonomous business systems. Drawing from his firsthand AI implementation experience, Lyneborg helped executives navigate the rapidly evolving technological landscape with actionable strategies. His workshops demonstrated how AI and automation dramatically accelerate production pipelines across industries, emphasizing how businesses can leverage agentic technology for competitive advantage."
+          description: "In February 2025, Lyneborg partnered with Danish business executive Lars Kolind to deliver workshops titled \"Optimering er intet, Automatisering er alt\" (\"Optimization is nothing, Automation is everything\") for business leaders and board members. The workshops covered practical applications of automation and agentic AI in business, including n8n workflow automation for business systems."
         },
         {
-          title: "Highly Experienced Vibe Coder (2025-2028)",
-          description: "As a highly experienced Vibe Coder, Lyneborg launched several fully functioning applications created entirely through advanced prompting techniques in 2025. This cutting-edge development approach leveraged his deep understanding of AI systems to create complex applications without traditional coding. His expertise represented the leading edge of AI-assisted development, where the primary skill is effective communication with AI systems rather than programming. Through this innovative approach, Lyneborg demonstrated how next-generation techniques dramatically accelerate software creation while maintaining high quality."
+          title: "AI-Assisted Development (2025-Present)",
+          description: "In 2025, Lyneborg developed several applications using AI-assisted development techniques, creating functional software through advanced prompting rather than traditional programming. This approach uses effective communication with AI systems as the primary development method."
         },
         {
-          title: "Early Adoption of LLM Models for Creative Projects (2023)",
-          description: "In 2023, long before multimodal generative AI became 2025's dominant technology trend, Lyneborg was already exploring the artistic potential of Large Language Models (LLMs) for creative applications. While most people were just learning about ChatGPT, he had moved beyond text-only implementations to work with early multimodal systems for experimental art projects. This pioneering work represented some of the first attempts to use generative AI as a creative medium in Denmark, establishing him as an innovator in the practical application of AI for creative endeavors nearly two years before these applications became mainstream commercial tools."
+          title: "LLM Applications for Creative Projects (2023)",
+          description: "In 2023, Lyneborg began using Large Language Models (LLMs) for creative applications, including early multimodal systems for experimental art projects."
         }
       ]
     },
@@ -197,15 +197,15 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Founder of Blenderkursus.dk (2015-2022)",
-          description: "From 2015 to 2022, Lyneborg operated Blenderkursus.dk, a specialized consultancy focused on 3D art education. Through this platform, he delivered comprehensive training in 3D modeling, animation, and fundamental artistic principles to hundreds of students across Denmark. His teaching methodology emphasized practical skills development alongside theoretical understanding, enabling students to rapidly apply complex 3D concepts to real-world creative projects. The consultancy grew to become a recognized resource for quality 3D education in Denmark."
+          description: "From 2015 to 2022, Lyneborg operated Blenderkursus.dk, a consultancy focused on 3D art education. The platform delivered training in 3D modeling, animation, and artistic principles to students across Denmark."
         },
         {
           title: "External TA at Aalborg University Copenhagen (2012)",
-          description: "In 2012, Lyneborg served as an external Teaching Assistant at Aalborg University Copenhagen, where he taught development with creativity and new technology. His courses covered microprocessors, actuators, and interactive installations, providing students with hands-on experience integrating emerging technologies into innovative projects. Lyneborg's practical approach and industry expertise offered students valuable insights into real-world applications of creative technology."
+          description: "In 2012, Lyneborg served as an external Teaching Assistant at Aalborg University Copenhagen, teaching courses covering microprocessors, actuators, and interactive installations."
         },
         {
           title: "Instructor at the Royal Danish Academy of Fine Arts (2015-2022)",
-          description: "Throughout his seven-year tenure as an instructor at the prestigious Royal Danish Academy of Fine Arts (Det Kongelige Danske Kunstakademi) in Copenhagen, Lyneborg developed and delivered specialized courses on 3D visualization techniques, digital sculpture, and computational design. Working with students across disciplines including fine arts, architecture, and design, he helped integrate cutting-edge digital 3D technologies into traditional art education. In addition to his formal teaching responsibilities at the academy, Lyneborg also provided private lessons to individual students who sought more personalized instruction in advanced 3D techniques. His workshops were known for bridging the gap between technical proficiency and artistic expression, encouraging students to explore new creative possibilities through digital media while maintaining strong foundational principles."
+          description: "Throughout his seven-year tenure as an instructor at the Royal Danish Academy of Fine Arts (Det Kongelige Danske Kunstakademi) in Copenhagen, Lyneborg taught courses on 3D visualization techniques, digital sculpture, and computational design. He worked with students across disciplines including fine arts, architecture, and design. He also provided private lessons to individual students."
         }
       ]
     },
@@ -215,19 +215,19 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Lead R&D Developer at Skybox Technologies (2024-2025)",
-          description: "On May 17, 2024, Lyneborg was promoted to Lead R&D Developer at Skybox Technologies, following his successful tenure as a Senior Unreal Developer. In this leadership role, his responsibilities expanded to include rapid development of games and prototypes utilizing multiple platforms including Unreal Engine, Unity, and Blender. His technological expertise and creative problem-solving abilities enabled him to effectively lead research and development initiatives, exploring new approaches to game development and innovative user experiences. He remained in this position until February 2025."
+          description: "On May 17, 2024, Lyneborg was promoted to Lead R&D Developer at Skybox Technologies. Responsibilities included development of games and prototypes using Unreal Engine, Unity, and Blender. He remained in this position until February 2025."
         },
         {
-          title: "Game Engine Expert and Educator",
-          description: "Starting in 2014 as Technical Art Director in the games industry, Lyneborg mastered both Unreal Engine and Unity game development frameworks, establishing himself as a versatile expert in the field. He shared this knowledge through teaching both frameworks to private students and within game development studios. His comprehensive understanding of these competing technologies allowed him to select the optimal engine for specific project requirements, recognizing the unique strengths of each platform. This dual expertise proved particularly valuable in his leadership roles, where he could effectively guide development teams and make informed technical decisions regardless of the chosen engine architecture."
+          title: "Game Engine Experience",
+          description: "Starting in 2014 as Technical Art Director in the games industry, Lyneborg worked with both Unreal Engine and Unity. He taught both frameworks to private students and within game development studios."
         },
         {
           title: "Senior Unreal Developer at Skybox Technologies (2023-2024)",
-          description: "On January 1, 2023, Lyneborg joined Skybox Technologies as a Senior Unreal Developer. In this role, he applied his extensive technical expertise and game development experience to create advanced gaming solutions using the Unreal Engine. His work at Skybox Technologies built upon his previous experience in the gaming industry, allowing him to further refine his skills in game development and contribute to cutting-edge projects in the gaming sector."
+          description: "On January 1, 2023, Lyneborg joined Skybox Technologies as a Senior Unreal Developer, creating gaming solutions using the Unreal Engine."
         },
         {
           title: "Contributor to 'Cosmic Top Secret' (2018)",
-          description: "Lyneborg participated in the development of 'Cosmic Top Secret', an award-winning documentary game created by Danish studio Klassefilm. Released in 2018, the game follows creator Trine Laier's investigation into her parents' past as Cold War spies. The game's unique paper-craft aesthetic and innovative narrative approach earned it significant critical acclaim, including a Special Jury Award at A MAZE Berlin and Best Storytelling at Indie Prize London. Developed in Unity, the game was released on multiple platforms including PC, mobile, Nintendo Switch, PlayStation 4, and Xbox One. Lyneborg was part of the development team that helped bring this distinctive and historically significant game to life."
+          description: "Lyneborg participated in the development of 'Cosmic Top Secret', a documentary game created by Danish studio Klassefilm. Released in 2018, the game received a Special Jury Award at A MAZE Berlin and Best Storytelling at Indie Prize London. Developed in Unity, released on PC, mobile, Nintendo Switch, PlayStation 4, and Xbox One."
         },
         {
           title: "Graphics Developer at Cape Copenhagen for LEGO Ninjago: Wu-Cru (2015-2017)",
@@ -235,15 +235,15 @@ export const personData: PersonData = {
         },
         {
           title: "Technical Art Director at PortaPlay (2014-2015)",
-          description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Though initially hired as a gameplay scripter/designer based on his experience in concept development, technical IT projects, and skills with Playmaker and scripting, his talents quickly led to a role change. As Technical Art Director, he significantly enhanced both visual quality and overall game performance. His responsibilities encompassed modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, implementing visual effects (skyboxes, weather, explosions), performance optimization, workflow planning, and directing 3D artists. Creative Director Hans von Knut Skovfoged noted Lyneborg's exceptional ability to rapidly master technical areas, strong personal initiative, and capacity to work independently within a defined vision while maintaining excellent team integration."
+          description: "During 2014-2015, Lyneborg served as Technical Art Director at Danish game studio PortaPlay ApS, working on the sci-fi strategy game 'Tales from the Void'. Responsibilities included modeling, texturing, mapping, skinning, rigging, shader development, particle effects, lighting, baking, visual effects, performance optimization, workflow planning, and directing 3D artists."
         },
         {
           title: "TIXITAXI: AI-Driven Children's Puzzle Game (2020)",
-          description: "TIXITAXI was an innovative children's puzzle game developed entirely by Lyneborg in 2020, featuring characters that were 100% driven by artificial intelligence—long before AI became mainstream in game development. Unlike traditional games where players directly control characters, TIXITAXI implemented a groundbreaking approach where the AI-driven characters moved according to player instructions rather than through direct control. Lyneborg specialized in developing AI for non-player characters (NPCs), but TIXITAXI went further by applying this technology to main characters as well. The project received funding from the Danish Film Institute, which recognized its innovative approach to children's educational entertainment. The game combined puzzle-solving mechanics with these sophisticated AI-driven character behaviors to create an engaging and responsive play experience for young audiences. Lyneborg's pioneering implementation of AI for character behavior demonstrated his forward-thinking approach to game design and technology integration."
+          description: "TIXITAXI was a children's puzzle game developed by Lyneborg in 2020, featuring AI-driven characters that moved according to player instructions rather than through direct control. The project received funding from the Danish Film Institute."
         },
         {
           title: "Mobile Games Released: Bare Feet! (2020)",
-          description: "In September 2020, during the COVID-19 pandemic isolation period, Lyneborg independently developed and released 'Bare Feet!' for Android—an innovative mobile game that successfully merged multiple genres. This unique title combined elements from endless runners, side-scrolling shooters, platformers, and sports games into a cohesive experience. The gameplay features an inventive mechanic where players can transition from standard platforming (running and jumping) to flight mode with shooting capabilities by holding the jump button while airborne. The game also incorporates soccer ball physics reminiscent of Rocket League, creating a truly genre-blending experience. Lyneborg handled all aspects of development independently, including programming, game design, art creation, and deployment."
+          description: "In September 2020, Lyneborg developed and released 'Bare Feet!' for Android, combining elements from endless runners, side-scrollers, platformers, and sports games. Lyneborg handled programming, game design, art creation, and deployment."
         }
       ]
     },
