@@ -140,7 +140,7 @@ export default function WikiPage({ person }: WikiPageProps) {
                     <span className="text-sm font-normal text-gray-500">(2025)</span>
                   </h4>
                   <p className="text-sm leading-relaxed mb-3">
-                    A complete enterprise SaaS platform built as sole technical founder—work typically requiring 4-6 engineers. Features enterprise identity federation (Microsoft SSO), multi-tenant self-provisioning, usage metering with per-user throttling, automated token cost optimization, multi-layer PII redaction for chat and documents, and automated billing. Full GDPR-compliant AI communication system.
+                    Enterprise SaaS platform with Microsoft SSO integration, multi-tenant self-provisioning, per-user usage metering and throttling, automated token cost optimization, multi-layer PII redaction for real-time chat and document uploads, and automated billing infrastructure. Designed, developed, and deployed as sole technical founder.
                   </p>
                   <a 
                     href="https://gdprchat.eu" 
