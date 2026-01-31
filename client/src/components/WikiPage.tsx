@@ -7,6 +7,7 @@ import EmailLink from "./EmailLink";
 import fritsImage from "@assets/FritsLyneborg_workshop.jpg";
 import fritsPortrait from "@assets/PXL_20240528_100052148.PORTRAIT.jpg";
 import gdprchatImage from "@assets/gdprchat-screenshot.png";
+import bildoLogo from "@assets/bildo-logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { ExternalLink } from "lucide-react";
 
@@ -71,24 +72,75 @@ export default function WikiPage({ person }: WikiPageProps) {
               </p>
             </section>
 
-            {/* Featured Project - GDPRchat.eu */}
+            {/* Featured Projects */}
             <section className="my-4 border border-wiki-border bg-wiki-light-gray p-4 rounded">
+              <h3 className="text-lg font-semibold mb-4">Current Projects</h3>
+              
+              {/* Bildo.app (2026) */}
+              <div className="flex flex-col md:flex-row gap-4 items-start mb-6 pb-6 border-b border-wiki-border">
+                <div className="w-full md:w-1/4">
+                  <a 
+                    href="https://bildo.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block hover:shadow-lg transition-shadow"
+                  >
+                    <img 
+                      src={bildoLogo} 
+                      alt="Bildo.app logo"
+                      className="w-full h-auto rounded"
+                      data-testid="img-bildo"
+                    />
+                  </a>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-base font-semibold mb-2 flex items-center gap-2">
+                    <a 
+                      href="https://bildo.app" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue hover:underline inline-flex items-center gap-1"
+                      data-testid="link-bildo"
+                    >
+                      Bildo.app
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                    <span className="text-sm font-normal text-gray-500">(2026 - Beta)</span>
+                  </h4>
+                  <p className="text-sm leading-relaxed mb-3">
+                    An innovative agentic application platform that reimagines software discovery. Apps are presented in a video-like format where hovering triggers silent demos—similar to YouTube's autoplay preview—but users can interact with fully functional applications, view them in fullscreen, and engage through comments. The platform demonstrates expertise in agentic AI systems, interactive web development, and user experience innovation.
+                  </p>
+                  <a 
+                    href="https://bildo.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm text-wiki-blue hover:underline"
+                    data-testid="link-visit-bildo"
+                  >
+                    Visit bildo.app
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
+              </div>
+
+              {/* GDPRchat.eu (2025) */}
               <div className="flex flex-col md:flex-row gap-4 items-start">
                 <div className="flex-1">
-                  <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
-                    Current Project (2025)
-                  </h3>
-                  <p className="text-sm leading-relaxed mb-3">
-                    Creator of <a 
+                  <h4 className="text-base font-semibold mb-2 flex items-center gap-2">
+                    <a 
                       href="https://gdprchat.eu" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-wiki-blue hover:underline font-semibold inline-flex items-center gap-1"
+                      className="text-wiki-blue hover:underline inline-flex items-center gap-1"
                       data-testid="link-gdprchat"
                     >
                       gdprchat.eu
                       <ExternalLink className="w-3 h-3" />
-                    </a>, establishing one of the first fully autonomous AI communication systems designed for legal data compliance in the European market, integrating a proxy-based personal-data verification layer between users and language models.
+                    </a>
+                    <span className="text-sm font-normal text-gray-500">(2025)</span>
+                  </h4>
+                  <p className="text-sm leading-relaxed mb-3">
+                    One of the first fully autonomous AI communication systems designed for legal data compliance in the European market, integrating a proxy-based personal-data verification layer between users and language models.
                   </p>
                   <a 
                     href="https://gdprchat.eu" 
