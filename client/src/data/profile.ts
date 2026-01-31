@@ -520,6 +520,12 @@ export const personData: PersonData = {
       source: "YouTube",
       year: "1994",
       url: "https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe"
+    },
+    {
+      title: "FRITS AI APS Company Profile",
+      source: "PitchBook",
+      year: "2025",
+      url: "https://pitchbook.com/profiles/company/123477-40#investors"
     }
   ]
 };
