@@ -55,7 +55,7 @@ export const personData: PersonData = {
         },
         {
           title: "Senior Strategic Advisor at Wemind A/S (2010-2013)",
-          description: "As Senior Strategic Advisor at Wemind A/S (2010-2013), Lyneborg provided guidance on digital transformation to organizations, developing strategies across multiple technological domains."
+          description: "As Senior Strategic Advisor at Wemind A/S (2010-2013), Lyneborg provided guidance on digital transformation to organizations. During this period, he designed the UX for the global community website of World Scout Foundation, a client of Wemind. The World Organization of the Scout Movement (WOSM) has approximately 51.4 million members across 176 national organizations."
         },
         {
           title: "IT and Development Chief at UVCB (1999-2003)",
@@ -501,6 +501,12 @@ export const personData: PersonData = {
       title: "Senior Strategic Advisor Position",
       source: "Wemind A/S",
       year: "2010-2013"
+    },
+    {
+      title: "World Organization of the Scout Movement (WOSM) - 51.4 million members",
+      source: "Wikipedia",
+      year: "2023",
+      url: "https://en.wikipedia.org/wiki/World_Organization_of_the_Scout_Movement"
     },
     {
       author: "Brandt, H.",
