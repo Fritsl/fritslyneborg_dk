@@ -161,7 +161,7 @@ export const personData: PersonData = {
       achievements: [
         {
           title: "Creator of ArrangerKing Music Plugin (2024)",
-          description: "In 2024, Lyneborg created ArrangerKing, a music production plugin that transforms initial musical ideas (8-bar loops) into complete arrangements. The plugin automates the arrangement process that traditionally requires manual editing. AI tools were used during its development. The plugin combines algorithmic analysis with interface design for music arrangement automation."
+          description: "In 2024, Lyneborg created ArrangerKing, a music production plugin published by Barking Audio (VAT DK21226378). The plugin transforms initial musical ideas (8-bar loops) into complete arrangements, automating the arrangement process that traditionally requires manual editing. Available as VST3/AU for Windows, macOS (Apple Silicon), and Linux. Priced at USD $54. GEARNEWS reviewed the plugin on October 15, 2024, rating it 4.4/5.0. AI tools were used during its development."
         },
         {
           title: "International Patent for Spam-Free Email System (2005)",
@@ -306,10 +306,16 @@ export const personData: PersonData = {
       year: "2015-2022"
     },
     {
-      title: "ArrangerKing: Revolutionary Music Arrangement Plugin (Built Using AI as a Tool)",
+      title: "ArrangerKing Music Arrangement Plugin",
       source: "Barking Audio",
       year: "2024",
       url: "https://arrangerking.com/"
+    },
+    {
+      title: "ArrangerKing Plugin Review (Rating: 4.4/5.0)",
+      source: "GEARNEWS",
+      year: "2024",
+      url: "https://www.gearnews.com/arrangerking-plugin-studio/"
     },
     {
       title: "System Architecture for P-Secure Platform",
