@@ -40,7 +40,7 @@ export const personData: PersonData = {
     nationality: "Danish",
     birthYear: "1970",
     fields: "Music Production, Robotics, AI Implementation, Vibe Coding, 3D Art Education, Web Development, C# Programming, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
-    knownFor: "Founding FRITS AI APS for GDPR-compliant enterprise AI solutions (2025), Founding global robotics community LetsMakeRobots.com (2008-2015), Creating ArrangerKing music production plugin (2024), Pioneering Vibe Coding techniques, 3D Art education at Royal Danish Academy of Art, Email encryption patent, Web infrastructure for Denmark's Liberal Party, Early adoption of AI technologies",
+    knownFor: "Founding FRITS AI APS for GDPR-compliant enterprise AI solutions (2025), Founding global robotics community LetsMakeRobots.com (2008-2015), Creating ArrangerKing music production plugin (2024), AI-assisted development techniques, 3D Art education at Royal Danish Academy of Art, Email encryption patent, Web infrastructure for Denmark's Liberal Party, Early adoption of AI technologies",
     portraitImage: "/src/assets/images/frits_portrait_2024.jpg"
   },
   sections: [

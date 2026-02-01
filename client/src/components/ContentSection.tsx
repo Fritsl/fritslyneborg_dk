@@ -260,7 +260,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                   />
                 </a>
                 <figcaption className="mt-1 text-xs px-1">
-                  ArrangerKing (2024) - Lyneborg's revolutionary music arrangement plugin that transforms musical ideas into complete arrangements with just a few clicks.
+                  ArrangerKing (2024) - Lyneborg's music arrangement plugin that transforms musical ideas into complete arrangements.
                   <span className="block mt-0.5">Source: Barking Audio</span>
                 </figcaption>
               </div>
@@ -272,7 +272,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                     rel="noopener noreferrer"
                     className="text-wiki-blue wiki-external inline-flex items-center"
                   >
-                    ArrangerKing: Revolutionary Music Arrangement Technology (Official Site)
+                    ArrangerKing Music Arrangement Plugin (Official Site)
                   </a>
                 </p>
               </div>
@@ -339,7 +339,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                         Make Magazine: Yellow Drum Machine (2012)
                       </a>
                       <span className="block mt-1">
-                        An innovative open-source robotic percussion instrument that garnered significant attention in the maker community.
+                        An open-source robotic percussion instrument featured in Make Magazine.
                       </span>
                     </figcaption>
                   </div>
@@ -561,7 +561,7 @@ export default function ContentSection({ section }: ContentSectionProps) {
                       "TIXITAXI" - Game trailer video
                     </a>
                     <span className="block mt-1">
-                      This innovative 2020 children's puzzle game featured characters that were 100% AI-driven, where players provided instructions rather than direct control. Created by Lyneborg, who specialized in AI for game characters, with funding from the Danish Film Institute.
+                      This 2020 children's puzzle game featured AI-driven characters, where players provided instructions rather than direct control. Created by Lyneborg, with funding from the Danish Film Institute.
                       <span className="block mt-0.5">Source: Frits Lyneborg</span>
                     </span>
                   </figcaption>

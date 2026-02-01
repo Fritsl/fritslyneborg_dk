@@ -108,7 +108,7 @@ export default function WikiPage({ person }: WikiPageProps) {
                     <span className="text-sm font-normal text-gray-500">(2026 - Beta)</span>
                   </h4>
                   <p className="text-sm leading-relaxed mb-3">
-                    An innovative agentic application platform that reimagines software discovery. Apps are presented in a video-like format where hovering triggers silent demos—similar to YouTube's autoplay preview—but users can interact with fully functional applications, view them in fullscreen, and engage through comments. The platform demonstrates expertise in agentic AI systems, interactive web development, and user experience innovation.
+                    An agentic application platform for software discovery. Apps are presented in a video-like format where hovering triggers silent demos—similar to YouTube's autoplay preview—but users can interact with fully functional applications, view them in fullscreen, and engage through comments. The platform uses agentic AI systems and interactive web development.
                   </p>
                   <a 
                     href="https://bildo.app" 
