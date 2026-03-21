@@ -35,12 +35,12 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, inventor, and entrepreneur. Born in 1970, Lyneborg has worked across robotics education, corporate IT leadership, AI implementation, 3D art instruction, music technology, and game development. In 2025, he founded FRITS AI APS, a Copenhagen-based company providing GDPR-compliant AI chatbot solutions for European enterprises. Earlier work includes founding LetsMakeRobots.com (2008-2015), one of the first global online communities for hobbyist robotics, and securing an international patent for spam-free email systems (2005). Lyneborg taught 3D visualization and digital sculpture at the Royal Danish Academy of Fine Arts for seven years (2015-2022). His recent projects include ArrangerKing (2024), a music production plugin for arrangement automation, and AI automation workshops with business executive Lars Kolind. His career has included early work with open source web solutions (2003), robotics communities (2008), autonomous drones (2010), and LLM implementations (2023).",
+  introduction: "is a Danish technologist, inventor, and entrepreneur. Born in 1970, Lyneborg has worked across robotics education, corporate IT leadership, AI implementation, 3D art instruction, music technology, and game development. In 2025, he founded FRITS AI APS and built GDPRChat.eu, a general-purpose AI chatbot platform running entirely on European infrastructure—using Mistral AI (France) for language processing, Black Forest Labs (Germany) for image generation, and Hetzner (Germany) for hosting. The platform launched amid the European Union's push for digital sovereignty, as EU leaders called for reduced dependence on American technology following shifts in transatlantic relations under the second Trump administration. GDPRChat.eu includes over 20 integrated tools, a unique persona system for replicable writing styles, and a built-in EU regulatory knowledge base covering the GDPR, the EU AI Act, NIS2, and DORA. Earlier work includes founding LetsMakeRobots.com (2008-2015), one of the first global online communities for hobbyist robotics, and securing an international patent for spam-free email systems (2005). Lyneborg taught 3D visualization and digital sculpture at the Royal Danish Academy of Fine Arts for seven years (2015-2022). His career has included early work with open source web solutions (2003), robotics communities (2008), autonomous drones (2010), LLM implementations (2023), and the ArrangerKing music production plugin (2024).",
   details: {
     nationality: "Danish",
     birthYear: "1970",
     fields: "Music Production, Robotics, AI Implementation, Vibe Coding, 3D Art Education, Web Development, C# Programming, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
-    knownFor: "Founding FRITS AI APS for GDPR-compliant enterprise AI solutions (2025), Founding global robotics community LetsMakeRobots.com (2008-2015), Creating ArrangerKing music production plugin (2024), AI-assisted development techniques, 3D Art education at Royal Danish Academy of Art, Email encryption patent, Web infrastructure for Denmark's Liberal Party, Early adoption of AI technologies",
+    knownFor: "Building GDPRChat.eu, a 100% European AI chatbot platform as an alternative to ChatGPT (2025), Founding FRITS AI APS (2025), Founding global robotics community LetsMakeRobots.com (2008-2015), Creating ArrangerKing music production plugin (2024), 3D Art education at Royal Danish Academy of Art, Email encryption patent, Web infrastructure for Denmark's Liberal Party, Early adoption of AI technologies",
     portraitImage: "/src/assets/images/frits_portrait_2024.jpg"
   },
   sections: [
@@ -174,8 +174,8 @@ export const personData: PersonData = {
       title: "AI Innovation and Implementation",
       achievements: [
         {
-          title: "Founder and Partner at FRITS AI APS (2025-Present)",
-          description: "In 2025, Lyneborg founded FRITS AI APS, a Copenhagen-based company specializing in GDPR-compliant AI chatbot solutions for European enterprises. As sole technical founder, he designed and developed gdprchat.eu from concept to production. The platform includes: enterprise identity federation with Microsoft SSO integration enabling customer self-provisioning; multi-tenant architecture with per-user usage metering, consumption analytics, and throttling controls; automated token pricing lookup with margin protection algorithms; multi-layer PII redaction processing real-time chat input and document uploads including PDF parsing; and automated billing infrastructure. Lyneborg conceived the product, assembled the team, secured capital, incorporated the company, designed the system architecture, and developed the technical implementation. Headquartered at Nyhavn 38 in Copenhagen, the platform provides enterprise AI solutions on European infrastructure. More information at frits.ai."
+          title: "Founder of GDPRChat.eu — European AI Chatbot Platform (2025-Present)",
+          description: "In 2025, Lyneborg founded FRITS AI APS (Copenhagen) and built GDPRChat.eu, a general-purpose AI chatbot platform designed as a European alternative to ChatGPT. The platform runs entirely on EU infrastructure: Mistral AI (Paris) provides the large language model, Black Forest Labs (Freiburg) provides image generation via FLUX, and Hetzner (Germany) hosts the application and database. No data leaves the European Union. GDPRChat.eu launched during a period of intensified European efforts toward digital sovereignty. In February 2025, European Commission President Ursula von der Leyen announced the InvestAI initiative at the AI Action Summit in Paris, aiming to mobilize EUR 200 billion for AI development across Europe. France and Germany convened a Summit on European Digital Sovereignty in November 2025, and all 27 EU member states signed a declaration on reducing strategic dependencies on non-EU technology. The platform offers over 20 integrated tools including web search and browsing, Python code execution (via WebAssembly), document creation (PDF, DOCX, XLSX), Mermaid diagrams, Gantt charts, interactive maps, data visualization, and EU-hosted image generation. A distinctive feature is the persona system: users can paste any text sample, and the AI analyzes its style, tone, and rhythm to create a reusable writing voice that can be applied to future conversations. The platform includes a curated EU regulatory knowledge base with indexed content covering the GDPR, the EU AI Act, NIS2, DORA, CSRD, the ePrivacy Directive, and PSD2, supported by a vector search system (pgvector) and monthly automated updates via web crawling. Additional features include enterprise SSO via Microsoft Entra ID, multi-tenant architecture with per-user metering, built-in PII detection, Stripe billing integration, and a blue-green deployment pipeline. Lyneborg designed the architecture, wrote the code, and deployed the platform as sole technical developer. The company is headquartered at Nyhavn 38, Copenhagen."
         },
         {
           title: "AI Business Consultant and Workshop Leader (2025)",
@@ -538,6 +538,60 @@ export const personData: PersonData = {
       source: "PitchBook",
       year: "2015",
       url: "https://pitchbook.com/profiles/company/123477-40#investors"
+    },
+    {
+      title: "GDPRChat.eu — European AI Chatbot Platform",
+      source: "FRITS AI APS",
+      year: "2025",
+      url: "https://gdprchat.eu"
+    },
+    {
+      title: "FRITS AI APS — Company Registration (CVR)",
+      source: "Danish Business Authority",
+      year: "2025",
+      url: "https://frits.ai"
+    },
+    {
+      title: "Europe's AI Ambitions: Inside the EU's EUR 200 Billion Digital Sovereignty Plan",
+      source: "William Fry",
+      year: "2025",
+      url: "https://www.williamfry.com/knowledge/europes-ai-ambitions-inside-the-eus-e200-billion-digital-sovereignty-plan/"
+    },
+    {
+      title: "Mistral Emerges as Last, Best Hope for European AI Contender",
+      source: "Bloomberg",
+      year: "2025",
+      url: "https://www.bloomberg.com/news/articles/2025-09-09/mistral-emerges-as-last-best-hope-for-european-ai-contender"
+    },
+    {
+      title: "Digital Sovereignty: Europe's Declaration of Independence",
+      source: "Atlantic Council",
+      year: "2025",
+      url: "https://www.atlanticcouncil.org/in-depth-research-reports/report/digital-sovereignty-europes-declaration-of-independence/"
+    },
+    {
+      title: "Digital Sovereignty: Have Trump's Threats Spurred a European Awakening?",
+      source: "France 24",
+      year: "2026",
+      url: "https://www.france24.com/en/technology/20260202-digital-sovereignty-have-trump-threats-spurred-european-awakening"
+    },
+    {
+      title: "Get Over Your X: A European Plan to Escape American Technology",
+      source: "European Council on Foreign Relations (ECFR)",
+      year: "2026",
+      url: "https://ecfr.eu/publication/get-over-your-x-a-european-plan-to-escape-american-technology/"
+    },
+    {
+      title: "Mistral AI — About",
+      source: "Mistral AI",
+      year: "2025",
+      url: "https://mistral.ai/company/"
+    },
+    {
+      title: "FLUX Image Generation — Black Forest Labs",
+      source: "Black Forest Labs",
+      year: "2025",
+      url: "https://blackforestlabs.ai/"
     }
   ]
 };

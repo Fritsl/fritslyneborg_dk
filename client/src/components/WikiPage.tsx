@@ -54,7 +54,7 @@ export default function WikiPage({ person }: WikiPageProps) {
             </a>
           </div>
         </div>
-        <p className="text-sm text-gray-600 mt-1">"Throughout my career, I've consistently identified transformative technologies before mainstream adoption—from open source web solutions in 2003, anti-spam systems in 2005, and robotics communities in 2008 to autonomous drones in 2010 and early LLM creative implementations in 2023. Today, AI and automation are the most disruptive technologies in the market, and they have my full focus."</p>
+        <p className="text-sm text-gray-600 mt-1">"Throughout my career, I've consistently identified transformative technologies before mainstream adoption—from open source web solutions in 2003, anti-spam systems in 2005, and robotics communities in 2008 to autonomous drones in 2010 and early LLM creative implementations in 2023. When Europe decided it needed its own AI, I had already built it."</p>
         
         <p className="text-xs text-gray-500 mt-2">This page is generated and maintained by AI based on publicly available information about Frits Lyneborg</p>
       </header>
@@ -127,42 +127,48 @@ export default function WikiPage({ person }: WikiPageProps) {
               <div className="flex flex-col md:flex-row gap-4 items-start">
                 <div className="flex-1">
                   <h4 className="text-base font-semibold mb-2 flex items-center gap-2">
-                    <a 
-                      href="https://gdprchat.eu" 
-                      target="_blank" 
+                    <a
+                      href="https://gdprchat.eu"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-wiki-blue hover:underline inline-flex items-center gap-1"
                       data-testid="link-gdprchat"
                     >
-                      gdprchat.eu
+                      GDPRChat.eu
                       <ExternalLink className="w-3 h-3" />
                     </a>
                     <span className="text-sm font-normal text-gray-500">(2025)</span>
                   </h4>
-                  <p className="text-sm leading-relaxed mb-3">
-                    Enterprise SaaS platform with Microsoft SSO integration, multi-tenant self-provisioning, per-user usage metering and throttling, automated token cost optimization, multi-layer PII redaction for real-time chat and document uploads, and automated billing infrastructure. Designed, developed, and deployed as sole technical founder.
+                  <p className="text-sm leading-relaxed mb-2">
+                    A general-purpose AI chatbot platform built as a European alternative to ChatGPT. Runs 100% on EU infrastructure: <a href="https://mistral.ai" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Mistral AI</a> (Paris) for language processing, <a href="https://blackforestlabs.ai" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Black Forest Labs</a> (Freiburg) for FLUX image generation, and <a href="https://www.hetzner.com" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Hetzner</a> (Germany) for hosting. No data leaves the EU.
                   </p>
-                  <a 
-                    href="https://gdprchat.eu" 
-                    target="_blank" 
+                  <p className="text-sm leading-relaxed mb-2">
+                    Includes 20+ integrated tools (web search, Python execution, document creation, data visualization, interactive maps, Gantt charts, Mermaid diagrams), a persona system for replicable writing styles, and a curated EU regulatory knowledge base covering the GDPR, EU AI Act, NIS2, DORA, and CSRD. Enterprise features include Microsoft Entra ID SSO, multi-tenant architecture, PII detection, and Stripe billing.
+                  </p>
+                  <p className="text-sm leading-relaxed mb-3 text-gray-600 italic">
+                    Launched during the EU's push for digital sovereignty, as the European Commission announced a EUR 200 billion AI investment plan and all 27 member states signed a declaration on reducing strategic technology dependencies.
+                  </p>
+                  <a
+                    href="https://gdprchat.eu"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm text-wiki-blue hover:underline"
                     data-testid="link-visit-gdprchat"
                   >
-                    Visit gdprchat.eu
+                    Visit GDPRChat.eu
                     <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <a 
-                    href="https://gdprchat.eu" 
-                    target="_blank" 
+                  <a
+                    href="https://gdprchat.eu"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="block border border-wiki-border hover:shadow-lg transition-shadow"
                   >
-                    <img 
-                      src={gdprchatImage} 
-                      alt="GDPRchat.eu - A chatbot like ChatGPT, but is safe to use at work"
+                    <img
+                      src={gdprchatImage}
+                      alt="GDPRChat.eu — European AI chatbot platform, an alternative to ChatGPT running 100% on EU infrastructure"
                       className="w-full h-auto"
                       data-testid="img-gdprchat"
                     />
