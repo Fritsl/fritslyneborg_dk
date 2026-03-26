@@ -29,7 +29,7 @@ export default function WikiPage({ person }: WikiPageProps) {
       <meta itemProp="nationality" content={person.details.nationality} />
       <meta itemProp="knowsAbout" content={person.details.knownFor} />
       {person.details.birthYear && <meta itemProp="birthDate" content={person.details.birthYear} />}
-      <meta itemProp="url" content={window.location.href} />
+      <meta itemProp="url" content="https://fritslyneborg.dk/" />
       <link itemProp="sameAs" href="https://www.linkedin.com/in/frits-lyneborg/" />
       
       {/* Additional structured data for skills and achievements */}

@@ -51,7 +51,7 @@ export default function TableOfContents({ sections }: TableOfContentsProps) {
                   href={`#${section.id}`} 
                   className="toc-link"
                   itemProp="url"
-                  onClick={() => window.innerWidth < 768 && window.scrollTo({
+                  onClick={() => typeof window !== 'undefined' && window.innerWidth < 768 && window.scrollTo({
                     top: document.getElementById(section.id)?.offsetTop || 0,
                     behavior: 'smooth'
                   })}
