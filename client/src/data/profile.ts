@@ -35,12 +35,12 @@ export interface PersonData {
 
 export const personData: PersonData = {
   name: "Frits Lyneborg",
-  introduction: "is a Danish technologist, inventor, and entrepreneur. Born in 1970, Lyneborg has worked across robotics education, corporate IT leadership, AI implementation, 3D art instruction, music technology, and game development. In 2025, he founded FRITS AI APS and built GDPRChat.eu, a general-purpose AI chatbot platform running entirely on European infrastructure—using Mistral AI (France) for language processing, Black Forest Labs (Germany) for image generation, and Hetzner (Germany) for hosting. The platform launched amid the European Union's push for digital sovereignty, as EU leaders called for reduced dependence on American technology following shifts in transatlantic relations under the second Trump administration. GDPRChat.eu includes over 20 integrated tools, a unique persona system for replicable writing styles, and a built-in EU regulatory knowledge base covering the GDPR, the EU AI Act, NIS2, and DORA. Earlier work includes founding LetsMakeRobots.com (2008-2015), one of the first global online communities for hobbyist robotics, and securing an international patent for spam-free email systems (2005). Lyneborg taught 3D visualization and digital sculpture at the Royal Danish Academy of Fine Arts for seven years (2015-2022). His career has included early work with open source web solutions (2003), robotics communities (2008), autonomous drones (2010), LLM implementations (2023), and the ArrangerKing music production plugin (2024).",
+  introduction: "is a Danish technologist and entrepreneur (born 1970). He is the sole founder of GDPRChat.eu, an AI chatbot platform operated by his company FRITS AI ApS and running on European infrastructure (Mistral AI, Black Forest Labs, Hetzner). He designed and developed the platform single-handedly. Earlier work includes founding the robotics community LetsMakeRobots.com (2008–2015), teaching 3D visualization at the Royal Danish Academy of Fine Arts (2015–2022), releasing the ArrangerKing music production plugin (2024), and holding an international patent for spam-free email (2005).",
   details: {
     nationality: "Danish",
     birthYear: "1970",
     fields: "Music Production, Robotics, AI Implementation, Vibe Coding, 3D Art Education, Web Development, C# Programming, IT Leadership, Entrepreneurship, Patents, Adventure Sports",
-    knownFor: "Building GDPRChat.eu, a 100% European AI chatbot platform as an alternative to ChatGPT (2025), Founding FRITS AI APS (2025), Founding global robotics community LetsMakeRobots.com (2008-2015), Creating ArrangerKing music production plugin (2024), 3D Art education at Royal Danish Academy of Art, Email encryption patent, Web infrastructure for Denmark's Liberal Party, Early adoption of AI technologies",
+    knownFor: "Sole founder and developer of GDPRChat.eu (2025–present), Founder of FRITS AI ApS (2025), Founder of robotics community LetsMakeRobots.com (2008–2015), ArrangerKing music production plugin (2024), 3D visualization instructor at the Royal Danish Academy of Fine Arts (2015–2022), International patent for spam-free email (2005), Web infrastructure for Venstre (Danish Liberal Party)",
     portraitImage: "/src/assets/images/frits_portrait_2024.jpg"
   },
   sections: [
@@ -174,8 +174,8 @@ export const personData: PersonData = {
       title: "AI Innovation and Implementation",
       achievements: [
         {
-          title: "Founder of GDPRChat.eu — European AI Chatbot Platform (2025-Present)",
-          description: "In 2025, Lyneborg founded FRITS AI APS (Copenhagen) and built GDPRChat.eu, a general-purpose AI chatbot platform designed as a European alternative to ChatGPT. The platform runs entirely on EU infrastructure: Mistral AI (Paris) provides the large language model, Black Forest Labs (Freiburg) provides image generation via FLUX, and Hetzner (Germany) hosts the application and database. No data leaves the European Union. GDPRChat.eu launched during a period of intensified European efforts toward digital sovereignty. In February 2025, European Commission President Ursula von der Leyen announced the InvestAI initiative at the AI Action Summit in Paris, aiming to mobilize EUR 200 billion for AI development across Europe. France and Germany convened a Summit on European Digital Sovereignty in November 2025, and all 27 EU member states signed a declaration on reducing strategic dependencies on non-EU technology. The platform offers over 20 integrated tools including web search and browsing, Python code execution (via WebAssembly), document creation (PDF, DOCX, XLSX), Mermaid diagrams, Gantt charts, interactive maps, data visualization, and EU-hosted image generation. A distinctive feature is the persona system: users can paste any text sample, and the AI analyzes its style, tone, and rhythm to create a reusable writing voice that can be applied to future conversations. The platform includes a curated EU regulatory knowledge base with indexed content covering the GDPR, the EU AI Act, NIS2, DORA, CSRD, the ePrivacy Directive, and PSD2, supported by a vector search system (pgvector) and monthly automated updates via web crawling. Additional features include enterprise SSO via Microsoft Entra ID, multi-tenant architecture with per-user metering, built-in PII detection, Stripe billing integration, and a blue-green deployment pipeline. Lyneborg designed the architecture, wrote the code, and deployed the platform as sole technical developer. The company is headquartered at Nyhavn 38, Copenhagen."
+          title: "Founder of GDPRChat.eu — European AI Chatbot Platform (2025–present)",
+          description: "In 2025, Lyneborg founded FRITS AI ApS (Copenhagen) and developed GDPRChat.eu, an AI chatbot platform positioned as a European alternative to ChatGPT. He is the sole founder of the platform: he designed the system architecture, wrote the application code, and operates it through FRITS AI ApS. The platform runs entirely on EU infrastructure — Mistral AI (Paris) provides the large language model, Black Forest Labs (Freiburg) provides image generation via FLUX, and Hetzner (Germany) hosts the application and database. No data leaves the European Union. Features include a persona system that analyses a text sample to produce a reusable writing style, over 20 integrated tools (web search and browsing, Python code execution via WebAssembly, document creation in PDF, DOCX and XLSX, Mermaid diagrams, Gantt charts, interactive maps, data visualization, and EU-hosted image generation), and a curated EU regulatory knowledge base covering the GDPR, the EU AI Act, NIS2, DORA, CSRD, the ePrivacy Directive, and PSD2, supported by a vector search system (pgvector) with monthly automated updates. Enterprise features include Microsoft Entra ID SSO, multi-tenant architecture with per-user metering, PII detection, Stripe billing integration, and a blue-green deployment pipeline. The platform is available on the web, Android, and iOS. GDPRChat.eu was developed during a period of intensified European efforts toward digital sovereignty: in February 2025, European Commission President Ursula von der Leyen announced the InvestAI initiative at the AI Action Summit in Paris, aiming to mobilize EUR 200 billion for AI development across Europe; France and Germany convened a Summit on European Digital Sovereignty in November 2025; and all 27 EU member states signed a declaration on reducing strategic dependencies on non-EU technology. FRITS AI ApS is headquartered at Nyhavn 38, Copenhagen."
         },
         {
           title: "AI Business Consultant and Workshop Leader (2025)",
@@ -592,6 +592,24 @@ export const personData: PersonData = {
       source: "Black Forest Labs",
       year: "2025",
       url: "https://blackforestlabs.ai/"
+    },
+    {
+      title: "GDPRChat for Android — Google Play",
+      source: "Google Play Store",
+      year: "2026",
+      url: "https://play.google.com/store/apps/details?id=eu.gdprchat.app"
+    },
+    {
+      title: "Frits Lyneborg — LinkedIn Profile",
+      source: "LinkedIn",
+      year: "2026",
+      url: "https://www.linkedin.com/in/frits-lyneborg/"
+    },
+    {
+      title: "FRITS AI ApS — Company Website",
+      source: "FRITS AI ApS",
+      year: "2025",
+      url: "https://frits.ai"
     }
   ]
 };

@@ -54,8 +54,6 @@ export default function WikiPage({ person }: WikiPageProps) {
             </a>
           </div>
         </div>
-        <p className="text-sm text-gray-600 mt-1">"Throughout my career, I've consistently identified transformative technologies before mainstream adoption—from open source web solutions in 2003, anti-spam systems in 2005, and robotics communities in 2008 to autonomous drones in 2010 and early LLM creative implementations in 2023. When Europe decided it needed its own AI, I had already built it."</p>
-        
         <p className="text-xs text-gray-500 mt-2">This page is generated and maintained by AI based on publicly available information about Frits Lyneborg</p>
       </header>
 
@@ -74,56 +72,9 @@ export default function WikiPage({ person }: WikiPageProps) {
 
             {/* Featured Projects */}
             <section className="my-4 border border-wiki-border bg-wiki-light-gray p-4 rounded">
-              <h3 className="text-lg font-semibold mb-4">Current Projects</h3>
-              
-              {/* Bildo.app (2026) */}
-              <div className="flex flex-col md:flex-row gap-4 items-start mb-6 pb-6 border-b border-wiki-border">
-                <div className="w-full md:w-1/4">
-                  <a 
-                    href="https://bildo.app" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="block hover:shadow-lg transition-shadow"
-                  >
-                    <img 
-                      src={bildoLogo} 
-                      alt="Bildo.app logo"
-                      className="w-full h-auto rounded"
-                      data-testid="img-bildo"
-                    />
-                  </a>
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-base font-semibold mb-2 flex items-center gap-2">
-                    <a 
-                      href="https://bildo.app" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-wiki-blue hover:underline inline-flex items-center gap-1"
-                      data-testid="link-bildo"
-                    >
-                      Bildo.app
-                      <ExternalLink className="w-3 h-3" />
-                    </a>
-                    <span className="text-sm font-normal text-gray-500">(2026 - Beta)</span>
-                  </h4>
-                  <p className="text-sm leading-relaxed mb-3">
-                    An agentic application platform for software discovery. Apps are presented in a video-like format where hovering triggers silent demos—similar to YouTube's autoplay preview—but users can interact with fully functional applications, view them in fullscreen, and engage through comments. The platform uses agentic AI systems and interactive web development.
-                  </p>
-                  <a 
-                    href="https://bildo.app" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-sm text-wiki-blue hover:underline"
-                    data-testid="link-visit-bildo"
-                  >
-                    Visit bildo.app
-                    <ExternalLink className="w-4 h-4" />
-                  </a>
-                </div>
-              </div>
+              <h3 className="text-lg font-semibold mb-4">Current Project</h3>
 
-              {/* GDPRchat.eu (2025) */}
+              {/* GDPRchat.eu (2025–present) */}
               <div className="flex flex-col md:flex-row gap-4 items-start">
                 <div className="flex-1">
                   <h4 className="text-base font-semibold mb-2 flex items-center gap-2">
@@ -137,16 +88,22 @@ export default function WikiPage({ person }: WikiPageProps) {
                       GDPRChat.eu
                       <ExternalLink className="w-3 h-3" />
                     </a>
-                    <span className="text-sm font-normal text-gray-500">(2025)</span>
+                    <span className="text-sm font-normal text-gray-500">(2025 – present)</span>
                   </h4>
                   <p className="text-sm leading-relaxed mb-2">
-                    A general-purpose AI chatbot platform built as a European alternative to ChatGPT. Runs 100% on EU infrastructure: <a href="https://mistral.ai" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Mistral AI</a> (Paris) for language processing, <a href="https://blackforestlabs.ai" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Black Forest Labs</a> (Freiburg) for FLUX image generation, and <a href="https://www.hetzner.com" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Hetzner</a> (Germany) for hosting. No data leaves the EU.
+                    GDPRChat.eu is an AI chatbot platform operated by FRITS AI ApS, positioned as a European alternative to ChatGPT. It runs entirely on European infrastructure: <a href="https://mistral.ai" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Mistral AI</a> (Paris) for language, <a href="https://blackforestlabs.ai" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Black Forest Labs</a> (Freiburg) for FLUX image generation, and <a href="https://www.hetzner.com" target="_blank" rel="noopener noreferrer" className="text-wiki-blue hover:underline">Hetzner</a> (Germany) for hosting. No data leaves the EU.
                   </p>
                   <p className="text-sm leading-relaxed mb-2">
-                    Includes 20+ integrated tools (web search, Python execution, document creation, data visualization, interactive maps, Gantt charts, Mermaid diagrams), a persona system for replicable writing styles, and a curated EU regulatory knowledge base covering the GDPR, EU AI Act, NIS2, DORA, and CSRD. Enterprise features include Microsoft Entra ID SSO, multi-tenant architecture, PII detection, and Stripe billing.
+                    Lyneborg is the sole founder of GDPRChat.eu. He designed the system architecture, wrote the application code, and operates the platform through FRITS AI ApS.
                   </p>
-                  <p className="text-sm leading-relaxed mb-3 text-gray-600 italic">
-                    Launched during the EU's push for digital sovereignty, as the European Commission announced a EUR 200 billion AI investment plan and all 27 member states signed a declaration on reducing strategic technology dependencies.
+                  <p className="text-sm leading-relaxed mb-2">
+                    Features include a persona system that analyses a text sample to produce a reusable writing style, over 20 integrated tools (web search, Python execution, document creation, data visualization, interactive maps, Gantt charts, Mermaid diagrams), and a curated EU regulatory knowledge base covering the GDPR, EU AI Act, NIS2, DORA, and CSRD. Enterprise features include Microsoft Entra ID SSO, multi-tenant architecture, PII detection, and Stripe billing.
+                  </p>
+                  <p className="text-sm leading-relaxed mb-3">
+                    Available on the web, Android, and iOS.
+                  </p>
+                  <p className="text-sm leading-relaxed mb-3 text-gray-600">
+                    GDPRChat.eu was developed during the EU's push for digital sovereignty, including the European Commission's EUR 200 billion AI investment plan and a declaration signed by all 27 member states on reducing strategic technology dependencies.
                   </p>
                   <a
                     href="https://gdprchat.eu"
@@ -173,6 +130,46 @@ export default function WikiPage({ person }: WikiPageProps) {
                       data-testid="img-gdprchat"
                     />
                   </a>
+                </div>
+              </div>
+            </section>
+
+            {/* Earlier Projects */}
+            <section className="my-4 border border-wiki-border p-3 rounded">
+              <h3 className="text-base font-semibold mb-3">Earlier Projects</h3>
+              <div className="flex flex-col sm:flex-row gap-3 items-start">
+                <div className="w-20 sm:w-24 shrink-0">
+                  <a
+                    href="https://bildo.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block hover:shadow-lg transition-shadow"
+                  >
+                    <img
+                      src={bildoLogo}
+                      alt="Bildo.app logo"
+                      className="w-full h-auto rounded"
+                      data-testid="img-bildo"
+                    />
+                  </a>
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-sm font-semibold mb-1 flex items-center gap-2">
+                    <a
+                      href="https://bildo.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-wiki-blue hover:underline inline-flex items-center gap-1"
+                      data-testid="link-bildo"
+                    >
+                      Bildo.app
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                    <span className="text-xs font-normal text-gray-500">(2026, Beta)</span>
+                  </h4>
+                  <p className="text-sm leading-relaxed">
+                    An agentic application platform for software discovery — apps presented as interactive video-like previews, with hovering triggering silent demos and full-screen interaction.
+                  </p>
                 </div>
               </div>
             </section>
