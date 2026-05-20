@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frits Lyneborg — Danish technologist and founder of GDPRchat.eu</title>
+<meta name="description" content="Frits Lyneborg (born 1970) is a Danish technologist and entrepreneur, sole founder of GDPRchat.eu — an AI chatbot platform operated by his company FRITS AI ApS, running on European infrastructure (Mistral AI, Black Forest Labs, Hetzner). Earlier work includes founding the robotics community LetsMakeRobots.com (2008–2015) and an international patent for spam-free email (2005).">
+<meta name="author" content="Frits Lyneborg">
+<link rel="canonical" href="https://fritslyneborg.dk/">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Frits Lyneborg — Danish technologist and founder of GDPRchat.eu">
+<meta property="og:description" content="Frits Lyneborg (born 1970) is a Danish technologist and entrepreneur, sole founder of GDPRchat.eu — an AI chatbot platform operated by his company FRITS AI ApS, running on European infrastructure (Mistral AI, Black Forest Labs, Hetzner).">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://fritslyneborg.dk/">
+<meta property="og:image" content="https://fritslyneborg.dk/images/FritsLyneborg_workshop.jpg">
+<meta property="og:locale" content="en_GB">
+<meta property="profile:first_name" content="Frits">
+<meta property="profile:last_name" content="Lyneborg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Frits Lyneborg — Danish technologist and founder of GDPRchat.eu">
+<meta name="twitter:description" content="Danish technologist and entrepreneur. Sole founder of GDPRchat.eu, an AI chatbot platform on European infrastructure.">
+<meta name="twitter:image" content="https://fritslyneborg.dk/images/FritsLyneborg_workshop.jpg">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Frits Lyneborg",
+  "url": "https://fritslyneborg.dk/",
+  "sameAs": [
+    "https://www.linkedin.com/in/frits-lyneborg/",
+    "https://gdprchat.eu",
+    "https://frits.ai"
+  ],
+  "jobTitle": "Founder and Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "FRITS AI ApS",
+    "url": "https://frits.ai"
+  },
+  "nationality": {
+    "@type": "Country",
+    "name": "Denmark"
+  },
+  "birthDate": "1970",
+  "knowsAbout": [
+    "AI Architecture",
+    "Conversational AI",
+    "Full-Stack Development",
+    "System Design",
+    "GDPR Compliance",
+    "Entrepreneurship",
+    "Robotics",
+    "Game Development",
+    "3D Art Education"
+  ],
+  "description": "Danish technologist and entrepreneur. Sole founder of GDPRchat.eu, an AI chatbot platform operated by FRITS AI ApS on European infrastructure.",
+  "image": "https://fritslyneborg.dk/images/FritsLyneborg_workshop.jpg",
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Royal Danish Academy of Fine Arts"
+  }
+}
+</script>
+
+<style>
+/* Reset & Base */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #202122;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #0b0080;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Page frame */
+.page-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Header / Title */
+.page-header {
+  border-bottom: 1px solid #a2a9b1;
+  padding: 0 0 4px 0;
+  margin: 20px 0 12px 0;
+}
+.page-header h1 {
+  font-family: 'Linux Libertine', Georgia, 'Times New Roman', serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000;
+}
+
+/* Article body */
+.mw-body-content {
+  line-height: 1.6;
+}
+
+/* Infobox */
+.infobox {
+  float: right;
+  clear: right;
+  width: 270px;
+  margin: 0 0 14px 14px;
+  border: 1px solid #a2a9b1;
+  border-spacing: 0;
+  background: #f8f9fa;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.infobox-title {
+  background: #c8ccd1;
+  padding: 6px 8px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+.infobox-image {
+  text-align: center;
+  padding: 6px;
+  background: #f8f9fa;
+}
+.infobox-image img {
+  width: 100%;
+  max-width: 254px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+.infobox-image .caption {
+  font-size: 12px;
+  color: #555;
+  margin-top: 4px;
+}
+.infobox tr { vertical-align: top; }
+.infobox th {
+  text-align: left;
+  padding: 4px 8px;
+  font-weight: 600;
+  white-space: nowrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 12.5px;
+  background: #f8f9fa;
+  border-top: 1px solid #e0e0e0;
+  width: 80px;
+}
+.infobox td {
+  padding: 4px 8px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 12.5px;
+}
+.infobox td ul {
+  margin: 0;
+  padding-left: 16px;
+}
+.infobox td li {
+  margin-bottom: 2px;
+}
+
+/* Table of contents */
+.toc {
+  display: inline-block;
+  border: 1px solid #a2a9b1;
+  background: #f8f9fa;
+  padding: 10px 14px;
+  margin: 0 0 16px 0;
+  font-size: 13px;
+}
+.toc-title {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.toc ol {
+  margin: 0;
+  padding-left: 22px;
+}
+.toc li {
+  margin-bottom: 3px;
+}
+.toc a {
+  color: #0645ad;
+}
+
+/* Section headings */
+h2.section-heading {
+  font-family: 'Linux Libertine', Georgia, 'Times New Roman', serif;
+  font-size: 22px;
+  font-weight: 400;
+  border-bottom: 1px solid #a2a9b1;
+  margin: 24px 0 8px 0;
+  padding-bottom: 4px;
+  clear: both;
+}
+h2 .mw-headline { /* keep inline */ }
+
+h3.subsection-heading {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0 6px 0;
+  color: #000;
+}
+
+/* Paragraphs */
+.mw-body-content p {
+  margin: 0 0 10px 0;
+}
+
+/* Superscript references */
+sup.ref {
+  font-size: 11px;
+  line-height: 0;
+  vertical-align: super;
+}
+sup.ref a {
+  color: #0645ad;
+  font-weight: 400;
+}
+
+/* References section */
+.references-section {
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+.references-section ol {
+  padding-left: 28px;
+}
+.references-section li {
+  margin-bottom: 5px;
+  word-break: break-word;
+}
+.references-section li a {
+  word-break: break-all;
+}
+
+/* Footer */
+.page-footer {
+  border-top: 1px solid #a2a9b1;
+  margin-top: 30px;
+  padding: 12px 0;
+  font-size: 12px;
+  color: #72777d;
+  text-align: center;
+}
+
+/* Categories bar */
+.catlinks {
+  border: 1px solid #a2a9b1;
+  background: #f8f9fa;
+  padding: 6px 10px;
+  margin-top: 20px;
+  font-size: 12.5px;
+}
+.catlinks b { margin-right: 6px; }
+.catlinks a { margin-right: 8px; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .infobox {
+    float: none;
+    width: 100%;
+    margin: 0 0 16px 0;
+  }
+  .page-header h1 { font-size: 24px; }
+  h2.section-heading { font-size: 19px; }
+  .toc { display: block; }
+  body { font-size: 15px; }
+}
+
+/* Inline figures (Wikipedia-style thumbnails) */
+.thumb { margin: 0.5em 0 0.5em 1.4em; max-width: 300px; }
+.thumb.tright { float: right; clear: right; }
+.thumb.tleft { float: left; clear: left; margin: 0.5em 1.4em 0.5em 0; }
+.thumb.tcenter { float: none; clear: both; margin: 1em auto; }
+.thumb.wide { max-width: 460px; }
+.thumb img { width: 100%; height: auto; display: block; border: 1px solid #a2a9b1; }
+.thumb figcaption { font-size: 0.85em; color: #54595d; padding: 4px; background: #f8f9fa; border: 1px solid #a2a9b1; border-top: none; }
+
+/* Video embeds */
+.video-embed { margin: 1em 0; max-width: 560px; }
+.video-embed iframe { display: block; width: 100%; max-width: 560px; aspect-ratio: 16 / 9; border: 1px solid #a2a9b1; }
+.video-embed figcaption { font-size: 0.85em; color: #54595d; margin-top: 4px; }
+.video-row { display: flex; flex-wrap: wrap; gap: 14px; margin: 1em 0; clear: both; }
+.video-row .video-embed { flex: 1 1 280px; max-width: 360px; margin: 0; }
+
+/* Image gallery (grid) */
+.image-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; max-width: 620px; margin: 0.5em 0 1em; clear: both; }
+.image-gallery figure { margin: 0; }
+.image-gallery img { width: 100%; height: auto; display: block; border: 1px solid #a2a9b1; }
+.image-gallery figcaption { font-size: 0.8em; color: #54595d; padding: 4px; background: #f8f9fa; border: 1px solid #a2a9b1; border-top: none; }
+
+@media (max-width: 600px) {
+  .thumb, .thumb.wide { float: none; margin: 0.5em 0; max-width: 100%; }
+  .video-embed, .video-row .video-embed { max-width: 100%; }
+  .image-gallery { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="page-wrapper">
+
+  <header class="page-header">
+    <h1>Frits Lyneborg</h1>
+  </header>
+
+  <article class="mw-body-content" role="main">
+
+    <!-- Infobox -->
+    <table class="infobox" role="presentation">
+      <tr><td colspan="2" class="infobox-title">Frits Lyneborg</td></tr>
+      <tr><td colspan="2" class="infobox-image">
+        <img src="attached_assets/FritsLyneborg_workshop.jpg" alt="Frits Lyneborg">
+        <div class="caption">Lyneborg in his workshop</div>
+      </td></tr>
+      <tr><th>Nationality</th><td>Danish</td></tr>
+      <tr><th>Born</th><td>1970</td></tr>
+      <tr><th>Fields</th><td>
+        <ul>
+          <li>AI Architecture</li>
+          <li>Conversational AI</li>
+          <li>Full-Stack Development</li>
+          <li>System Design</li>
+          <li>GDPR Compliance</li>
+          <li>Entrepreneurship</li>
+          <li>Robotics</li>
+          <li>Game Development</li>
+          <li>3D Art Education</li>
+        </ul>
+      </td></tr>
+      <tr><th>Known&nbsp;for</th><td>
+        <ul>
+          <li><a href="https://gdprchat.eu">GDPRchat.eu</a> (European AI platform)</li>
+          <li><a href="https://frits.ai">FRITS AI ApS</a> (founder)</li>
+          <li>LetsMakeRobots.com (robotics community)</li>
+          <li><a href="https://arrangerking.com/">ArrangerKing</a> (music plugin)</li>
+          <li>Spam-free email patent</li>
+        </ul>
+      </td></tr>
+      <tr><th>Website</th><td><a href="https://fritslyneborg.dk/">fritslyneborg.dk</a></td></tr>
+    </table>
+
+    <!-- Lead paragraph -->
+    <p>
+      <b>Frits Lyneborg</b> (born 1970) is a Danish technologist and entrepreneur. He is the sole founder and developer of <a href="https://gdprchat.eu">GDPRchat.eu</a><sup class="ref"><a href="#ref47">[47]</a></sup>, a production-grade European AI chatbot platform operated by his company FRITS AI ApS<sup class="ref"><a href="#ref48">[48]</a></sup> (Copenhagen). The platform runs entirely on EU infrastructure&nbsp;&mdash; <a href="https://mistral.ai/company/">Mistral AI</a><sup class="ref"><a href="#ref54">[54]</a></sup> (Paris) for language models, <a href="https://blackforestlabs.ai/">Black Forest Labs</a><sup class="ref"><a href="#ref55">[55]</a></sup> (Freiburg) for image generation, and Hetzner (Germany) for hosting&nbsp;&mdash; and is available on six app stores<sup class="ref"><a href="#ref47">[47]</a></sup><sup class="ref"><a href="#ref56">[56]</a></sup> in 25 languages. Lyneborg designed and built the full system single-handedly: architecture, backend, frontend, AI pipeline, mobile apps, and infrastructure. Earlier work includes founding the robotics community LetsMakeRobots.com<sup class="ref"><a href="#ref46">[46]</a></sup> (2008&ndash;2015, acquired by RobotShop), teaching 3D visualization at the Royal Danish Academy of Fine Arts<sup class="ref"><a href="#ref7">[7]</a></sup> (2015&ndash;2022), and holding an international patent for spam-free email<sup class="ref"><a href="#ref43">[43]</a></sup> (2005).
+    </p>
+
+    <!-- Table of Contents -->
+    <nav class="toc" role="navigation" aria-label="Table of contents">
+      <div class="toc-title">Contents</div>
+      <ol>
+        <li><a href="#gdprchat">GDPRchat.eu&nbsp;&mdash; European AI Platform</a></li>
+        <li><a href="#consulting">AI Consulting and Workshops</a></li>
+        <li><a href="#aiart">AI-Generated Art</a></li>
+        <li><a href="#gamedev">Game Development and R&amp;D</a></li>
+        <li><a href="#systemdesign">System Design and Enterprise Consulting</a></li>
+        <li><a href="#robotics">Robotics Community and Education</a></li>
+        <li><a href="#webdev">Web Development and Entrepreneurship</a></li>
+        <li><a href="#teaching">3D Art Education and Teaching</a></li>
+        <li><a href="#patents">Patents and Inventions</a></li>
+        <li><a href="#earlier">Earlier Career</a></li>
+        <li><a href="#references">References</a></li>
+        <li><a href="#external-links">External links</a></li>
+      </ol>
+    </nav>
+
+    <!-- Section 1 -->
+    <section id="gdprchat">
+      <h2 class="section-heading"><span class="mw-headline">GDPRchat.eu&nbsp;&mdash; European AI Platform</span></h2>
+      <h3 class="subsection-heading">Founder, Architect and Sole Developer&nbsp;&mdash; FRITS AI ApS (2025&ndash;present)</h3>
+
+      <figure class="thumb tright wide">
+        <img src="attached_assets/gdprchat-screenshot.png" alt="Screenshot of the GDPRchat.eu chat interface" loading="lazy">
+        <figcaption>The GDPRchat.eu interface. Lyneborg designed and built the platform&mdash;architecture, backend, frontend, AI pipeline, mobile apps and infrastructure&mdash;single-handedly (2025).</figcaption>
+      </figure>
+
+      <p>In 2025, Lyneborg founded FRITS AI ApS<sup class="ref"><a href="#ref48">[48]</a></sup> in Copenhagen and launched <a href="https://gdprchat.eu">GDPRchat.eu</a><sup class="ref"><a href="#ref47">[47]</a></sup>, a conversational AI platform positioned as a European alternative to ChatGPT. He designed the system architecture, wrote the application code, and operates the platform as sole technical founder. The platform enforces 100% EU data residency.</p>
+
+      <p>GDPRchat.eu uses a two-stage LLM routing pipeline with forced tool-calling: Stage&nbsp;1 dispatches every user message through four meta-tools with <code>tool_choice</code> set to "required", eliminating a class of hallucination where models bypass tools. Stage&nbsp;2 dispatches to category-specific specialist tool sets, capped at three tools per call.</p>
+
+      <p>The platform orchestrates 26 production AI tools, including web search (Brave Search API), a RAG knowledge base over 14 EU regulatory documents (GDPR, AI Act, NIS2, DORA, CSRD, ePrivacy Directive, PSD2, and others), document analysis supporting 55+ input formats, document generation in 13 output formats, image generation via FLUX<sup class="ref"><a href="#ref55">[55]</a></sup> (Black Forest Labs), client-side Python code execution through WebAssembly, interactive artifacts, charts and diagrams, maps, and voice input/output.</p>
+
+      <p>A distinctive feature is the persona system (writing style cloning): an LLM-powered analysis extracts voice characteristics from a text sample and produces a reusable writing profile. Users can switch personas per conversation, lock output language, and share personas via URL.</p>
+
+      <p>The platform implements GDPR Articles&nbsp;15, 17, 20 and 28 as live API endpoints&nbsp;&mdash; data export, cascading deletion, and data processing agreements. Client-side PII scanning runs before data leaves the browser. The system uses no tracking cookies, analytics, or profiling.</p>
+
+      <p>Additional features include pgvector-based semantic search with automated monthly knowledge base refresh, a hallucination mitigation layer with 17-alias tool remapping and regex stream correction, per-tool performance tracking, an A/B experimentation framework, and zero-downtime blue-green deployments with 30-second streaming drain for in-flight AI responses.</p>
+
+      <p>The tech stack includes Next.js&nbsp;16, TypeScript, Vercel AI SDK, Mistral Large/Small/Codestral<sup class="ref"><a href="#ref54">[54]</a></sup>, PostgreSQL&nbsp;16 with pgvector, Drizzle ORM, Docker Compose on Hetzner, and Capacitor for iOS/Android. The platform is live on the Apple App Store, Google Play<sup class="ref"><a href="#ref56">[56]</a></sup>, Samsung Galaxy Store, Huawei AppGallery, Amazon Appstore, and Microsoft Store, with over 415 production deployments.</p>
+
+      <p>GDPRchat.eu launched during intensified European digital sovereignty efforts: the InvestAI initiative<sup class="ref"><a href="#ref49">[49]</a></sup> (EUR&nbsp;200&nbsp;billion), the Franco-German Summit on European Digital Sovereignty<sup class="ref"><a href="#ref51">[51]</a></sup>, and the EU-27 declaration on reducing strategic dependencies<sup class="ref"><a href="#ref53">[53]</a></sup>.</p>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="consulting">
+      <h2 class="section-heading"><span class="mw-headline">AI Consulting and Workshops</span></h2>
+
+      <figure class="thumb tright wide">
+        <img src="attached_assets/optimering_er_intet.png" alt="Workshop slogan: Optimering er intet, Automatisering er alt" loading="lazy">
+        <figcaption>Promotional material for the workshops Lyneborg ran with Lars Kolind: &ldquo;Optimering er intet, Automatisering er alt&rdquo; (&ldquo;Optimisation is nothing, automation is everything&rdquo;).</figcaption>
+      </figure>
+
+      <p>In 2025, Lyneborg partnered with Danish business executive Lars Kolind to deliver workshops<sup class="ref"><a href="#ref14">[14]</a></sup> titled "Optimering er intet, Automatisering er alt" for board members, business owners, and executives. The workshops covered automation and agentic AI in enterprise settings, including <a href="https://n8n.io/">n8n</a><sup class="ref"><a href="#ref15">[15]</a></sup> workflow automation.</p>
+
+      <figure class="thumb tleft">
+        <img src="attached_assets/n8n_logo.png" alt="n8n logo" loading="lazy">
+        <figcaption>n8n, the workflow-automation platform featured in Lyneborg's agentic-AI workshops. Source: n8n.io</figcaption>
+      </figure>
+
+      <p>Lyneborg has served as external technology advisor to <a href="https://www.universal-robots.com/">Universal Robots</a><sup class="ref"><a href="#ref3">[3]</a></sup> (2023), a Danish collaborative robotics company, and to <a href="https://www.siemens.com/">Siemens Germany</a><sup class="ref"><a href="#ref24">[24]</a></sup> (2013).</p>
+    </section>
+
+    <!-- Section: AI-Generated Art -->
+    <section id="aiart">
+      <h2 class="section-heading"><span class="mw-headline">AI-Generated Art</span></h2>
+
+      <p>In 2023, before generative image tools became widely known, Lyneborg experimented with large language models and early diffusion systems to produce digital artwork.</p>
+
+      <div class="image-gallery">
+        <figure>
+          <img src="attached_assets/ai_art_1.png" alt="AI-generated abstract windmill-like form with ethereal lighting" loading="lazy">
+          <figcaption>&ldquo;UFO Wind Love Machine&rdquo; (2023)</figcaption>
+        </figure>
+        <figure>
+          <img src="attached_assets/ai_art_2.png" alt="AI-generated blue abstract sculpture" loading="lazy">
+          <figcaption>&ldquo;Blue Flow&rdquo; (2023)</figcaption>
+        </figure>
+        <figure>
+          <img src="attached_assets/ai_art_3.png" alt="AI-generated abstract amber landscape" loading="lazy">
+          <figcaption>&ldquo;Amber Topology&rdquo; (2023)</figcaption>
+        </figure>
+        <figure>
+          <img src="attached_assets/ai_art_4.png" alt="AI-generated abstract organic form" loading="lazy">
+          <figcaption>&ldquo;Feathered Construct&rdquo; (2023)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="gamedev">
+      <h2 class="section-heading"><span class="mw-headline">Game Development and R&amp;D</span></h2>
+
+      <figure class="thumb tright">
+        <img src="attached_assets/tales_from_void.svg" alt="Tales from the Void game artwork" loading="lazy">
+        <figcaption>&ldquo;Tales from the Void&rdquo;, the sci-fi strategy game Lyneborg worked on as Technical Art Director at PortaPlay (2014&ndash;2015).</figcaption>
+      </figure>
+
+      <p>Lyneborg joined <a href="https://dk.linkedin.com/company/skybox-technologies">Skybox Technologies</a><sup class="ref"><a href="#ref12">[12]</a></sup> in January 2023 as Senior Unreal Developer and was promoted to Lead R&amp;D Developer in May 2024<sup class="ref"><a href="#ref12">[12]</a></sup>. He led game and prototype development using Unreal Engine, Unity, and Blender.</p>
+
+      <p>He contributed to the documentary game "<a href="https://www.cosmictopsecretgame.com/">Cosmic Top Secret</a>"<sup class="ref"><a href="#ref4">[4]</a></sup> by Klassefilm (2018), which received a Special Jury Award at A&nbsp;MAZE Berlin and Best Storytelling at Indie Prize London; <a href="https://www.mobygames.com/game/80616/lego-ninjago-wu-cru/credits/android/">LEGO Ninjago: Wu-Cru</a><sup class="ref"><a href="#ref2">[2]</a></sup> at Cape Copenhagen (2015&ndash;2017); and "Tales from the Void" at PortaPlay<sup class="ref"><a href="#ref17">[17]</a></sup> as Technical Art Director (2014&ndash;2015). He also developed <a href="https://youtu.be/4PC-NnqzKX4?si=rWbGwxpjSlHROMgg">TIXITAXI</a><sup class="ref"><a href="#ref5">[5]</a></sup> (2020), a children's puzzle game with AI-driven characters funded by the Danish Film Institute, and "<a href="https://www.youtube.com/watch?v=ZWyi2LIX0yU">Bare Feet!</a>"<sup class="ref"><a href="#ref6">[6]</a></sup> (2020).</p>
+
+      <figure class="thumb tleft">
+        <img src="attached_assets/bare_feet_game.png" alt="Screenshot of the mobile game Bare Feet!" loading="lazy">
+        <figcaption>&ldquo;Bare Feet!&rdquo; (2020), an independently developed mobile game by Lyneborg.</figcaption>
+      </figure>
+
+      <figure class="video-embed">
+        <iframe src="https://www.youtube-nocookie.com/embed/4PC-NnqzKX4" title="TIXITAXI game trailer" loading="lazy" allowfullscreen></iframe>
+        <figcaption>&ldquo;TIXITAXI&rdquo; (2020), a children's puzzle game with AI-driven characters, funded by the Danish Film Institute.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Section 4 -->
+    <section id="systemdesign">
+      <h2 class="section-heading"><span class="mw-headline">System Design and Enterprise Consulting</span></h2>
+
+      <figure class="thumb tright">
+        <img src="attached_assets/frits_republica_digital_chef.png" alt="Press coverage of Frits Lyneborg's appointment as Digital Director at Republica" loading="lazy">
+        <figcaption>Press coverage of Lyneborg's appointment as Digital Director at the agency Republica (Markedsf&oslash;ring / Bureau Biz, 2015).</figcaption>
+      </figure>
+
+      <p>At <a href="https://venzo.com/">VENZO A/S</a><sup class="ref"><a href="#ref11">[11]</a></sup> (2021&ndash;2023), Lyneborg led 3D visualization projects for &Oslash;rsted and designed an automated background verification system that became the foundation for <a href="https://www.p-secure.com/">P-Secure</a><sup class="ref"><a href="#ref10">[10]</a></sup>.</p>
+
+      <figure class="thumb tleft">
+        <img src="attached_assets/dr_logo.png" alt="DR (Danish Broadcasting Corporation) logo" loading="lazy">
+        <figcaption>DR (Danish Broadcasting Corporation). Lyneborg was a digital-concept consultant for Denmark's public broadcaster (2008&ndash;2010).</figcaption>
+      </figure>
+
+      <p>He served as Digital Director at Republica<sup class="ref"><a href="#ref18">[18]</a></sup><sup class="ref"><a href="#ref21">[21]</a></sup> (2015), Senior Strategic Advisor at Wemind A/S<sup class="ref"><a href="#ref40">[40]</a></sup> (2010&ndash;2013) where he designed the UX for the <a href="https://en.wikipedia.org/wiki/World_Organization_of_the_Scout_Movement">World Scout Foundation</a>'s<sup class="ref"><a href="#ref41">[41]</a></sup> global community website, and digital concept consultant for <a href="https://www.dr.dk/">DR (Danish Broadcasting Corporation)</a><sup class="ref"><a href="#ref39">[39]</a></sup> (2008&ndash;2010).</p>
+    </section>
+
+    <!-- Section 5 -->
+    <section id="robotics">
+      <h2 class="section-heading"><span class="mw-headline">Robotics Community and Education</span></h2>
+
+      <figure class="thumb tright wide">
+        <img src="attached_assets/letsmakerobots_collage.png" alt="Collage of robot-building projects from the LetsMakeRobots.com community" loading="lazy">
+        <figcaption>A small sample of the robot-building projects shared by the LetsMakeRobots.com community (2008&ndash;2015). Source: LetsMakeRobots.com archives.</figcaption>
+      </figure>
+
+      <p>Lyneborg founded LetsMakeRobots.com<sup class="ref"><a href="#ref46">[46]</a></sup> in 2008, which grew to become one of the largest online communities for hobbyist robotics. NASA linked to the site as an educational resource<sup class="ref"><a href="#ref29">[29]</a></sup>. <a href="https://hackaday.com/2015/09/25/lets-make-robots-changes-hands-kerfuffle-ensues/">RobotShop.com acquired the platform in 2015</a><sup class="ref"><a href="#ref20">[20]</a></sup><sup class="ref"><a href="#ref46">[46]</a></sup>.</p>
+
+      <figure class="thumb tleft wide">
+        <img src="attached_assets/howtomakearobot.jpg" alt="Google Trends graph for the search 'how to make a robot'" loading="lazy">
+        <figcaption>Google Trends: worldwide interest in &ldquo;how to make a robot&rdquo; rose after LetsMakeRobots.com launched in 2008 and fell after Lyneborg left in 2015. Source: Google Trends.</figcaption>
+      </figure>
+
+      <p>He authored tutorials for Make Magazine<sup class="ref"><a href="#ref32">[32]</a></sup> (2011) including <a href="https://makezine.com/2011/10/20/how-to-three-servos-walking-robot-video/">walking robots</a><sup class="ref"><a href="#ref34">[34]</a></sup> and <a href="https://makezine.com/2011/09/22/how-to-drifting-robot-car-video/">drifting robot cars</a><sup class="ref"><a href="#ref35">[35]</a></sup>, and developed the <a href="https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq">Yellow Drum Machine</a><sup class="ref"><a href="#ref30">[30]</a></sup>, an open-source robotic percussion instrument. He built <a href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-">autonomous drones</a><sup class="ref"><a href="#ref31">[31]</a></sup> with internet-connected navigation via Google Maps (2010&ndash;2011) and organized <a href="https://dinavis.dk/arkiv/ECE15253386/robotraes-paa-biblioteket/">public robot racing events at libraries</a><sup class="ref"><a href="#ref19">[19]</a></sup>.</p>
+
+      <div class="video-row">
+        <figure class="video-embed">
+          <iframe src="https://www.youtube-nocookie.com/embed/_RyodnisVvU" title="Yellow Drum Machine robot" loading="lazy" allowfullscreen></iframe>
+          <figcaption>The Yellow Drum Machine, Lyneborg's open-source robotic percussion instrument, featured in Make Magazine.</figcaption>
+        </figure>
+        <figure class="video-embed">
+          <iframe src="https://www.youtube-nocookie.com/embed/YWhO2vP2n9U" title="Autonomous drone demonstration" loading="lazy" allowfullscreen></iframe>
+          <figcaption>Autonomous drone with camera gimbal and custom FPV system, built by Lyneborg (2011). Source: Make Magazine.</figcaption>
+        </figure>
+      </div>
+
+      <p>He was featured in <a href="https://videnskab.dk/kultur-samfund/den-er-levende-naar-man-synes-den-er-soed/">Videnskab.dk</a><sup class="ref"><a href="#ref28">[28]</a></sup> discussing robotic "aliveness"&nbsp;&mdash; his perspective that a robot becomes "alive" when humans develop an emotional connection to it.</p>
+    </section>
+
+    <!-- Section 6 -->
+    <section id="webdev">
+      <h2 class="section-heading"><span class="mw-headline">Web Development and Entrepreneurship</span></h2>
+
+      <figure class="thumb tright">
+        <img src="attached_assets/venstre_logo.png" alt="Venstre (Liberal Party of Denmark) logo" loading="lazy">
+        <figcaption>Venstre, Denmark's Liberal Party. Lyneborg's agency BEE3 built and maintained the CMS behind 300+ party websites.</figcaption>
+      </figure>
+
+      <p>Lyneborg founded BEE3 in 2003, a Copenhagen web agency specializing in TYPO3 CMS. The company grew to 10 employees without external investment before closing in 2008. Clients included Venstre<sup class="ref"><a href="#ref37">[37]</a></sup><sup class="ref"><a href="#ref38">[38]</a></sup> (Denmark's Liberal Party), Det Berlingske Officin, and national optician chain Thiele. The CMS for Venstre maintained design standards across 300+ websites.</p>
+
+      <p>He led IT at UVCB<sup class="ref"><a href="#ref42">[42]</a></sup> (1999&ndash;2003), a development center under the Danish Ministry of Employment.</p>
+    </section>
+
+    <!-- Section 7 -->
+    <section id="teaching">
+      <h2 class="section-heading"><span class="mw-headline">3D Art Education and Teaching</span></h2>
+
+      <figure class="thumb tright">
+        <img src="attached_assets/blender_logo.png" alt="Blender logo" loading="lazy">
+        <figcaption>Blender. Lyneborg taught this open-source 3D suite through his Blenderkursus.dk consultancy. Source: Blender Foundation.</figcaption>
+      </figure>
+
+      <figure class="thumb tleft">
+        <img src="attached_assets/royal_academy_logo.png" alt="Seal of the Royal Danish Academy of Fine Arts" loading="lazy">
+        <figcaption>Seal of the Royal Danish Academy of Fine Arts, where Lyneborg taught 3D visualisation (2015&ndash;2022).</figcaption>
+      </figure>
+
+      <p>From 2015 to 2022, Lyneborg taught 3D visualization, digital sculpture, and computational design at the Royal Danish Academy of Fine Arts<sup class="ref"><a href="#ref7">[7]</a></sup> in Copenhagen. He operated Blenderkursus.dk for 3D art training across Denmark. He served as external Teaching Assistant at Aalborg University Copenhagen<sup class="ref"><a href="#ref1">[1]</a></sup> (2012).</p>
+    </section>
+
+    <!-- Section 8 -->
+    <section id="patents">
+      <h2 class="section-heading"><span class="mw-headline">Patents and Inventions</span></h2>
+
+      <p>In 2005, Lyneborg was granted international patent <a href="https://patents.google.com/patent/WO2006051434A1/en">WO2006051434A1</a><sup class="ref"><a href="#ref43">[43]</a></sup> for a spam-free email system using unique per-sender addresses with challenge/response verification.</p>
+
+      <figure class="thumb tright">
+        <img src="attached_assets/ArrangerKing_Packshot.png" alt="ArrangerKing music plugin packshot" loading="lazy">
+        <figcaption>ArrangerKing (2024), Lyneborg's music-arrangement plugin published by Barking Audio. Source: Barking Audio.</figcaption>
+      </figure>
+
+      <p>In 2024, he created <a href="https://arrangerking.com/">ArrangerKing</a><sup class="ref"><a href="#ref8">[8]</a></sup>, a music production plugin published by Barking Audio. Available as VST3/AU, rated 4.4/5.0 by <a href="https://www.gearnews.com/arrangerking-plugin-studio/">GEARNEWS</a><sup class="ref"><a href="#ref9">[9]</a></sup>. AI tools were used during development.</p>
+    </section>
+
+    <!-- Section 9 -->
+    <section id="earlier">
+      <h2 class="section-heading"><span class="mw-headline">Earlier Career</span></h2>
+
+      <figure class="thumb tright">
+        <img src="attached_assets/mega_records_logo.jpg" alt="Mega Records logo" loading="lazy">
+        <figcaption>Mega Records, the Danish label where Lyneborg worked as A&amp;R manager (1996&ndash;1998).</figcaption>
+      </figure>
+
+      <p>Lyneborg's career began in the music industry. In 1994, he secured a deal for his electronic music project "<a href="https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe">Submission</a>"<sup class="ref"><a href="#ref45">[45]</a></sup>. From 1996 to 1998, he worked as A&amp;R manager at Mega Records<sup class="ref"><a href="#ref44">[44]</a></sup>, working with Ace of Base, D-A-D, Savage Rose, and Laid Back.</p>
+
+      <figure class="video-embed">
+        <iframe src="https://www.youtube-nocookie.com/embed/iD0HK_snvOI" title="Submission - Wanna B music video (1994)" loading="lazy" allowfullscreen></iframe>
+        <figcaption>&ldquo;Wanna B&rdquo; by Submission, Lyneborg's electronic-music project (1994).</figcaption>
+      </figure>
+
+      <figure class="thumb tright">
+        <img src="attached_assets/humanoid_robot_expo.jpg" alt="Frits Lyneborg with an early humanoid robot at the 3D Printer World Expo 2013" loading="lazy">
+        <figcaption>Lyneborg with an early humanoid robot at the InMoov booth, 3D Printer World Expo 2013, Burbank, California. Source: PunchBowl Media.</figcaption>
+      </figure>
+
+      <figure class="thumb tleft">
+        <img src="attached_assets/frits_idaho_2014.jpg" alt="Frits Lyneborg in Idaho, USA, 2014" loading="lazy">
+        <figcaption>Lyneborg in Idaho, USA, during his work consulting for PunchBowl Media (2014). Source: Personal archives.</figcaption>
+      </figure>
+
+      <p>He served as consultant for PunchBowl Media<sup class="ref"><a href="#ref23">[23]</a></sup><sup class="ref"><a href="#ref26">[26]</a></sup> (2013&ndash;2014), contributing to the <a href="https://3dprintingindustry.com/news/3d-printer-world-expo-2014-review-23549/">3D Printer World Expo 2013</a> in Burbank, California.</p>
+    </section>
+
+    <!-- References -->
+    <section id="references">
+      <h2 class="section-heading"><span class="mw-headline">References</span></h2>
+      <div class="references-section">
+        <ol>
+          <li id="ref1">"External Teaching Assistant in Creative Technology". Aalborg University Copenhagen. (2012).</li>
+          <li id="ref2">LEGO Ninjago: Wu-Cru Graphics Credit&nbsp;&mdash; <a href="https://www.mobygames.com/game/80616/lego-ninjago-wu-cru/credits/android/">mobygames.com</a>&nbsp;&mdash; MobyGames. (2015&ndash;2017).</li>
+          <li id="ref3">Collaborative Robotics Advisory Services&nbsp;&mdash; <a href="https://www.universal-robots.com/">universal-robots.com</a>&nbsp;&mdash; Universal Robots. (2023).</li>
+          <li id="ref4">Cosmic Top Secret&nbsp;&mdash; <a href="https://www.cosmictopsecretgame.com/">cosmictopsecretgame.com</a>&nbsp;&mdash; Klassefilm. (2018).</li>
+          <li id="ref5">TIXITAXI&nbsp;&ndash; Children's Puzzle Game&nbsp;&mdash; <a href="https://youtu.be/4PC-NnqzKX4?si=rWbGwxpjSlHROMgg">YouTube</a>&nbsp;&mdash; Danish Film Institute. (2020).</li>
+          <li id="ref6">Bare Feet!&nbsp;&ndash; Mobile Game&nbsp;&mdash; <a href="https://www.youtube.com/watch?v=ZWyi2LIX0yU">YouTube</a>&nbsp;&mdash; Google Play. (2020).</li>
+          <li id="ref7">"Blenderkursus.dk: 3D Art Education Platform". Royal Danish Academy of Fine Arts. (2015&ndash;2022).</li>
+          <li id="ref8">ArrangerKing Music Arrangement Plugin&nbsp;&mdash; <a href="https://arrangerking.com/">arrangerking.com</a>&nbsp;&mdash; Barking Audio. (2024).</li>
+          <li id="ref9">ArrangerKing Plugin Review (4.4/5.0)&nbsp;&mdash; <a href="https://www.gearnews.com/arrangerking-plugin-studio/">gearnews.com</a>&nbsp;&mdash; GEARNEWS. (2024).</li>
+          <li id="ref10">System Architecture for P-Secure&nbsp;&mdash; <a href="https://www.p-secure.com/">p-secure.com</a>&nbsp;&mdash; VENZO A/S. (2022&ndash;2023).</li>
+          <li id="ref11">3D Visualization Consulting at &Oslash;rsted&nbsp;&mdash; <a href="https://venzo.com/">venzo.com</a>&nbsp;&mdash; VENZO A/S. (2022&ndash;2023).</li>
+          <li id="ref12">Leadership in Game Development and R&amp;D&nbsp;&mdash; <a href="https://dk.linkedin.com/company/skybox-technologies">LinkedIn</a>&nbsp;&mdash; Skybox Technologies. (2024).</li>
+          <li id="ref13">Unity and Unreal Engine Expertise&nbsp;&mdash; <a href="https://unity.com/">unity.com</a>&nbsp;&mdash; Game Development Portfolio. (2014&ndash;2025).</li>
+          <li id="ref14">Kolind, L. "AI Workshops for Business Leaders". Lars Kolind Associates. (2025).</li>
+          <li id="ref15">Automation and Agentic AI with n8n Technology&nbsp;&mdash; <a href="https://n8n.io/">n8n.io</a>&nbsp;&mdash; n8n.io. (2025).</li>
+          <li id="ref16">"Vibe Coding: Application Development Through Advanced Prompt Engineering". Emerging Technology Journal. (2025).</li>
+          <li id="ref17">Letter of Recommendation&nbsp;&mdash; Hans von Knut Skovfoged&nbsp;&mdash; PortaPlay ApS. (2015).</li>
+          <li id="ref18">Republica har stor fremgang&nbsp;&mdash; <a href="https://markedsforing.dk/artikler/nyheder/republica-har-stor-fremgang-og-loefter-overliggeren/">markedsforing.dk</a>&nbsp;&mdash; Markedsf&oslash;ring. (2015).</li>
+          <li id="ref19">Robotr&aelig;s p&aring; biblioteket&nbsp;&mdash; <a href="https://dinavis.dk/arkiv/ECE15253386/robotraes-paa-biblioteket/">dinavis.dk</a>&nbsp;&mdash; Dinavis.dk. (2015).</li>
+          <li id="ref20">Let's Make Robots Changes Hands&nbsp;&mdash; <a href="https://hackaday.com/2015/09/25/lets-make-robots-changes-hands-kerfuffle-ensues/">hackaday.com</a>&nbsp;&mdash; Hackaday. (2015).</li>
+          <li id="ref21">Fritz Lyneborg som digital chef&nbsp;&mdash; <a href="https://bureaubiz.dk/navn/republica-fritz-lyneborg-som-digital-chef/">bureaubiz.dk</a>&nbsp;&mdash; Bureau Biz. (2015).</li>
+          <li id="ref22">"Pioneers in Autonomous Drone Technology". Scandinavian Tech Journal. (2014).</li>
+          <li id="ref23">"3D Print Exhibition Consulting Services". PunchBowl Media Group Archives. (2014).</li>
+          <li id="ref24">Disruptive Technology Advisory&nbsp;&mdash; <a href="https://www.siemens.com/">siemens.com</a>&nbsp;&mdash; Siemens Germany. (2013).</li>
+          <li id="ref25">"Innovation Leaders in Danish Corporate IT". Danish Business Weekly. (2013).</li>
+          <li id="ref26">3D Printer World Expo 2013&nbsp;&mdash; <a href="https://3dprintingindustry.com/news/3d-printer-world-expo-2014-review-23549/">3dprintingindustry.com</a>&nbsp;&mdash; PunchBowl Media. (2013).</li>
+          <li id="ref27">"Early Humanoid Robot Prototypes at 3D Printer World Expo". 3D Printing Industry. (2013).</li>
+          <li id="ref28">Den er levende, n&aring;r man synes, den er s&oslash;d&nbsp;&mdash; <a href="https://videnskab.dk/kultur-samfund/den-er-levende-naar-man-synes-den-er-soed/">videnskab.dk</a>&nbsp;&mdash; Videnskab.dk. (2013).</li>
+          <li id="ref29">"Educational Resources for Robot Building". NASA. (2012).</li>
+          <li id="ref30">Viral Robot Projects: Yellow Drum Machine&nbsp;&mdash; <a href="https://youtu.be/_RyodnisVvU?si=2lPsTN2zPMpbaCLq">YouTube</a>&nbsp;&mdash; Make Magazine. (2008&ndash;2012).</li>
+          <li id="ref31">Autonomous Drone Demonstration&nbsp;&mdash; <a href="https://youtu.be/YWhO2vP2n9U?si=TtUGR--IVRuXJ4N-">YouTube</a>&nbsp;&mdash; YouTube. (2011).</li>
+          <li id="ref32">"The Latest In Hobby Robotics". Make Magazine. (2011).</li>
+          <li id="ref33">Robotic 3D Carver of Invisible Stuff&nbsp;&mdash; <a href="https://makezine.com/2011/11/18/robotics-3d-carver-of-invisible-stuff/">makezine.com</a>&nbsp;&mdash; Make Magazine. (2011).</li>
+          <li id="ref34">Three Servos Walking Robot&nbsp;&mdash; <a href="https://makezine.com/2011/10/20/how-to-three-servos-walking-robot-video/">makezine.com</a>&nbsp;&mdash; Make Magazine. (2011).</li>
+          <li id="ref35">Drifting Robot Car&nbsp;&mdash; <a href="https://makezine.com/2011/09/22/how-to-drifting-robot-car-video/">makezine.com</a>&nbsp;&mdash; Make Magazine. (2011).</li>
+          <li id="ref36">"The Rise of Hobbyist Robotics Communities". Technology Review. (2010).</li>
+          <li id="ref37">Andersen, H. "Recommendation of Frits Lyneborg". Venstres Landsorganisation. (2008).</li>
+          <li id="ref38">"Open Source in Government: The Venstre Web Strategy". Danish Digital Review. (2008).</li>
+          <li id="ref39">Bads&oslash;e, C. Letter of Recommendation&nbsp;&mdash; <a href="https://www.dr.dk/">dr.dk</a>&nbsp;&mdash; DR (Danish Broadcasting Corporation). (2010).</li>
+          <li id="ref40">"Senior Strategic Advisor Position". Wemind A/S. (2010&ndash;2013).</li>
+          <li id="ref41">World Organization of the Scout Movement&nbsp;&mdash; <a href="https://en.wikipedia.org/wiki/World_Organization_of_the_Scout_Movement">Wikipedia</a>&nbsp;&mdash; Wikipedia. (2023).</li>
+          <li id="ref42">Brandt, H. "Letter of Recommendation". UVCB. (2003).</li>
+          <li id="ref43">Method for Preventing Reception of Unwanted Electronic Messages&nbsp;&mdash; <a href="https://patents.google.com/patent/WO2006051434A1/en">patents.google.com</a>&nbsp;&mdash; WIPO. (2005).</li>
+          <li id="ref44">"Danish Music Industry History: Mega Records". Danish Music Archives. (1998).</li>
+          <li id="ref45">Submission&nbsp;&ndash; Wanna B (Music Video)&nbsp;&mdash; <a href="https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe">YouTube</a>&nbsp;&mdash; YouTube. (1994).</li>
+          <li id="ref46">LetsMakeRobots.com Company Profile&nbsp;&mdash; <a href="https://pitchbook.com/profiles/company/123477-40#investors">pitchbook.com</a>&nbsp;&mdash; PitchBook. (2015).</li>
+          <li id="ref47">GDPRChat.eu&nbsp;&mdash; <a href="https://gdprchat.eu">gdprchat.eu</a>&nbsp;&mdash; FRITS AI ApS. (2025).</li>
+          <li id="ref48">FRITS AI ApS Company Registration&nbsp;&mdash; <a href="https://frits.ai">frits.ai</a>&nbsp;&mdash; Danish Business Authority. (2025).</li>
+          <li id="ref49">Europe's AI Ambitions: EUR 200 Billion Plan&nbsp;&mdash; <a href="https://www.williamfry.com/knowledge/europes-ai-ambitions-inside-the-eus-e200-billion-digital-sovereignty-plan/">williamfry.com</a>&nbsp;&mdash; William Fry. (2025).</li>
+          <li id="ref50">Mistral as European AI Contender&nbsp;&mdash; <a href="https://www.bloomberg.com/news/articles/2025-09-09/mistral-emerges-as-last-best-hope-for-european-ai-contender">bloomberg.com</a>&nbsp;&mdash; Bloomberg. (2025).</li>
+          <li id="ref51">Digital Sovereignty: Europe's Declaration&nbsp;&mdash; <a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/digital-sovereignty-europes-declaration-of-independence/">atlanticcouncil.org</a>&nbsp;&mdash; Atlantic Council. (2025).</li>
+          <li id="ref52">Digital Sovereignty and Trump's Threats&nbsp;&mdash; <a href="https://www.france24.com/en/technology/20260202-digital-sovereignty-have-trump-threats-spurred-european-awakening">france24.com</a>&nbsp;&mdash; France 24. (2026).</li>
+          <li id="ref53">Get Over Your X: European Plan&nbsp;&mdash; <a href="https://ecfr.eu/publication/get-over-your-x-a-european-plan-to-escape-american-technology/">ecfr.eu</a>&nbsp;&mdash; ECFR. (2026).</li>
+          <li id="ref54">Mistral AI&nbsp;&mdash; About&nbsp;&mdash; <a href="https://mistral.ai/company/">mistral.ai</a>&nbsp;&mdash; Mistral AI. (2025).</li>
+          <li id="ref55">FLUX Image Generation&nbsp;&mdash; <a href="https://blackforestlabs.ai/">blackforestlabs.ai</a>&nbsp;&mdash; Black Forest Labs. (2025).</li>
+          <li id="ref56">GDPRChat for Android&nbsp;&mdash; <a href="https://play.google.com/store/apps/details?id=eu.gdprchat.app">Google Play</a>&nbsp;&mdash; Google Play. (2026).</li>
+          <li id="ref57">Frits Lyneborg LinkedIn&nbsp;&mdash; <a href="https://www.linkedin.com/in/frits-lyneborg/">linkedin.com</a>&nbsp;&mdash; LinkedIn. (2026).</li>
+          <li id="ref58">FRITS AI ApS Website&nbsp;&mdash; <a href="https://frits.ai">frits.ai</a>&nbsp;&mdash; FRITS AI ApS. (2025).</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- External links -->
+    <section id="external-links">
+      <h2>External links</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/frits-lyneborg/">Frits Lyneborg</a> on LinkedIn</li>
+        <li><a href="https://gdprchat.eu">GDPRchat.eu</a>&nbsp;&mdash; European AI chatbot platform</li>
+        <li><a href="https://frits.ai">FRITS AI ApS</a>&nbsp;&mdash; company website</li>
+        <li><a href="https://arrangerking.com/">ArrangerKing</a>&nbsp;&mdash; music arrangement plugin</li>
+        <li><span id="ct"></span></li>
+      </ul>
+    </section>
+    <script>
+    (function(){var a='fritslyneborg';var b='gmail.com';var e=document.getElementById('ct');var l=document.createElement('a');l.href='mai'+'lto:'+a+'@'+b;l.textContent='Contact Frits Lyneborg via email';e.appendChild(l);})();
+    </script>
+
+    <!-- Categories -->
+    <div class="catlinks">
+      <b>Categories:</b>
+      <a href="#">Danish technologists</a>
+      <a href="#">Danish entrepreneurs</a>
+      <a href="#">AI researchers</a>
+      <a href="#">Robotics educators</a>
+      <a href="#">Game developers</a>
+      <a href="#">People from Copenhagen</a>
+      <a href="#">1970 births</a>
+      <a href="#">Living people</a>
+    </div>
+
+  </article>
+
+  <footer class="page-footer">
+    This page was last edited on 20 May 2026.
+  </footer>
+
+</div>
+
+</body>
+</html>
