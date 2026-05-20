@@ -320,6 +320,38 @@ sup.ref a {
   .video-embed, .video-row .video-embed { max-width: 100%; }
   .image-gallery { grid-template-columns: 1fr; }
 }
+
+/* Contact bar (portfolio-style primary links) */
+.contact-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px;
+  margin: 0 0 18px 0; padding: 11px 14px;
+  background: #f8f9fa; border: 1px solid #a2a9b1; border-radius: 6px;
+}
+.contact-bar .cb-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+  color: #54595d; margin-right: 2px;
+}
+.contact-btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 14px; border-radius: 6px; border: 1px solid transparent;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px; font-weight: 600; line-height: 1; text-decoration: none; cursor: pointer;
+  transition: filter .15s ease, background .15s ease;
+}
+.contact-btn:hover { text-decoration: none; }
+.contact-btn svg { width: 18px; height: 18px; flex: none; }
+.contact-btn.primary-linkedin, .contact-btn.primary-linkedin:visited { background: #0a66c2; color: #fff; }
+.contact-btn.primary-email, .contact-btn.primary-email:visited { background: #b45309; color: #fff; }
+.contact-btn.primary-linkedin:hover, .contact-btn.primary-email:hover { filter: brightness(1.08); }
+.contact-btn.ghost, .contact-btn.ghost:visited { background: #fff; color: #0645ad; border-color: #a2a9b1; font-weight: 500; }
+.contact-btn.ghost svg { width: 15px; height: 15px; opacity: .85; }
+.contact-btn.ghost:hover { background: #eaf3ff; }
+@media (max-width: 600px) {
+  .contact-bar { gap: 8px; padding: 10px 12px; }
+  .contact-bar .cb-label { width: 100%; margin-bottom: 2px; }
+  .contact-btn { font-size: 13px; padding: 8px 12px; }
+}
 </style>
 </head>
 <body>
@@ -329,6 +361,27 @@ sup.ref a {
   <header class="page-header">
     <h1>Frits Lyneborg</h1>
   </header>
+
+  <nav class="contact-bar" aria-label="Primary contact and links">
+    <span class="cb-label">Get in touch</span>
+    <a class="contact-btn primary-linkedin" href="https://www.linkedin.com/in/frits-lyneborg/">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.73v20.54C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .78 23.2 0 22.22 0z"/></svg>
+      <span>LinkedIn</span>
+    </a>
+    <a class="contact-btn primary-email" id="contact-email-top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      <span>Email</span>
+    </a>
+    <a class="contact-btn ghost" href="https://gdprchat.eu">
+      <span>GDPRchat.eu</span>
+    </a>
+    <a class="contact-btn ghost" href="https://frits.ai">
+      <span>FRITS AI ApS</span>
+    </a>
+    <a class="contact-btn ghost" href="https://arrangerking.com/">
+      <span>ArrangerKing</span>
+    </a>
+  </nav>
 
   <article class="mw-body-content" role="main">
 
@@ -690,7 +743,7 @@ sup.ref a {
       </ul>
     </section>
     <script>
-    (function(){var a='fritslyneborg';var b='gmail.com';var e=document.getElementById('ct');var l=document.createElement('a');l.href='mai'+'lto:'+a+'@'+b;l.textContent='Contact Frits Lyneborg via email';e.appendChild(l);})();
+    (function(){var a='fritslyneborg';var b='gmail.com';var addr='mai'+'lto:'+a+'@'+b;var t=document.getElementById('contact-email-top');if(t){t.setAttribute('href',addr);}var e=document.getElementById('ct');if(e){var l=document.createElement('a');l.href=addr;l.textContent='Contact Frits Lyneborg via email';e.appendChild(l);}})();
     </script>
 
     <!-- Categories -->
