@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frits Lyneborg — Danish technologist and founder of GDPRchat.eu</title>
-<meta name="description" content="Frits Lyneborg (born 1970) is a Danish technologist and entrepreneur, sole founder of GDPRchat.eu — an AI chatbot platform operated by his company FRITS AI ApS, running on European infrastructure (Mistral AI, Black Forest Labs, Hetzner). Earlier work includes founding the robotics community LetsMakeRobots.com (2008–2015) and an international patent for spam-free email (2005).">
+<meta name="description" content="Frits Lyneborg (born 1970) is a Danish technologist and entrepreneur, founder and lead developer of GDPRchat.eu — a European AI chatbot platform from FRITS AI ApS (backed by business leader Lars Kolind), running on European infrastructure (Mistral AI, Black Forest Labs, Hetzner). Earlier work includes founding the robotics community LetsMakeRobots.com (2008–2015) and an international patent for spam-free email (2005).">
 <meta name="author" content="Frits Lyneborg">
 <link rel="canonical" href="https://fritslyneborg.dk/">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Frits Lyneborg — Danish technologist and founder of GDPRchat.eu">
-<meta property="og:description" content="Frits Lyneborg (born 1970) is a Danish technologist and entrepreneur, sole founder of GDPRchat.eu — an AI chatbot platform operated by his company FRITS AI ApS, running on European infrastructure (Mistral AI, Black Forest Labs, Hetzner).">
+<meta property="og:description" content="Frits Lyneborg (born 1970) is a Danish technologist and entrepreneur, founder and lead developer of GDPRchat.eu — a European AI chatbot platform from FRITS AI ApS (backed by business leader Lars Kolind), running on European infrastructure (Mistral AI, Black Forest Labs, Hetzner).">
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://fritslyneborg.dk/">
 <meta property="og:image" content="https://fritslyneborg.dk/images/FritsLyneborg_workshop.jpg">
@@ -22,7 +22,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Frits Lyneborg — Danish technologist and founder of GDPRchat.eu">
-<meta name="twitter:description" content="Danish technologist and entrepreneur. Sole founder of GDPRchat.eu, an AI chatbot platform on European infrastructure.">
+<meta name="twitter:description" content="Danish technologist and entrepreneur. Founder and lead developer of GDPRchat.eu, a European AI chatbot platform on European infrastructure.">
 <meta name="twitter:image" content="https://fritslyneborg.dk/images/FritsLyneborg_workshop.jpg">
 
 <!-- Schema.org JSON-LD -->
@@ -59,7 +59,7 @@
     "Game Development",
     "3D Art Education"
   ],
-  "description": "Danish technologist and entrepreneur. Sole founder of GDPRchat.eu, an AI chatbot platform operated by FRITS AI ApS on European infrastructure.",
+  "description": "Danish technologist and entrepreneur. Founder and lead developer of GDPRchat.eu, a European AI chatbot platform operated by FRITS AI ApS on European infrastructure.",
   "image": "https://fritslyneborg.dk/images/FritsLyneborg_workshop.jpg",
   "alumniOf": {
     "@type": "EducationalOrganization",
@@ -352,6 +352,55 @@ sup.ref a {
   .contact-bar .cb-label { width: 100%; margin-bottom: 2px; }
   .contact-btn { font-size: 13px; padding: 8px 12px; }
 }
+
+/* In the press (media clipping) */
+.press-feature {
+  clear: both;
+  margin: 6px 0 22px 0;
+  border: 1px solid #a2a9b1;
+  border-radius: 8px;
+  background: #fbfbfa;
+  overflow: hidden;
+}
+.press-feature .press-eyebrow {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: #b45309; padding: 12px 16px 6px 16px;
+}
+.press-grid { display: flex; flex-wrap: wrap; }
+.press-photo { flex: 1 1 340px; min-width: 280px; position: relative; }
+.press-photo img { width: 100%; height: 100%; min-height: 200px; object-fit: cover; display: block; }
+.press-photo .credit {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 11px; color: #fff; padding: 14px 10px 5px 10px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.62));
+}
+.press-body { flex: 1 1 320px; min-width: 280px; padding: 8px 16px 16px 16px; }
+.press-masthead {
+  font-family: 'Linux Libertine', Georgia, 'Times New Roman', serif;
+  font-weight: 700; font-size: 23px; letter-spacing: 0.03em; color: #111; line-height: 1;
+}
+.press-meta {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 12px; color: #54595d; margin: 5px 0 10px 0;
+}
+.press-headline {
+  font-family: 'Linux Libertine', Georgia, 'Times New Roman', serif;
+  font-size: 19px; line-height: 1.25; margin: 0 0 4px 0;
+}
+.press-headline a { color: #111; }
+.press-headline a:hover { color: #0645ad; }
+.press-sub-en { font-size: 13px; color: #54595d; font-style: italic; margin: 0 0 10px 0; }
+.press-summary { font-size: 13.5px; margin: 0 0 13px 0; }
+.press-cta {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 14px; border-radius: 6px; background: #b45309; color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 13.5px; font-weight: 600; text-decoration: none;
+}
+.press-cta, .press-cta:visited { color: #fff; }
+.press-cta:hover { filter: brightness(1.08); text-decoration: none; }
 </style>
 </head>
 <body>
@@ -421,13 +470,33 @@ sup.ref a {
 
     <!-- Lead paragraph -->
     <p>
-      <b>Frits Lyneborg</b> (born 1970) is a Danish technologist and entrepreneur. He is the sole founder and developer of <a href="https://gdprchat.eu">GDPRchat.eu</a><sup class="ref"><a href="#ref47">[47]</a></sup>, a production-grade European AI chatbot platform operated by his company FRITS AI ApS<sup class="ref"><a href="#ref48">[48]</a></sup> (Copenhagen). The platform runs entirely on EU infrastructure&nbsp;&mdash; <a href="https://mistral.ai/company/">Mistral AI</a><sup class="ref"><a href="#ref54">[54]</a></sup> (Paris) for language models, <a href="https://blackforestlabs.ai/">Black Forest Labs</a><sup class="ref"><a href="#ref55">[55]</a></sup> (Freiburg) for image generation, and Hetzner (Germany) for hosting&nbsp;&mdash; and is available on six app stores<sup class="ref"><a href="#ref47">[47]</a></sup><sup class="ref"><a href="#ref56">[56]</a></sup> in 25 languages. Lyneborg designed and built the full system single-handedly: architecture, backend, frontend, AI pipeline, mobile apps, and infrastructure. Earlier work includes founding the robotics community LetsMakeRobots.com<sup class="ref"><a href="#ref46">[46]</a></sup> (2008&ndash;2015, acquired by RobotShop), teaching 3D visualization at the Royal Danish Academy of Fine Arts<sup class="ref"><a href="#ref7">[7]</a></sup> (2015&ndash;2022), and holding an international patent for spam-free email<sup class="ref"><a href="#ref43">[43]</a></sup> (2005).
+      <b>Frits Lyneborg</b> (born 1970) is a Danish technologist and entrepreneur. He is the founder and lead developer of <a href="https://gdprchat.eu">GDPRchat.eu</a><sup class="ref"><a href="#ref47">[47]</a></sup>, a European AI chatbot platform operated by FRITS AI ApS<sup class="ref"><a href="#ref48">[48]</a></sup> (Copenhagen) and backed by veteran Danish business leader Lars Kolind<sup class="ref"><a href="#ref59">[59]</a></sup>. Positioned as a European alternative to ChatGPT, the platform runs entirely on EU infrastructure&nbsp;&mdash; <a href="https://mistral.ai/company/">Mistral AI</a><sup class="ref"><a href="#ref54">[54]</a></sup> (Paris) for language models, <a href="https://blackforestlabs.ai/">Black Forest Labs</a><sup class="ref"><a href="#ref55">[55]</a></sup> (Freiburg) for image generation, and Hetzner (Germany) for hosting&nbsp;&mdash; and is available on six app stores<sup class="ref"><a href="#ref47">[47]</a></sup><sup class="ref"><a href="#ref56">[56]</a></sup> in 25 languages. As the platform's architect and technical lead, Lyneborg built the system&mdash;architecture, backend, frontend, AI pipeline and mobile apps&mdash;together with a small team of developers he calls friends<sup class="ref"><a href="#ref59">[59]</a></sup>. Earlier work includes founding the robotics community LetsMakeRobots.com<sup class="ref"><a href="#ref46">[46]</a></sup> (2008&ndash;2015, acquired by RobotShop), teaching 3D visualization at the Royal Danish Academy of Fine Arts<sup class="ref"><a href="#ref7">[7]</a></sup> (2015&ndash;2022), and holding an international patent for spam-free email<sup class="ref"><a href="#ref43">[43]</a></sup> (2005).
     </p>
+
+    <!-- In the press -->
+    <section id="press" class="press-feature">
+      <div class="press-eyebrow">In the press</div>
+      <div class="press-grid">
+        <div class="press-photo">
+          <img src="attached_assets/borsen-frits-kolind.jpg" alt="Frits Lyneborg (left) and Lars Kolind, photographed for Børsen" loading="lazy">
+          <div class="credit">Foto: Jonas Pryner Andersen / Børsen</div>
+        </div>
+        <div class="press-body">
+          <div class="press-masthead">BØRSEN</div>
+          <div class="press-meta">Virksomheder &middot; 1 July 2026 &middot; by Mathias Sommer</div>
+          <p class="press-headline"><a href="https://borsen.dk/nyheder/virksomheder/79-arig-erhvervsmand-i-stort-sats-lancerer-europaeisk-alternativ-til-chat-gpt">&ldquo;79-årig erhvervsmand i stort sats: Lancerer europæisk alternativ til Chat GPT&rdquo;</a></p>
+          <p class="press-sub-en">&ldquo;A 79-year-old businessman&rsquo;s big bet: launching a European alternative to ChatGPT.&rdquo;</p>
+          <p class="press-summary">Danish business daily <i>Børsen</i> profiled the partnership between Frits Lyneborg and veteran business leader <b>Lars Kolind</b>&mdash;the financial backer behind FRITS AI&mdash;as they launch <a href="https://gdprchat.eu">GDPRchat</a>, a European, GDPR-compliant alternative to ChatGPT built as a &ldquo;harness&rdquo; around the French language model Mistral.</p>
+          <a class="press-cta" href="https://borsen.dk/nyheder/virksomheder/79-arig-erhvervsmand-i-stort-sats-lancerer-europaeisk-alternativ-til-chat-gpt">Read the article at Børsen &rarr;</a>
+        </div>
+      </div>
+    </section>
 
     <!-- Table of Contents -->
     <nav class="toc" role="navigation" aria-label="Table of contents">
       <div class="toc-title">Contents</div>
       <ol>
+        <li><a href="#press">In the press&nbsp;&mdash; Børsen (2026)</a></li>
         <li><a href="#gdprchat">GDPRchat.eu&nbsp;&mdash; European AI Platform</a></li>
         <li><a href="#consulting">AI Consulting and Workshops</a></li>
         <li><a href="#aiart">AI-Generated Art</a></li>
@@ -446,14 +515,14 @@ sup.ref a {
     <!-- Section 1 -->
     <section id="gdprchat">
       <h2 class="section-heading"><span class="mw-headline">GDPRchat.eu&nbsp;&mdash; European AI Platform</span></h2>
-      <h3 class="subsection-heading">Founder, Architect and Sole Developer&nbsp;&mdash; FRITS AI ApS (2025&ndash;present)</h3>
+      <h3 class="subsection-heading">Founder and Technical Lead&nbsp;&mdash; FRITS AI ApS (2025&ndash;present)</h3>
 
       <figure class="thumb tright wide">
         <img src="attached_assets/gdprchat-screenshot.png" alt="Screenshot of the GDPRchat.eu chat interface" loading="lazy">
-        <figcaption>The GDPRchat.eu interface. Lyneborg designed and built the platform&mdash;architecture, backend, frontend, AI pipeline, mobile apps and infrastructure&mdash;single-handedly (2025).</figcaption>
+        <figcaption>The GDPRchat.eu interface. Lyneborg is the platform's architect and technical lead, building it with a small team of developers he calls friends (2025).</figcaption>
       </figure>
 
-      <p>In 2025, Lyneborg founded FRITS AI ApS<sup class="ref"><a href="#ref48">[48]</a></sup> in Copenhagen and launched <a href="https://gdprchat.eu">GDPRchat.eu</a><sup class="ref"><a href="#ref47">[47]</a></sup>, a conversational AI platform positioned as a European alternative to ChatGPT. He designed the system architecture, wrote the application code, and operates the platform as sole technical founder. The platform enforces 100% EU data residency.</p>
+      <p>In 2025, Lyneborg launched <a href="https://gdprchat.eu">GDPRchat.eu</a><sup class="ref"><a href="#ref47">[47]</a></sup> through FRITS AI ApS<sup class="ref"><a href="#ref48">[48]</a></sup> in Copenhagen&nbsp;&mdash; the company behind the platform, backed by veteran Danish business leader Lars Kolind<sup class="ref"><a href="#ref59">[59]</a></sup>. Positioned as a European alternative to ChatGPT, it is built not by training a giant language model from scratch, but by engineering a user-friendly &ldquo;harness&rdquo; around an existing European model: Mistral<sup class="ref"><a href="#ref54">[54]</a></sup> sits in the engine room, and data handling is aligned with European law<sup class="ref"><a href="#ref59">[59]</a></sup>. Lyneborg designed the architecture and leads development, building the platform with a small team of developers he calls friends. GDPRchat.eu enforces 100% EU data residency.</p>
 
       <p>GDPRchat.eu uses a two-stage LLM routing pipeline with forced tool-calling: Stage&nbsp;1 dispatches every user message through four meta-tools with <code>tool_choice</code> set to "required", eliminating a class of hallucination where models bypass tools. Stage&nbsp;2 dispatches to category-specific specialist tool sets, capped at three tools per call.</p>
 
@@ -465,7 +534,7 @@ sup.ref a {
 
       <p>Additional features include pgvector-based semantic search with automated monthly knowledge base refresh, a hallucination mitigation layer with 17-alias tool remapping and regex stream correction, per-tool performance tracking, an A/B experimentation framework, and zero-downtime blue-green deployments with 30-second streaming drain for in-flight AI responses.</p>
 
-      <p>The tech stack includes Next.js&nbsp;16, TypeScript, Vercel AI SDK, Mistral Large/Small/Codestral<sup class="ref"><a href="#ref54">[54]</a></sup>, PostgreSQL&nbsp;16 with pgvector, Drizzle ORM, Docker Compose on Hetzner, and Capacitor for iOS/Android. The platform is live on the Apple App Store, Google Play<sup class="ref"><a href="#ref56">[56]</a></sup>, Samsung Galaxy Store, Huawei AppGallery, Amazon Appstore, and Microsoft Store, with over 415 production deployments.</p>
+      <p>The tech stack includes Next.js&nbsp;16, TypeScript, Vercel AI SDK, Mistral Large/Small/Codestral<sup class="ref"><a href="#ref54">[54]</a></sup>, PostgreSQL&nbsp;16 with pgvector, Drizzle ORM, Docker Compose on Hetzner, and Capacitor for iOS/Android. The platform is live on the Apple App Store, Google Play<sup class="ref"><a href="#ref56">[56]</a></sup>, Samsung Galaxy Store, Huawei AppGallery, Amazon Appstore, and Microsoft Store.</p>
 
       <p>GDPRchat.eu launched during intensified European digital sovereignty efforts: the InvestAI initiative<sup class="ref"><a href="#ref49">[49]</a></sup> (EUR&nbsp;200&nbsp;billion), the Franco-German Summit on European Digital Sovereignty<sup class="ref"><a href="#ref51">[51]</a></sup>, and the EU-27 declaration on reducing strategic dependencies<sup class="ref"><a href="#ref53">[53]</a></sup>.</p>
     </section>
@@ -715,7 +784,7 @@ sup.ref a {
           <li id="ref44">"Danish Music Industry History: Mega Records". Danish Music Archives. (1998).</li>
           <li id="ref45">Submission&nbsp;&ndash; Wanna B (Music Video)&nbsp;&mdash; <a href="https://youtu.be/iD0HK_snvOI?si=eERAOSKpYtgXl7oe">YouTube</a>&nbsp;&mdash; YouTube. (1994).</li>
           <li id="ref46">LetsMakeRobots.com Company Profile&nbsp;&mdash; <a href="https://pitchbook.com/profiles/company/123477-40#investors">pitchbook.com</a>&nbsp;&mdash; PitchBook. (2015).</li>
-          <li id="ref47">GDPRChat.eu&nbsp;&mdash; <a href="https://gdprchat.eu">gdprchat.eu</a>&nbsp;&mdash; FRITS AI ApS. (2025).</li>
+          <li id="ref47">GDPRchat.eu&nbsp;&mdash; <a href="https://gdprchat.eu">gdprchat.eu</a>&nbsp;&mdash; FRITS AI ApS. (2025).</li>
           <li id="ref48">FRITS AI ApS Company Registration&nbsp;&mdash; <a href="https://frits.ai">frits.ai</a>&nbsp;&mdash; Danish Business Authority. (2025).</li>
           <li id="ref49">Europe's AI Ambitions: EUR 200 Billion Plan&nbsp;&mdash; <a href="https://www.williamfry.com/knowledge/europes-ai-ambitions-inside-the-eus-e200-billion-digital-sovereignty-plan/">williamfry.com</a>&nbsp;&mdash; William Fry. (2025).</li>
           <li id="ref50">Mistral as European AI Contender&nbsp;&mdash; <a href="https://www.bloomberg.com/news/articles/2025-09-09/mistral-emerges-as-last-best-hope-for-european-ai-contender">bloomberg.com</a>&nbsp;&mdash; Bloomberg. (2025).</li>
@@ -724,9 +793,10 @@ sup.ref a {
           <li id="ref53">Get Over Your X: European Plan&nbsp;&mdash; <a href="https://ecfr.eu/publication/get-over-your-x-a-european-plan-to-escape-american-technology/">ecfr.eu</a>&nbsp;&mdash; ECFR. (2026).</li>
           <li id="ref54">Mistral AI&nbsp;&mdash; About&nbsp;&mdash; <a href="https://mistral.ai/company/">mistral.ai</a>&nbsp;&mdash; Mistral AI. (2025).</li>
           <li id="ref55">FLUX Image Generation&nbsp;&mdash; <a href="https://blackforestlabs.ai/">blackforestlabs.ai</a>&nbsp;&mdash; Black Forest Labs. (2025).</li>
-          <li id="ref56">GDPRChat for Android&nbsp;&mdash; <a href="https://play.google.com/store/apps/details?id=eu.gdprchat.app">Google Play</a>&nbsp;&mdash; Google Play. (2026).</li>
+          <li id="ref56">GDPRchat for Android&nbsp;&mdash; <a href="https://play.google.com/store/apps/details?id=eu.gdprchat.app">Google Play</a>&nbsp;&mdash; Google Play. (2026).</li>
           <li id="ref57">Frits Lyneborg LinkedIn&nbsp;&mdash; <a href="https://www.linkedin.com/in/frits-lyneborg/">linkedin.com</a>&nbsp;&mdash; LinkedIn. (2026).</li>
           <li id="ref58">FRITS AI ApS Website&nbsp;&mdash; <a href="https://frits.ai">frits.ai</a>&nbsp;&mdash; FRITS AI ApS. (2025).</li>
+          <li id="ref59">Sommer, M. &ldquo;79-&aring;rig erhvervsmand i stort sats: Lancerer europ&aelig;isk alternativ til Chat GPT&rdquo;&nbsp;&mdash; <a href="https://borsen.dk/nyheder/virksomheder/79-arig-erhvervsmand-i-stort-sats-lancerer-europaeisk-alternativ-til-chat-gpt">borsen.dk</a>&nbsp;&mdash; B&oslash;rsen. (2026).</li>
         </ol>
       </div>
     </section>
@@ -739,6 +809,7 @@ sup.ref a {
         <li><a href="https://gdprchat.eu">GDPRchat.eu</a>&nbsp;&mdash; European AI chatbot platform</li>
         <li><a href="https://frits.ai">FRITS AI ApS</a>&nbsp;&mdash; company website</li>
         <li><a href="https://arrangerking.com/">ArrangerKing</a>&nbsp;&mdash; music arrangement plugin</li>
+        <li><a href="https://borsen.dk/nyheder/virksomheder/79-arig-erhvervsmand-i-stort-sats-lancerer-europaeisk-alternativ-til-chat-gpt">Børsen</a>&nbsp;&mdash; &ldquo;79-årig erhvervsmand i stort sats&rdquo; (1 July 2026)</li>
         <li><span id="ct"></span></li>
       </ul>
     </section>
@@ -762,7 +833,7 @@ sup.ref a {
   </article>
 
   <footer class="page-footer">
-    This page was last edited on 20 May 2026.
+    This page was last edited on 1 July 2026.
   </footer>
 
 </div>
